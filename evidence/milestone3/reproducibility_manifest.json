@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-11-18 23:29:03",
+  "v5_integrity": {
+    "status": "ok",
+    "verified_count": 61
+  },
+  "hardware_manifest": {
+    "timestamp": "2026-11-18 23:29:03",
+    "os": "Linux-5.4.0-196-generic-x86_64-with-glibc2.35",
+    "python_version": "3.12.4",
+    "torch_version": "2.15.0+cu132",
+    "cuda_available": true,
+    "cuda_version": "13.2",
+    "gpu_count": 1,
+    "gpu_name": "NVIDIA GeForce RTX 4090",
+    "gpu_total_vram_mb": 24080.9,
+    "transformers_version": "5.23.0",
+    "bitsandbytes_version": "0.50.2",
+    "sentence_transformers_version": "6.3.0",
+    "scipy_version": "1.18.1",
+    "datasets_version": "5.2.0",
+    "nvidia_smi": "NVIDIA GeForce RTX 4090, 580.105.08, 24564 MiB"
+  },
+  "completed_artifacts": {
+    "wp6": true,
+    "wp7": true,
+    "wp8": true,
+    "wp9": true,
+    "wp10": true
+  },
+  "generated_figures": [
+    "/root/sj-tmp/ugraphrag_autodl/results/MileStone3/WP11_PaperPackage/figures/fig2_wp8_m1_uncertainty.png",
+    "/root/sj-tmp/ugraphrag_autodl/results/MileStone3/WP11_PaperPackage/figures/fig3_wp8_m2_optimization.png",
+    "/root/sj-tmp/ugraphrag_autodl/results/MileStone3/WP11_PaperPackage/figures/fig5_wp8_calibration_rc.png",
+    "/root/sj-tmp/ugraphrag_autodl/results/MileStone3/WP11_PaperPackage/figures/fig4_wp6_cross_family_main.png",
+    "/root/sj-tmp/ugraphrag_autodl/results/MileStone3/WP11_PaperPackage/figures/fig6_wp9_stress_curves.png",
+    "/root/sj-tmp/ugraphrag_autodl/results/MileStone3/WP11_PaperPackage/figures/fig7_wp10_quality_latency_vram.png"
+  ]
+}

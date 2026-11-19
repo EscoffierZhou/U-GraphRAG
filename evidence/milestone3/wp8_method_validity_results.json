@@ -1,0 +1,603 @@
+{
+  "metadata": {
+    "timestamp": "2026-11-18 06:17:09",
+    "model": "qwen3b",
+    "scale": "medium",
+    "quantization": "4bit",
+    "dry_run": false,
+    "calibrated_tau_eu": 0.201517,
+    "anchor_tau_dataset": "hotpotqa",
+    "elapsed_sec": 1810.13,
+    "vram_peak_mb": {
+      "allocated_mb": 1969.33,
+      "reserved_mb": 3476.0,
+      "max_allocated_mb": 2330.04,
+      "max_reserved_mb": 3476.0
+    }
+  },
+  "v5_integrity": {
+    "status": "ok",
+    "verified_count": 61
+  },
+  "wp8_1_m1_validity": {
+    "taxonomy": {
+      "v5_proxy": {
+        "canonical_name": "V5 Algebraic EU Proxy",
+        "symbol": "U_EU^v5",
+        "role": "Primary production M1 routing estimator (UncertaintyDecoupler.decompose)",
+        "au_component": "Within-context algebraic divergence entropy (U_AU^v5)"
+      },
+      "paraphrase_disagreement": {
+        "canonical_name": "Paraphrase-Induced Predictive Disagreement",
+        "symbol": "U_EU^para",
+        "legacy_alias": "bald_u_eu / bald_mi",
+        "role": "Diagnostic & alternative query-perturbation estimator (not Bayesian parameter MI)",
+        "au_component": "Within-Paraphrase Predictive Entropy (U_AU^para / bald_u_au)"
+      },
+      "raw_entropy_h_total": {
+        "canonical_name": "Raw Predictive Entropy",
+        "symbol": "H_total",
+        "role": "Single-pass un-decomposed entropy baseline"
+      },
+      "self_consistency_5x": {
+        "canonical_name": "5-Sample Self-Consistency Dispersion",
+        "symbol": "1 - max_freq/5",
+        "role": "Sampling dispersion comparator"
+      }
+    },
+    "tau_eu": 0.201517,
+    "quadrant_summary": {
+      "Q1_known_consistent": {
+        "count": 30,
+        "mean_v5_eu": 0.1958,
+        "mean_para_eu": 0.0664,
+        "mean_v5_au": 0.4192,
+        "mean_para_au": 0.5738,
+        "v5_expand_rate_pct": 50.0
+      },
+      "Q2_unknown_sufficient": {
+        "count": 30,
+        "mean_v5_eu": 0.1491,
+        "mean_para_eu": 0.0757,
+        "mean_v5_au": 0.3155,
+        "mean_para_au": 0.4936,
+        "v5_expand_rate_pct": 30.0
+      },
+      "Q3_known_conflicting": {
+        "count": 30,
+        "mean_v5_eu": 0.3155,
+        "mean_para_eu": 0.1316,
+        "mean_v5_au": 0.367,
+        "mean_para_au": 0.6118,
+        "v5_expand_rate_pct": 53.33
+      },
+      "Q4_unknown_missing": {
+        "count": 30,
+        "mean_v5_eu": 0.1943,
+        "mean_para_eu": 0.1057,
+        "mean_v5_au": 0.4109,
+        "mean_para_au": 0.7522,
+        "v5_expand_rate_pct": 36.67
+      }
+    },
+    "insufficient_or_conflict_auroc": {
+      "v5_proxy": 0.5939,
+      "paraphrase_disagreement": 0.6206
+    },
+    "m1_monotonic_missing_gt_consistent": false,
+    "paraphrase_monotonic_missing_gt_consistent": true,
+    "recommended_m1_claim_scope": "operational_uncertainty_routing_signal",
+    "scope_note": "U_EU^v5 = (0.25 + 0.5*J_bar)*H_total emphasizes high-entropy overlapping conflict (Q3) while weighting unrelated missing docs (J_bar->0) at 0.25*H_total; interpret V5 Proxy as an operational uncertainty routing signal alongside Paraphrase Disagreement (U_EU^para)."
+  },
+  "wp8_2_m2_validity": {
+    "dev_pareto_selection": {
+      "selected_lambda_conflict": 1.0,
+      "pareto_gate_passed": false,
+      "reason": "No lambda_conflict in {2.5, 5.0, 10.0} reduced Conflict Retention by >=5pp without dropping Gold Evidence Recall by >5pp; unmodified raw_js penalizes disjoint multi-hop bridges.",
+      "dev_frontier": [
+        {
+          "lambda_conflict": 1.0,
+          "clean_f1_pct": 47.49,
+          "clean_gold_recall_pct": 87.5,
+          "conflict_f1_pct": 44.03,
+          "conflict_gold_recall_pct": 81.25,
+          "conflict_retention_pct": 98.75,
+          "clean_gold_drop_pp": 0.0,
+          "conflict_gold_drop_pp": 0.0,
+          "conflict_retention_drop_pp": 0.0,
+          "passes_pareto_gate": false
+        },
+        {
+          "lambda_conflict": 2.5,
+          "clean_f1_pct": 41.28,
+          "clean_gold_recall_pct": 77.5,
+          "conflict_f1_pct": 40.49,
+          "conflict_gold_recall_pct": 69.38,
+          "conflict_retention_pct": 91.25,
+          "clean_gold_drop_pp": 10.0,
+          "conflict_gold_drop_pp": 11.87,
+          "conflict_retention_drop_pp": 7.5,
+          "passes_pareto_gate": false
+        },
+        {
+          "lambda_conflict": 5.0,
+          "clean_f1_pct": 24.54,
+          "clean_gold_recall_pct": 56.88,
+          "conflict_f1_pct": 24.15,
+          "conflict_gold_recall_pct": 59.38,
+          "conflict_retention_pct": 77.5,
+          "clean_gold_drop_pp": 30.62,
+          "conflict_gold_drop_pp": 21.87,
+          "conflict_retention_drop_pp": 21.25,
+          "passes_pareto_gate": false
+        },
+        {
+          "lambda_conflict": 10.0,
+          "clean_f1_pct": 22.46,
+          "clean_gold_recall_pct": 48.75,
+          "conflict_f1_pct": 23.74,
+          "conflict_gold_recall_pct": 51.88,
+          "conflict_retention_pct": 68.75,
+          "clean_gold_drop_pp": 38.75,
+          "conflict_gold_drop_pp": 29.37,
+          "conflict_retention_drop_pp": 30.0,
+          "passes_pareto_gate": false
+        }
+      ]
+    },
+    "test_clean_summary": {
+      "A0_top5": {
+        "n": 160,
+        "em": 36.25,
+        "f1": 46.93,
+        "sp_precision": 37.75,
+        "sp_recall": 92.5,
+        "sp_f1": 53.39,
+        "mean_k": 4.96,
+        "redundancy_rate_pct": 1.53,
+        "conflict_retention_pct": 0.0,
+        "mean_selected_tokens": 423.3,
+        "token_saving_vs_pool_pct": 41.32
+      },
+      "A5_mmr_baseline": {
+        "n": 160,
+        "em": 36.88,
+        "f1": 47.95,
+        "sp_precision": 38.0,
+        "sp_recall": 93.12,
+        "sp_f1": 53.75,
+        "mean_k": 4.96,
+        "redundancy_rate_pct": 1.32,
+        "conflict_retention_pct": 0.0,
+        "mean_selected_tokens": 424.4,
+        "token_saving_vs_pool_pct": 41.17
+      },
+      "G_entity_cooccur": {
+        "n": 160,
+        "em": 35.0,
+        "f1": 44.89,
+        "sp_precision": 37.62,
+        "sp_recall": 92.19,
+        "sp_f1": 53.21,
+        "mean_k": 4.96,
+        "redundancy_rate_pct": 1.61,
+        "conflict_retention_pct": 0.0,
+        "mean_selected_tokens": 422.2,
+        "token_saving_vs_pool_pct": 41.47
+      },
+      "M2_orig_lc1.0": {
+        "n": 160,
+        "em": 36.88,
+        "f1": 46.63,
+        "sp_precision": 37.0,
+        "sp_recall": 90.62,
+        "sp_f1": 52.32,
+        "mean_k": 4.96,
+        "redundancy_rate_pct": 1.47,
+        "conflict_retention_pct": 0.0,
+        "mean_selected_tokens": 422.8,
+        "token_saving_vs_pool_pct": 41.4
+      },
+      "M2_orig_lc2.5": {
+        "n": 160,
+        "em": 32.5,
+        "f1": 42.25,
+        "sp_precision": 34.83,
+        "sp_recall": 83.44,
+        "sp_f1": 48.88,
+        "mean_k": 4.88,
+        "redundancy_rate_pct": 1.39,
+        "conflict_retention_pct": 0.0,
+        "mean_selected_tokens": 417.9,
+        "token_saving_vs_pool_pct": 42.07
+      },
+      "M2_orig_lc5.0": {
+        "n": 160,
+        "em": 21.25,
+        "f1": 28.61,
+        "sp_precision": 30.18,
+        "sp_recall": 64.06,
+        "sp_f1": 40.43,
+        "mean_k": 4.59,
+        "redundancy_rate_pct": 1.65,
+        "conflict_retention_pct": 0.0,
+        "mean_selected_tokens": 409.3,
+        "token_saving_vs_pool_pct": 43.27
+      },
+      "M2_orig_lc10.0": {
+        "n": 160,
+        "em": 17.5,
+        "f1": 22.64,
+        "sp_precision": 29.32,
+        "sp_recall": 56.25,
+        "sp_f1": 37.51,
+        "mean_k": 4.38,
+        "redundancy_rate_pct": 1.74,
+        "conflict_retention_pct": 0.0,
+        "mean_selected_tokens": 391.6,
+        "token_saving_vs_pool_pct": 45.71
+      },
+      "P_hard_conflict_prune": {
+        "n": 160,
+        "em": 31.25,
+        "f1": 40.47,
+        "sp_precision": 46.09,
+        "sp_recall": 68.12,
+        "sp_f1": 50.28,
+        "mean_k": 3.71,
+        "redundancy_rate_pct": 0.87,
+        "conflict_retention_pct": 0.0,
+        "mean_selected_tokens": 306.3,
+        "token_saving_vs_pool_pct": 57.54
+      },
+      "D_overlap_gated_js_lc5": {
+        "n": 160,
+        "em": 36.88,
+        "f1": 47.11,
+        "sp_precision": 37.69,
+        "sp_recall": 92.19,
+        "sp_f1": 53.27,
+        "mean_k": 4.96,
+        "redundancy_rate_pct": 1.24,
+        "conflict_retention_pct": 0.0,
+        "mean_selected_tokens": 422.1,
+        "token_saving_vs_pool_pct": 41.49
+      }
+    },
+    "test_conflict_summary": {
+      "A0_top5": {
+        "n": 160,
+        "em": 35.62,
+        "f1": 45.61,
+        "sp_precision": 34.46,
+        "sp_recall": 85.31,
+        "sp_f1": 49.03,
+        "mean_k": 4.97,
+        "redundancy_rate_pct": 10.24,
+        "conflict_retention_pct": 100.0,
+        "mean_selected_tokens": 408.4,
+        "token_saving_vs_pool_pct": 41.43
+      },
+      "A5_mmr_baseline": {
+        "n": 160,
+        "em": 38.12,
+        "f1": 49.57,
+        "sp_precision": 33.83,
+        "sp_recall": 83.75,
+        "sp_f1": 48.14,
+        "mean_k": 4.97,
+        "redundancy_rate_pct": 9.28,
+        "conflict_retention_pct": 96.25,
+        "mean_selected_tokens": 406.5,
+        "token_saving_vs_pool_pct": 41.7
+      },
+      "G_entity_cooccur": {
+        "n": 160,
+        "em": 36.88,
+        "f1": 45.63,
+        "sp_precision": 35.21,
+        "sp_recall": 87.19,
+        "sp_f1": 50.1,
+        "mean_k": 4.97,
+        "redundancy_rate_pct": 10.45,
+        "conflict_retention_pct": 100.0,
+        "mean_selected_tokens": 405.7,
+        "token_saving_vs_pool_pct": 41.8
+      },
+      "M2_orig_lc1.0": {
+        "n": 160,
+        "em": 35.62,
+        "f1": 46.1,
+        "sp_precision": 34.08,
+        "sp_recall": 84.38,
+        "sp_f1": 48.5,
+        "mean_k": 4.97,
+        "redundancy_rate_pct": 9.57,
+        "conflict_retention_pct": 97.5,
+        "mean_selected_tokens": 406.7,
+        "token_saving_vs_pool_pct": 41.66
+      },
+      "M2_orig_lc2.5": {
+        "n": 160,
+        "em": 33.12,
+        "f1": 42.55,
+        "sp_precision": 31.04,
+        "sp_recall": 75.0,
+        "sp_f1": 43.81,
+        "mean_k": 4.89,
+        "redundancy_rate_pct": 9.05,
+        "conflict_retention_pct": 94.38,
+        "mean_selected_tokens": 401.7,
+        "token_saving_vs_pool_pct": 42.38
+      },
+      "M2_orig_lc5.0": {
+        "n": 160,
+        "em": 22.5,
+        "f1": 28.69,
+        "sp_precision": 28.8,
+        "sp_recall": 62.19,
+        "sp_f1": 38.97,
+        "mean_k": 4.55,
+        "redundancy_rate_pct": 11.68,
+        "conflict_retention_pct": 79.38,
+        "mean_selected_tokens": 385.8,
+        "token_saving_vs_pool_pct": 44.66
+      },
+      "M2_orig_lc10.0": {
+        "n": 160,
+        "em": 18.12,
+        "f1": 23.12,
+        "sp_precision": 26.86,
+        "sp_recall": 53.44,
+        "sp_f1": 35.03,
+        "mean_k": 4.31,
+        "redundancy_rate_pct": 15.22,
+        "conflict_retention_pct": 68.75,
+        "mean_selected_tokens": 372.4,
+        "token_saving_vs_pool_pct": 46.59
+      },
+      "P_hard_conflict_prune": {
+        "n": 160,
+        "em": 26.25,
+        "f1": 33.9,
+        "sp_precision": 36.19,
+        "sp_recall": 65.94,
+        "sp_f1": 44.91,
+        "mean_k": 3.98,
+        "redundancy_rate_pct": 21.51,
+        "conflict_retention_pct": 84.38,
+        "mean_selected_tokens": 313.6,
+        "token_saving_vs_pool_pct": 55.01
+      },
+      "D_overlap_gated_js_lc5": {
+        "n": 160,
+        "em": 37.5,
+        "f1": 46.82,
+        "sp_precision": 35.33,
+        "sp_recall": 87.5,
+        "sp_f1": 50.28,
+        "mean_k": 4.97,
+        "redundancy_rate_pct": 2.35,
+        "conflict_retention_pct": 18.75,
+        "mean_selected_tokens": 420.2,
+        "token_saving_vs_pool_pct": 39.73
+      }
+    },
+    "paired_significance_clean_and_conflict": {
+      "EntityGraph_vs_MMR": {
+        "n": 160,
+        "mean_a": 44.894069,
+        "mean_b": 47.950445,
+        "mean_delta": -3.056376,
+        "ci_95_low": -9.187296,
+        "ci_95_high": 2.957445,
+        "sign_flip_p_value": 0.335832,
+        "paired_t_stat": -0.9628,
+        "paired_t_p_value": 0.337086,
+        "wilcoxon_p_value": 0.297686,
+        "cohens_dz": -0.0761,
+        "paired_t_p_value_holm": 0.674172,
+        "paired_t_p_value_bh_fdr": 0.505629
+      },
+      "M2_lc1_vs_MMR": {
+        "n": 160,
+        "mean_a": 46.627282,
+        "mean_b": 47.950445,
+        "mean_delta": -1.323163,
+        "ci_95_low": -7.04238,
+        "ci_95_high": 4.608161,
+        "sign_flip_p_value": 0.690655,
+        "paired_t_stat": -0.4227,
+        "paired_t_p_value": 0.673083,
+        "wilcoxon_p_value": 0.670726,
+        "cohens_dz": -0.0334,
+        "paired_t_p_value_holm": 0.674172,
+        "paired_t_p_value_bh_fdr": 0.673083
+      },
+      "OverlapGated_vs_Orig_ConfRet": {
+        "n": 160,
+        "mean_a": 18.75,
+        "mean_b": 97.5,
+        "mean_delta": -78.75,
+        "ci_95_low": -85.0,
+        "ci_95_high": -72.5,
+        "sign_flip_p_value": 0.0005,
+        "paired_t_stat": -24.2742,
+        "paired_t_p_value": 0.0,
+        "wilcoxon_p_value": 0.0,
+        "cohens_dz": -1.919,
+        "paired_t_p_value_holm": 0.0,
+        "paired_t_p_value_bh_fdr": 0.0
+      }
+    },
+    "validity_gate_decision": {
+      "original_js_pareto_passed": false,
+      "overlap_gated_js_effective": true,
+      "m2_orig_vs_mmr_clean_f1_delta": -1.32,
+      "entity_graph_vs_mmr_clean_f1_delta": -3.06,
+      "overlap_gated_conflict_drop_pp": 78.75,
+      "recommended_m2_graph_mode": "overlap_gated_js",
+      "recommended_claim_scope": "overlap_gated_conflict_and_budgeted_topology"
+    }
+  },
+  "wp8_3_m3_validity": {
+    "hotpotqa": {
+      "beta_trigger_rate_pct": 30.0,
+      "calibrated_platt": {
+        "T": 2.0,
+        "w_tok": 0.8,
+        "platt_a": 1.15,
+        "platt_b": -0.7
+      },
+      "dev_policy": {
+        "adaptive_tau_conf": 0.322611,
+        "regime": "risk_constrained_coverage",
+        "dev_base_risk_pct": 51.95,
+        "dev_selected_coverage_pct": 77.5,
+        "dev_selected_risk_pct": 42.41,
+        "coverage_quantile_taus": {
+          "cov_80": 0.289924,
+          "cov_70": 0.42413,
+          "cov_60": 0.465005,
+          "cov_50": 0.527793,
+          "cov_40": 0.591065
+        }
+      },
+      "fixed_tau038": {
+        "eval_split": "test",
+        "policy_fit_split": "fixed_baseline",
+        "n": 160,
+        "tau_conf": 0.38,
+        "raw_em_pct": 36.25,
+        "raw_f1_pct": 46.45,
+        "effective_em_pct": 29.38,
+        "effective_f1_pct": 38.87,
+        "ece": 0.1043,
+        "mce": 0.4014,
+        "brier_score": 0.1942,
+        "auroc_confidence": 0.6791,
+        "auprc_error": 0.7285,
+        "aurc": 0.418254,
+        "e_aurc": 0.233758,
+        "coverage_pct": 73.12,
+        "abstention_rate_pct": 26.88,
+        "selective_accuracy_pct": 53.16,
+        "selective_risk_pct": 46.84,
+        "valid_abstention_precision_pct": 72.09,
+        "harmful_abstention_rate_pct": 27.91,
+        "mean_confidence": 0.5333
+      },
+      "dev_adaptive_tau": {
+        "eval_split": "test",
+        "policy_fit_split": "dev",
+        "policy_fit_n": 80,
+        "n": 160,
+        "tau_conf": 0.322611,
+        "raw_em_pct": 36.25,
+        "raw_f1_pct": 46.45,
+        "effective_em_pct": 32.5,
+        "effective_f1_pct": 42.59,
+        "ece": 0.1043,
+        "mce": 0.4014,
+        "brier_score": 0.1942,
+        "auroc_confidence": 0.6791,
+        "auprc_error": 0.7285,
+        "aurc": 0.418254,
+        "e_aurc": 0.233758,
+        "coverage_pct": 78.75,
+        "abstention_rate_pct": 21.25,
+        "selective_accuracy_pct": 54.08,
+        "selective_risk_pct": 45.92,
+        "valid_abstention_precision_pct": 82.35,
+        "harmful_abstention_rate_pct": 17.65,
+        "mean_confidence": 0.5333
+      },
+      "risk_at_target_coverages": {
+        "risk_at_cov_40": 37.46,
+        "risk_at_cov_50": 41.97,
+        "risk_at_cov_60": 42.85,
+        "risk_at_cov_70": 45.66,
+        "risk_at_cov_80": 45.99
+      }
+    },
+    "musique": {
+      "beta_trigger_rate_pct": 45.62,
+      "calibrated_platt": {
+        "T": 2.5,
+        "w_tok": 1.0,
+        "platt_a": 0.35,
+        "platt_b": -0.35
+      },
+      "dev_policy": {
+        "adaptive_tau_conf": 0.242157,
+        "regime": "risk_constrained_coverage",
+        "dev_base_risk_pct": 72.08,
+        "dev_selected_coverage_pct": 80.0,
+        "dev_selected_risk_pct": 68.23,
+        "coverage_quantile_taus": {
+          "cov_80": 0.242157,
+          "cov_70": 0.264779,
+          "cov_60": 0.306315,
+          "cov_50": 0.324244,
+          "cov_40": 0.346931
+        }
+      },
+      "fixed_tau038": {
+        "eval_split": "test",
+        "policy_fit_split": "fixed_baseline",
+        "n": 160,
+        "tau_conf": 0.38,
+        "raw_em_pct": 12.5,
+        "raw_f1_pct": 20.71,
+        "effective_em_pct": 8.75,
+        "effective_f1_pct": 11.75,
+        "ece": 0.119,
+        "mce": 0.147,
+        "brier_score": 0.1321,
+        "auroc_confidence": 0.6965,
+        "auprc_error": 0.8727,
+        "aurc": 0.667869,
+        "e_aurc": 0.190485,
+        "coverage_pct": 40.62,
+        "abstention_rate_pct": 59.38,
+        "selective_accuracy_pct": 28.93,
+        "selective_risk_pct": 71.07,
+        "valid_abstention_precision_pct": 82.11,
+        "harmful_abstention_rate_pct": 17.89,
+        "mean_confidence": 0.3261
+      },
+      "dev_adaptive_tau": {
+        "eval_split": "test",
+        "policy_fit_split": "dev",
+        "policy_fit_n": 80,
+        "n": 160,
+        "tau_conf": 0.242157,
+        "raw_em_pct": 12.5,
+        "raw_f1_pct": 20.71,
+        "effective_em_pct": 11.25,
+        "effective_f1_pct": 18.28,
+        "ece": 0.119,
+        "mce": 0.147,
+        "brier_score": 0.1321,
+        "auroc_confidence": 0.6965,
+        "auprc_error": 0.8727,
+        "aurc": 0.667869,
+        "e_aurc": 0.190485,
+        "coverage_pct": 72.5,
+        "abstention_rate_pct": 27.5,
+        "selective_accuracy_pct": 25.21,
+        "selective_risk_pct": 74.79,
+        "valid_abstention_precision_pct": 93.18,
+        "harmful_abstention_rate_pct": 6.82,
+        "mean_confidence": 0.3261
+      },
+      "risk_at_target_coverages": {
+        "risk_at_cov_40": 70.62,
+        "risk_at_cov_50": 70.09,
+        "risk_at_cov_60": 71.95,
+        "risk_at_cov_70": 73.89,
+        "risk_at_cov_80": 76.02
+      }
+    }
+  }
+}

@@ -1,0 +1,392 @@
+{
+  "metadata": {
+    "timestamp": "2026-11-18 21:14:07",
+    "model": "llama3_8b",
+    "datasets": [
+      "popqa",
+      "hotpotqa",
+      "2wikimultihop",
+      "musique"
+    ],
+    "scale": "medium",
+    "quantization": "4bit",
+    "dry_run": false,
+    "elapsed_sec": 5191.37,
+    "vram_peak_mb": {
+      "allocated_mb": 0.0,
+      "reserved_mb": 2.0,
+      "max_allocated_mb": 5891.87,
+      "max_reserved_mb": 6158.0
+    }
+  },
+  "v5_integrity": {
+    "status": "ok",
+    "verified_count": 61
+  },
+  "dev_source_configs": {
+    "popqa": {
+      "n_dev": 80,
+      "tau_eu": 0.7723,
+      "platt": {
+        "T": 1.0,
+        "w_tok": 1.0,
+        "platt_a": 1.15,
+        "platt_b": 1.5
+      },
+      "adaptive_tau_conf": 0.781999
+    },
+    "hotpotqa": {
+      "n_dev": 80,
+      "tau_eu": 0.7676,
+      "platt": {
+        "T": 1.0,
+        "w_tok": 1.0,
+        "platt_a": 0.75,
+        "platt_b": -0.35
+      },
+      "adaptive_tau_conf": 0.404673
+    },
+    "2wikimultihop": {
+      "n_dev": 80,
+      "tau_eu": 0.801,
+      "platt": {
+        "T": 3.0,
+        "w_tok": 1.0,
+        "platt_a": 0.35,
+        "platt_b": 0.8
+      },
+      "adaptive_tau_conf": 0.195575
+    },
+    "musique": {
+      "n_dev": 80,
+      "tau_eu": 0.8597,
+      "platt": {
+        "T": 2.5,
+        "w_tok": 0.8,
+        "platt_a": 1.7,
+        "platt_b": 1.5
+      },
+      "adaptive_tau_conf": 0.25354
+    }
+  },
+  "in_domain_task_matrix": {
+    "popqa": {
+      "primary_focus": "Long-tail entities & parametric knowledge gaps",
+      "primary_module": "M1",
+      "n_test": 120,
+      "metrics": {
+        "n": 120,
+        "tau_conf": 0.781999,
+        "raw_em_pct": 71.67,
+        "raw_f1_pct": 87.8,
+        "effective_em_pct": 60.0,
+        "effective_f1_pct": 71.42,
+        "ece": 0.0492,
+        "mce": 0.5066,
+        "brier_score": 0.0556,
+        "auroc_confidence": 0.69,
+        "auprc_error": 0.2678,
+        "aurc": 0.055866,
+        "e_aurc": 0.043641,
+        "coverage_pct": 79.17,
+        "abstention_rate_pct": 20.83,
+        "selective_accuracy_pct": 90.22,
+        "selective_risk_pct": 9.78,
+        "valid_abstention_precision_pct": 16.0,
+        "harmful_abstention_rate_pct": 84.0,
+        "mean_confidence": 0.8648
+      }
+    },
+    "hotpotqa": {
+      "primary_focus": "2-hop evidence bridging",
+      "primary_module": "M1+M2",
+      "n_test": 320,
+      "metrics": {
+        "n": 320,
+        "tau_conf": 0.404673,
+        "raw_em_pct": 35.62,
+        "raw_f1_pct": 50.6,
+        "effective_em_pct": 31.88,
+        "effective_f1_pct": 43.33,
+        "ece": 0.0508,
+        "mce": 0.1622,
+        "brier_score": 0.1468,
+        "auroc_confidence": 0.7747,
+        "auprc_error": 0.7423,
+        "aurc": 0.300628,
+        "e_aurc": 0.140041,
+        "coverage_pct": 72.5,
+        "abstention_rate_pct": 27.5,
+        "selective_accuracy_pct": 59.77,
+        "selective_risk_pct": 40.23,
+        "valid_abstention_precision_pct": 75.0,
+        "harmful_abstention_rate_pct": 25.0,
+        "mean_confidence": 0.5018
+      }
+    },
+    "2wikimultihop": {
+      "primary_focus": "Relational chain & entity consistency",
+      "primary_module": "M2",
+      "n_test": 220,
+      "metrics": {
+        "n": 220,
+        "tau_conf": 0.195575,
+        "raw_em_pct": 17.27,
+        "raw_f1_pct": 27.65,
+        "effective_em_pct": 14.55,
+        "effective_f1_pct": 24.25,
+        "ece": 0.0216,
+        "mce": 0.4876,
+        "brier_score": 0.1344,
+        "auroc_confidence": 0.6259,
+        "auprc_error": 0.8268,
+        "aurc": 0.605871,
+        "e_aurc": 0.22082,
+        "coverage_pct": 79.55,
+        "abstention_rate_pct": 20.45,
+        "selective_accuracy_pct": 30.48,
+        "selective_risk_pct": 69.52,
+        "valid_abstention_precision_pct": 82.22,
+        "harmful_abstention_rate_pct": 17.78,
+        "mean_confidence": 0.262
+      }
+    },
+    "musique": {
+      "primary_focus": "Complex multi-hop composition & risk",
+      "primary_module": "M2+M3",
+      "n_test": 220,
+      "metrics": {
+        "n": 220,
+        "tau_conf": 0.25354,
+        "raw_em_pct": 18.18,
+        "raw_f1_pct": 25.75,
+        "effective_em_pct": 13.64,
+        "effective_f1_pct": 18.44,
+        "ece": 0.0339,
+        "mce": 0.4666,
+        "brier_score": 0.1423,
+        "auroc_confidence": 0.6065,
+        "auprc_error": 0.8248,
+        "aurc": 0.636689,
+        "e_aurc": 0.234779,
+        "coverage_pct": 67.73,
+        "abstention_rate_pct": 32.27,
+        "selective_accuracy_pct": 27.23,
+        "selective_risk_pct": 72.77,
+        "valid_abstention_precision_pct": 74.65,
+        "harmful_abstention_rate_pct": 25.35,
+        "mean_confidence": 0.2755
+      }
+    }
+  },
+  "zero_tuning_transfer_matrix": {
+    "popqa": {
+      "evaluations": {
+        "from_hotpotqa": {
+          "f1_pct": 87.8,
+          "em_pct": 71.67,
+          "ece": 0.3572,
+          "brier_score": 0.1878,
+          "aurc": 0.055866,
+          "coverage_pct": 74.17,
+          "selective_risk_pct": 10.44,
+          "ece_delta_vs_indomain": 0.308,
+          "brier_delta_vs_indomain": 0.1322
+        },
+        "in_domain": {
+          "f1_pct": 87.8,
+          "em_pct": 71.67,
+          "ece": 0.0492,
+          "brier_score": 0.0556,
+          "aurc": 0.055866,
+          "coverage_pct": 79.17,
+          "selective_risk_pct": 9.78,
+          "ece_delta_vs_indomain": 0.0,
+          "brier_delta_vs_indomain": 0.0
+        }
+      },
+      "ood_vs_indomain_brier_tests": {
+        "hotpotqa_to_popqa_brier": {
+          "n": 120,
+          "mean_a": 0.187826,
+          "mean_b": 0.055607,
+          "mean_delta": 0.132219,
+          "ci_95_low": 0.098333,
+          "ci_95_high": 0.164236,
+          "sign_flip_p_value": 0.0005,
+          "paired_t_stat": 7.8904,
+          "paired_t_p_value": 0.0,
+          "wilcoxon_p_value": 0.0,
+          "cohens_dz": 0.7203,
+          "paired_t_p_value_holm": 0.0,
+          "paired_t_p_value_bh_fdr": 0.0
+        }
+      }
+    },
+    "hotpotqa": {
+      "evaluations": {
+        "in_domain": {
+          "f1_pct": 50.6,
+          "em_pct": 35.62,
+          "ece": 0.0508,
+          "brier_score": 0.1468,
+          "aurc": 0.300628,
+          "coverage_pct": 72.5,
+          "selective_risk_pct": 40.23,
+          "ece_delta_vs_indomain": 0.0,
+          "brier_delta_vs_indomain": 0.0
+        },
+        "from_popqa": {
+          "f1_pct": 50.49,
+          "em_pct": 35.31,
+          "ece": 0.3336,
+          "brier_score": 0.2677,
+          "aurc": 0.301877,
+          "coverage_pct": 76.25,
+          "selective_risk_pct": 41.16,
+          "ece_delta_vs_indomain": 0.2828,
+          "brier_delta_vs_indomain": 0.1209
+        }
+      },
+      "ood_vs_indomain_brier_tests": {
+        "popqa_to_hotpotqa_brier": {
+          "n": 320,
+          "mean_a": 0.267664,
+          "mean_b": 0.146754,
+          "mean_delta": 0.12091,
+          "ci_95_low": 0.091681,
+          "ci_95_high": 0.150375,
+          "sign_flip_p_value": 0.0005,
+          "paired_t_stat": 7.78,
+          "paired_t_p_value": 0.0,
+          "wilcoxon_p_value": 0.0,
+          "cohens_dz": 0.4349,
+          "paired_t_p_value_holm": 0.0,
+          "paired_t_p_value_bh_fdr": 0.0
+        }
+      }
+    },
+    "2wikimultihop": {
+      "evaluations": {
+        "from_hotpotqa": {
+          "f1_pct": 27.61,
+          "em_pct": 17.27,
+          "ece": 0.2201,
+          "brier_score": 0.1741,
+          "aurc": 0.581048,
+          "coverage_pct": 70.91,
+          "selective_risk_pct": 67.46,
+          "ece_delta_vs_indomain": 0.1985,
+          "brier_delta_vs_indomain": 0.0397
+        },
+        "from_popqa": {
+          "f1_pct": 27.52,
+          "em_pct": 17.27,
+          "ece": 0.5593,
+          "brier_score": 0.4445,
+          "aurc": 0.580776,
+          "coverage_pct": 74.55,
+          "selective_risk_pct": 68.41,
+          "ece_delta_vs_indomain": 0.5377,
+          "brier_delta_vs_indomain": 0.3101
+        }
+      },
+      "ood_vs_indomain_brier_tests": {
+        "hotpotqa_to_2wikimultihop_brier": {
+          "n": 220,
+          "mean_a": 0.174068,
+          "mean_b": 0.134406,
+          "mean_delta": 0.039661,
+          "ci_95_low": 0.013231,
+          "ci_95_high": 0.065234,
+          "sign_flip_p_value": 0.003498,
+          "paired_t_stat": 2.8793,
+          "paired_t_p_value": 0.004381,
+          "wilcoxon_p_value": 5.9e-05,
+          "cohens_dz": 0.1941,
+          "paired_t_p_value_holm": 0.004381,
+          "paired_t_p_value_bh_fdr": 0.004381
+        },
+        "popqa_to_2wikimultihop_brier": {
+          "n": 220,
+          "mean_a": 0.444491,
+          "mean_b": 0.134406,
+          "mean_delta": 0.310085,
+          "ci_95_low": 0.251586,
+          "ci_95_high": 0.366659,
+          "sign_flip_p_value": 0.0005,
+          "paired_t_stat": 10.2844,
+          "paired_t_p_value": 0.0,
+          "wilcoxon_p_value": 0.0,
+          "cohens_dz": 0.6934,
+          "paired_t_p_value_holm": 0.0,
+          "paired_t_p_value_bh_fdr": 0.0
+        }
+      }
+    },
+    "musique": {
+      "evaluations": {
+        "from_hotpotqa": {
+          "f1_pct": 26.11,
+          "em_pct": 18.64,
+          "ece": 0.21,
+          "brier_score": 0.175,
+          "aurc": 0.579837,
+          "coverage_pct": 64.09,
+          "selective_risk_pct": 65.96,
+          "ece_delta_vs_indomain": 0.1761,
+          "brier_delta_vs_indomain": 0.0327
+        },
+        "from_popqa": {
+          "f1_pct": 26.11,
+          "em_pct": 18.64,
+          "ece": 0.5427,
+          "brier_score": 0.4414,
+          "aurc": 0.579837,
+          "coverage_pct": 67.73,
+          "selective_risk_pct": 66.37,
+          "ece_delta_vs_indomain": 0.5088,
+          "brier_delta_vs_indomain": 0.2991
+        }
+      },
+      "ood_vs_indomain_brier_tests": {
+        "hotpotqa_to_musique_brier": {
+          "n": 220,
+          "mean_a": 0.175038,
+          "mean_b": 0.14231,
+          "mean_delta": 0.032727,
+          "ci_95_low": 0.00767,
+          "ci_95_high": 0.0582,
+          "sign_flip_p_value": 0.011494,
+          "paired_t_stat": 2.5428,
+          "paired_t_p_value": 0.011687,
+          "wilcoxon_p_value": 0.000207,
+          "cohens_dz": 0.1714,
+          "paired_t_p_value_holm": 0.011687,
+          "paired_t_p_value_bh_fdr": 0.011687
+        },
+        "popqa_to_musique_brier": {
+          "n": 220,
+          "mean_a": 0.441428,
+          "mean_b": 0.14231,
+          "mean_delta": 0.299117,
+          "ci_95_low": 0.242044,
+          "ci_95_high": 0.35513,
+          "sign_flip_p_value": 0.0005,
+          "paired_t_stat": 10.481,
+          "paired_t_p_value": 0.0,
+          "wilcoxon_p_value": 0.0,
+          "cohens_dz": 0.7066,
+          "paired_t_p_value_holm": 0.0,
+          "paired_t_p_value_bh_fdr": 0.0
+        }
+      }
+    }
+  },
+  "cross_dataset_summary": {
+    "mean_f1_pct": 47.95,
+    "std_f1_pct": 28.87,
+    "mean_ece": 0.0389,
+    "std_ece": 0.0138
+  }
+}

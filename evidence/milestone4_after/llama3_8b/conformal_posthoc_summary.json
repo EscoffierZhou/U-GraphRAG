@@ -1,0 +1,1092 @@
+{
+  "v5_integrity": {
+    "status": "ok",
+    "verified_count": 61
+  },
+  "wp8_conformal": {
+    "hotpotqa": {
+      "n_dev": 80,
+      "n_test": 160,
+      "calibrated_platt": {
+        "T": 2.0,
+        "w_tok": 0.8,
+        "platt_a": 1.15,
+        "platt_b": -0.7
+      },
+      "original_dev_adaptive": {
+        "tau_conf": 0.322611,
+        "raw_f1_pct": 47.26,
+        "effective_f1_pct": 43.41,
+        "coverage_pct": 78.75,
+        "selective_accuracy_pct": 55.13,
+        "selective_risk_pct": 44.87,
+        "harmful_abstention_rate_pct": 17.65,
+        "valid_abstention_precision_pct": 82.35,
+        "ece": 0.0841,
+        "auroc_confidence": 0.6835,
+        "aurc": 0.401839
+      },
+      "split_conformal_harmful_control": {
+        "alpha_10": {
+          "conformal_fit": {
+            "tau_conf": 0.322776,
+            "nonconformity_q": 0.677224,
+            "n_pos_dev": 41,
+            "alpha_harmful": 0.1,
+            "finite_sample_retain_prob": 0.9048
+          },
+          "test_eval": {
+            "tau_conf": 0.322776,
+            "raw_f1_pct": 47.26,
+            "effective_f1_pct": 43.41,
+            "coverage_pct": 78.75,
+            "selective_accuracy_pct": 55.13,
+            "selective_risk_pct": 44.87,
+            "harmful_abstention_rate_pct": 17.65,
+            "valid_abstention_precision_pct": 82.35,
+            "ece": 0.0841,
+            "auroc_confidence": 0.6835,
+            "aurc": 0.401839
+          }
+        },
+        "alpha_15": {
+          "conformal_fit": {
+            "tau_conf": 0.395891,
+            "nonconformity_q": 0.604109,
+            "n_pos_dev": 41,
+            "alpha_harmful": 0.15,
+            "finite_sample_retain_prob": 0.8571
+          },
+          "test_eval": {
+            "tau_conf": 0.395891,
+            "raw_f1_pct": 47.26,
+            "effective_f1_pct": 40.29,
+            "coverage_pct": 73.12,
+            "selective_accuracy_pct": 55.09,
+            "selective_risk_pct": 44.91,
+            "harmful_abstention_rate_pct": 27.91,
+            "valid_abstention_precision_pct": 72.09,
+            "ece": 0.0841,
+            "auroc_confidence": 0.6835,
+            "aurc": 0.401839
+          }
+        },
+        "alpha_20": {
+          "conformal_fit": {
+            "tau_conf": 0.428728,
+            "nonconformity_q": 0.571272,
+            "n_pos_dev": 41,
+            "alpha_harmful": 0.2,
+            "finite_sample_retain_prob": 0.8095
+          },
+          "test_eval": {
+            "tau_conf": 0.428728,
+            "raw_f1_pct": 47.26,
+            "effective_f1_pct": 38.83,
+            "coverage_pct": 67.5,
+            "selective_accuracy_pct": 57.52,
+            "selective_risk_pct": 42.48,
+            "harmful_abstention_rate_pct": 28.85,
+            "valid_abstention_precision_pct": 71.15,
+            "ece": 0.0841,
+            "auroc_confidence": 0.6835,
+            "aurc": 0.401839
+          }
+        },
+        "alpha_30": {
+          "conformal_fit": {
+            "tau_conf": 0.504302,
+            "nonconformity_q": 0.495698,
+            "n_pos_dev": 41,
+            "alpha_harmful": 0.3,
+            "finite_sample_retain_prob": 0.7143
+          },
+          "test_eval": {
+            "tau_conf": 0.504302,
+            "raw_f1_pct": 47.26,
+            "effective_f1_pct": 34.04,
+            "coverage_pct": 58.13,
+            "selective_accuracy_pct": 58.56,
+            "selective_risk_pct": 41.44,
+            "harmful_abstention_rate_pct": 34.33,
+            "valid_abstention_precision_pct": 65.67,
+            "ece": 0.0841,
+            "auroc_confidence": 0.6835,
+            "aurc": 0.401839
+          }
+        }
+      },
+      "conformal_risk_control": {
+        "target_risk_35": {
+          "risk_control_fit": {
+            "tau_conf": 0.637777,
+            "achieved_feasible": false,
+            "dev_emp_risk_pct": 26.28,
+            "dev_ucb_risk_pct": 51.27
+          },
+          "test_eval": {
+            "tau_conf": 0.637777,
+            "raw_f1_pct": 47.26,
+            "effective_f1_pct": 24.43,
+            "coverage_pct": 38.75,
+            "selective_accuracy_pct": 63.05,
+            "selective_risk_pct": 36.95,
+            "harmful_abstention_rate_pct": 39.8,
+            "valid_abstention_precision_pct": 60.2,
+            "ece": 0.0841,
+            "auroc_confidence": 0.6835,
+            "aurc": 0.401839
+          }
+        },
+        "target_risk_45": {
+          "risk_control_fit": {
+            "tau_conf": 0.637777,
+            "achieved_feasible": false,
+            "dev_emp_risk_pct": 26.28,
+            "dev_ucb_risk_pct": 51.27
+          },
+          "test_eval": {
+            "tau_conf": 0.637777,
+            "raw_f1_pct": 47.26,
+            "effective_f1_pct": 24.43,
+            "coverage_pct": 38.75,
+            "selective_accuracy_pct": 63.05,
+            "selective_risk_pct": 36.95,
+            "harmful_abstention_rate_pct": 39.8,
+            "valid_abstention_precision_pct": 60.2,
+            "ece": 0.0841,
+            "auroc_confidence": 0.6835,
+            "aurc": 0.401839
+          }
+        },
+        "target_risk_55": {
+          "risk_control_fit": {
+            "tau_conf": 0.50879,
+            "achieved_feasible": true,
+            "dev_coverage_pct": 53.75,
+            "dev_ucb_risk_pct": 54.82
+          },
+          "test_eval": {
+            "tau_conf": 0.50879,
+            "raw_f1_pct": 47.26,
+            "effective_f1_pct": 33.41,
+            "coverage_pct": 57.5,
+            "selective_accuracy_pct": 58.11,
+            "selective_risk_pct": 41.89,
+            "harmful_abstention_rate_pct": 35.29,
+            "valid_abstention_precision_pct": 64.71,
+            "ece": 0.0841,
+            "auroc_confidence": 0.6835,
+            "aurc": 0.401839
+          }
+        }
+      }
+    },
+    "musique": {
+      "n_dev": 80,
+      "n_test": 160,
+      "calibrated_platt": {
+        "T": 2.5,
+        "w_tok": 1.0,
+        "platt_a": 0.35,
+        "platt_b": -0.35
+      },
+      "original_dev_adaptive": {
+        "tau_conf": 0.242157,
+        "raw_f1_pct": 20.18,
+        "effective_f1_pct": 19.15,
+        "coverage_pct": 72.5,
+        "selective_accuracy_pct": 26.41,
+        "selective_risk_pct": 73.59,
+        "harmful_abstention_rate_pct": 2.27,
+        "valid_abstention_precision_pct": 97.73,
+        "ece": 0.1244,
+        "auroc_confidence": 0.7473,
+        "aurc": 0.656641
+      },
+      "split_conformal_harmful_control": {
+        "alpha_10": {
+          "conformal_fit": {
+            "tau_conf": 0.190646,
+            "nonconformity_q": 0.809354,
+            "n_pos_dev": 25,
+            "alpha_harmful": 0.1,
+            "finite_sample_retain_prob": 0.9231
+          },
+          "test_eval": {
+            "tau_conf": 0.190646,
+            "raw_f1_pct": 20.18,
+            "effective_f1_pct": 19.4,
+            "coverage_pct": 86.88,
+            "selective_accuracy_pct": 22.33,
+            "selective_risk_pct": 77.67,
+            "harmful_abstention_rate_pct": 4.76,
+            "valid_abstention_precision_pct": 95.24,
+            "ece": 0.1244,
+            "auroc_confidence": 0.7473,
+            "aurc": 0.656641
+          }
+        },
+        "alpha_15": {
+          "conformal_fit": {
+            "tau_conf": 0.239336,
+            "nonconformity_q": 0.760664,
+            "n_pos_dev": 25,
+            "alpha_harmful": 0.15,
+            "finite_sample_retain_prob": 0.8846
+          },
+          "test_eval": {
+            "tau_conf": 0.239336,
+            "raw_f1_pct": 20.18,
+            "effective_f1_pct": 19.15,
+            "coverage_pct": 73.12,
+            "selective_accuracy_pct": 26.18,
+            "selective_risk_pct": 73.82,
+            "harmful_abstention_rate_pct": 2.33,
+            "valid_abstention_precision_pct": 97.67,
+            "ece": 0.1244,
+            "auroc_confidence": 0.7473,
+            "aurc": 0.656641
+          }
+        },
+        "alpha_20": {
+          "conformal_fit": {
+            "tau_conf": 0.249488,
+            "nonconformity_q": 0.750512,
+            "n_pos_dev": 25,
+            "alpha_harmful": 0.2,
+            "finite_sample_retain_prob": 0.8077
+          },
+          "test_eval": {
+            "tau_conf": 0.249488,
+            "raw_f1_pct": 20.18,
+            "effective_f1_pct": 19.15,
+            "coverage_pct": 71.88,
+            "selective_accuracy_pct": 26.64,
+            "selective_risk_pct": 73.36,
+            "harmful_abstention_rate_pct": 2.22,
+            "valid_abstention_precision_pct": 97.78,
+            "ece": 0.1244,
+            "auroc_confidence": 0.7473,
+            "aurc": 0.656641
+          }
+        },
+        "alpha_30": {
+          "conformal_fit": {
+            "tau_conf": 0.274417,
+            "nonconformity_q": 0.725583,
+            "n_pos_dev": 25,
+            "alpha_harmful": 0.3,
+            "finite_sample_retain_prob": 0.7308
+          },
+          "test_eval": {
+            "tau_conf": 0.274417,
+            "raw_f1_pct": 20.18,
+            "effective_f1_pct": 19.15,
+            "coverage_pct": 68.75,
+            "selective_accuracy_pct": 27.85,
+            "selective_risk_pct": 72.15,
+            "harmful_abstention_rate_pct": 2.0,
+            "valid_abstention_precision_pct": 98.0,
+            "ece": 0.1244,
+            "auroc_confidence": 0.7473,
+            "aurc": 0.656641
+          }
+        }
+      },
+      "conformal_risk_control": {
+        "target_risk_35": {
+          "risk_control_fit": {
+            "tau_conf": 0.374421,
+            "achieved_feasible": false,
+            "dev_emp_risk_pct": 60.34,
+            "dev_ucb_risk_pct": 84.82
+          },
+          "test_eval": {
+            "tau_conf": 0.374421,
+            "raw_f1_pct": 20.18,
+            "effective_f1_pct": 13.43,
+            "coverage_pct": 43.13,
+            "selective_accuracy_pct": 31.14,
+            "selective_risk_pct": 68.86,
+            "harmful_abstention_rate_pct": 14.29,
+            "valid_abstention_precision_pct": 85.71,
+            "ece": 0.1244,
+            "auroc_confidence": 0.7473,
+            "aurc": 0.656641
+          }
+        },
+        "target_risk_45": {
+          "risk_control_fit": {
+            "tau_conf": 0.374421,
+            "achieved_feasible": false,
+            "dev_emp_risk_pct": 60.34,
+            "dev_ucb_risk_pct": 84.82
+          },
+          "test_eval": {
+            "tau_conf": 0.374421,
+            "raw_f1_pct": 20.18,
+            "effective_f1_pct": 13.43,
+            "coverage_pct": 43.13,
+            "selective_accuracy_pct": 31.14,
+            "selective_risk_pct": 68.86,
+            "harmful_abstention_rate_pct": 14.29,
+            "valid_abstention_precision_pct": 85.71,
+            "ece": 0.1244,
+            "auroc_confidence": 0.7473,
+            "aurc": 0.656641
+          }
+        },
+        "target_risk_55": {
+          "risk_control_fit": {
+            "tau_conf": 0.374421,
+            "achieved_feasible": false,
+            "dev_emp_risk_pct": 60.34,
+            "dev_ucb_risk_pct": 84.82
+          },
+          "test_eval": {
+            "tau_conf": 0.374421,
+            "raw_f1_pct": 20.18,
+            "effective_f1_pct": 13.43,
+            "coverage_pct": 43.13,
+            "selective_accuracy_pct": 31.14,
+            "selective_risk_pct": 68.86,
+            "harmful_abstention_rate_pct": 14.29,
+            "valid_abstention_precision_pct": 85.71,
+            "ece": 0.1244,
+            "auroc_confidence": 0.7473,
+            "aurc": 0.656641
+          }
+        }
+      }
+    }
+  },
+  "wp6_conformal": {
+    "qwen3b": {
+      "hotpotqa": {
+        "n_dev": 80,
+        "n_test": 320,
+        "original_dev_adaptive": {
+          "tau_conf": 0.322611,
+          "raw_f1_pct": 47.41,
+          "effective_f1_pct": 44.58,
+          "coverage_pct": 81.87,
+          "selective_accuracy_pct": 54.45,
+          "selective_risk_pct": 45.55,
+          "harmful_abstention_rate_pct": 13.79,
+          "valid_abstention_precision_pct": 86.21,
+          "ece": 0.1275,
+          "auroc_confidence": 0.6887,
+          "aurc": 0.41671
+        },
+        "split_conformal_alpha15": {
+          "fit": {
+            "tau_conf": 0.395891,
+            "nonconformity_q": 0.604109,
+            "n_pos_dev": 41,
+            "alpha_harmful": 0.15,
+            "finite_sample_retain_prob": 0.8571
+          },
+          "test_eval": {
+            "tau_conf": 0.395891,
+            "raw_f1_pct": 47.41,
+            "effective_f1_pct": 41.04,
+            "coverage_pct": 76.56,
+            "selective_accuracy_pct": 53.61,
+            "selective_risk_pct": 46.39,
+            "harmful_abstention_rate_pct": 26.67,
+            "valid_abstention_precision_pct": 73.33,
+            "ece": 0.1275,
+            "auroc_confidence": 0.6887,
+            "aurc": 0.41671
+          }
+        },
+        "conformal_risk_ucb40": {
+          "fit": {
+            "tau_conf": 0.637777,
+            "achieved_feasible": false,
+            "dev_emp_risk_pct": 26.28,
+            "dev_ucb_risk_pct": 51.27
+          },
+          "test_eval": {
+            "tau_conf": 0.637777,
+            "raw_f1_pct": 47.41,
+            "effective_f1_pct": 25.68,
+            "coverage_pct": 42.5,
+            "selective_accuracy_pct": 60.43,
+            "selective_risk_pct": 39.57,
+            "harmful_abstention_rate_pct": 38.04,
+            "valid_abstention_precision_pct": 61.96,
+            "ece": 0.1275,
+            "auroc_confidence": 0.6887,
+            "aurc": 0.41671
+          }
+        }
+      },
+      "popqa": {
+        "n_dev": 80,
+        "n_test": 120,
+        "original_dev_adaptive": {
+          "tau_conf": 0.607454,
+          "raw_f1_pct": 97.22,
+          "effective_f1_pct": 96.67,
+          "coverage_pct": 98.33,
+          "selective_accuracy_pct": 98.31,
+          "selective_risk_pct": 1.69,
+          "harmful_abstention_rate_pct": 50.0,
+          "valid_abstention_precision_pct": 50.0,
+          "ece": 0.0253,
+          "auroc_confidence": 0.943,
+          "aurc": 0.001877
+        },
+        "split_conformal_alpha15": {
+          "fit": {
+            "tau_conf": 0.901597,
+            "nonconformity_q": 0.098403,
+            "n_pos_dev": 73,
+            "alpha_harmful": 0.15,
+            "finite_sample_retain_prob": 0.8514
+          },
+          "test_eval": {
+            "tau_conf": 0.901597,
+            "raw_f1_pct": 97.22,
+            "effective_f1_pct": 86.67,
+            "coverage_pct": 87.5,
+            "selective_accuracy_pct": 99.05,
+            "selective_risk_pct": 0.95,
+            "harmful_abstention_rate_pct": 86.67,
+            "valid_abstention_precision_pct": 13.33,
+            "ece": 0.0253,
+            "auroc_confidence": 0.943,
+            "aurc": 0.001877
+          }
+        },
+        "conformal_risk_ucb40": {
+          "fit": {
+            "tau_conf": 0.238933,
+            "achieved_feasible": true,
+            "dev_coverage_pct": 100.0,
+            "dev_ucb_risk_pct": 22.64
+          },
+          "test_eval": {
+            "tau_conf": 0.238933,
+            "raw_f1_pct": 97.22,
+            "effective_f1_pct": 97.22,
+            "coverage_pct": 99.17,
+            "selective_accuracy_pct": 98.04,
+            "selective_risk_pct": 1.96,
+            "harmful_abstention_rate_pct": 0.0,
+            "valid_abstention_precision_pct": 100.0,
+            "ece": 0.0253,
+            "auroc_confidence": 0.943,
+            "aurc": 0.001877
+          }
+        }
+      },
+      "2wikimultihop": {
+        "n_dev": 80,
+        "n_test": 220,
+        "original_dev_adaptive": {
+          "tau_conf": 0.151474,
+          "raw_f1_pct": 28.98,
+          "effective_f1_pct": 26.76,
+          "coverage_pct": 75.45,
+          "selective_accuracy_pct": 35.46,
+          "selective_risk_pct": 64.54,
+          "harmful_abstention_rate_pct": 9.26,
+          "valid_abstention_precision_pct": 90.74,
+          "ece": 0.0974,
+          "auroc_confidence": 0.7593,
+          "aurc": 0.547741
+        },
+        "split_conformal_alpha15": {
+          "fit": {
+            "tau_conf": 0.1612,
+            "nonconformity_q": 0.8388,
+            "n_pos_dev": 19,
+            "alpha_harmful": 0.15,
+            "finite_sample_retain_prob": 0.85
+          },
+          "test_eval": {
+            "tau_conf": 0.1612,
+            "raw_f1_pct": 28.98,
+            "effective_f1_pct": 26.61,
+            "coverage_pct": 71.82,
+            "selective_accuracy_pct": 37.05,
+            "selective_risk_pct": 62.95,
+            "harmful_abstention_rate_pct": 8.06,
+            "valid_abstention_precision_pct": 91.94,
+            "ece": 0.0974,
+            "auroc_confidence": 0.7593,
+            "aurc": 0.547741
+          }
+        },
+        "conformal_risk_ucb40": {
+          "fit": {
+            "tau_conf": 0.294019,
+            "achieved_feasible": false,
+            "dev_emp_risk_pct": 69.44,
+            "dev_ucb_risk_pct": 93.0
+          },
+          "test_eval": {
+            "tau_conf": 0.294019,
+            "raw_f1_pct": 28.98,
+            "effective_f1_pct": 17.19,
+            "coverage_pct": 35.45,
+            "selective_accuracy_pct": 48.49,
+            "selective_risk_pct": 51.51,
+            "harmful_abstention_rate_pct": 16.9,
+            "valid_abstention_precision_pct": 83.1,
+            "ece": 0.0974,
+            "auroc_confidence": 0.7593,
+            "aurc": 0.547741
+          }
+        }
+      },
+      "musique": {
+        "n_dev": 80,
+        "n_test": 220,
+        "original_dev_adaptive": {
+          "tau_conf": 0.242157,
+          "raw_f1_pct": 22.3,
+          "effective_f1_pct": 20.07,
+          "coverage_pct": 77.73,
+          "selective_accuracy_pct": 25.82,
+          "selective_risk_pct": 74.18,
+          "harmful_abstention_rate_pct": 8.16,
+          "valid_abstention_precision_pct": 91.84,
+          "ece": 0.103,
+          "auroc_confidence": 0.6707,
+          "aurc": 0.685397
+        },
+        "split_conformal_alpha15": {
+          "fit": {
+            "tau_conf": 0.239336,
+            "nonconformity_q": 0.760664,
+            "n_pos_dev": 25,
+            "alpha_harmful": 0.15,
+            "finite_sample_retain_prob": 0.8846
+          },
+          "test_eval": {
+            "tau_conf": 0.239336,
+            "raw_f1_pct": 22.3,
+            "effective_f1_pct": 20.07,
+            "coverage_pct": 77.73,
+            "selective_accuracy_pct": 25.82,
+            "selective_risk_pct": 74.18,
+            "harmful_abstention_rate_pct": 8.16,
+            "valid_abstention_precision_pct": 91.84,
+            "ece": 0.103,
+            "auroc_confidence": 0.6707,
+            "aurc": 0.685397
+          }
+        },
+        "conformal_risk_ucb40": {
+          "fit": {
+            "tau_conf": 0.374421,
+            "achieved_feasible": false,
+            "dev_emp_risk_pct": 60.34,
+            "dev_ucb_risk_pct": 84.82
+          },
+          "test_eval": {
+            "tau_conf": 0.374421,
+            "raw_f1_pct": 22.3,
+            "effective_f1_pct": 11.57,
+            "coverage_pct": 39.09,
+            "selective_accuracy_pct": 29.59,
+            "selective_risk_pct": 70.41,
+            "harmful_abstention_rate_pct": 19.4,
+            "valid_abstention_precision_pct": 80.6,
+            "ece": 0.103,
+            "auroc_confidence": 0.6707,
+            "aurc": 0.685397
+          }
+        }
+      }
+    },
+    "qwen7b": {
+      "hotpotqa": {
+        "n_dev": 80,
+        "n_test": 320,
+        "original_dev_adaptive": {
+          "tau_conf": 0.38,
+          "raw_f1_pct": 60.67,
+          "effective_f1_pct": 52.58,
+          "coverage_pct": 78.12,
+          "selective_accuracy_pct": 67.31,
+          "selective_risk_pct": 32.69,
+          "harmful_abstention_rate_pct": 38.57,
+          "valid_abstention_precision_pct": 61.43,
+          "ece": 0.0874,
+          "auroc_confidence": 0.706,
+          "aurc": 0.277251
+        },
+        "split_conformal_alpha15": {
+          "fit": {
+            "tau_conf": 0.39947,
+            "nonconformity_q": 0.60053,
+            "n_pos_dev": 45,
+            "alpha_harmful": 0.15,
+            "finite_sample_retain_prob": 0.8696
+          },
+          "test_eval": {
+            "tau_conf": 0.39947,
+            "raw_f1_pct": 60.67,
+            "effective_f1_pct": 52.27,
+            "coverage_pct": 75.94,
+            "selective_accuracy_pct": 68.83,
+            "selective_risk_pct": 31.17,
+            "harmful_abstention_rate_pct": 36.36,
+            "valid_abstention_precision_pct": 63.64,
+            "ece": 0.0874,
+            "auroc_confidence": 0.706,
+            "aurc": 0.277251
+          }
+        },
+        "conformal_risk_ucb40": {
+          "fit": {
+            "tau_conf": 0.740611,
+            "achieved_feasible": true,
+            "dev_coverage_pct": 32.5,
+            "dev_ucb_risk_pct": 39.07
+          },
+          "test_eval": {
+            "tau_conf": 0.740611,
+            "raw_f1_pct": 60.67,
+            "effective_f1_pct": 22.04,
+            "coverage_pct": 29.69,
+            "selective_accuracy_pct": 74.24,
+            "selective_risk_pct": 25.76,
+            "harmful_abstention_rate_pct": 57.33,
+            "valid_abstention_precision_pct": 42.67,
+            "ece": 0.0874,
+            "auroc_confidence": 0.706,
+            "aurc": 0.277251
+          }
+        }
+      },
+      "popqa": {
+        "n_dev": 80,
+        "n_test": 120,
+        "original_dev_adaptive": {
+          "tau_conf": 0.731171,
+          "raw_f1_pct": 95.46,
+          "effective_f1_pct": 87.24,
+          "coverage_pct": 89.17,
+          "selective_accuracy_pct": 97.84,
+          "selective_risk_pct": 2.16,
+          "harmful_abstention_rate_pct": 84.62,
+          "valid_abstention_precision_pct": 15.38,
+          "ece": 0.0623,
+          "auroc_confidence": 0.9138,
+          "aurc": 0.004875
+        },
+        "split_conformal_alpha15": {
+          "fit": {
+            "tau_conf": 0.754623,
+            "nonconformity_q": 0.245377,
+            "n_pos_dev": 65,
+            "alpha_harmful": 0.15,
+            "finite_sample_retain_prob": 0.8636
+          },
+          "test_eval": {
+            "tau_conf": 0.754623,
+            "raw_f1_pct": 95.46,
+            "effective_f1_pct": 86.4,
+            "coverage_pct": 88.33,
+            "selective_accuracy_pct": 97.82,
+            "selective_risk_pct": 2.18,
+            "harmful_abstention_rate_pct": 85.71,
+            "valid_abstention_precision_pct": 14.29,
+            "ece": 0.0623,
+            "auroc_confidence": 0.9138,
+            "aurc": 0.004875
+          }
+        },
+        "conformal_risk_ucb40": {
+          "fit": {
+            "tau_conf": 0.024078,
+            "achieved_feasible": true,
+            "dev_coverage_pct": 100.0,
+            "dev_ucb_risk_pct": 30.41
+          },
+          "test_eval": {
+            "tau_conf": 0.024078,
+            "raw_f1_pct": 95.46,
+            "effective_f1_pct": 95.46,
+            "coverage_pct": 99.17,
+            "selective_accuracy_pct": 96.26,
+            "selective_risk_pct": 3.74,
+            "harmful_abstention_rate_pct": 0.0,
+            "valid_abstention_precision_pct": 100.0,
+            "ece": 0.0623,
+            "auroc_confidence": 0.9138,
+            "aurc": 0.004875
+          }
+        }
+      },
+      "2wikimultihop": {
+        "n_dev": 80,
+        "n_test": 220,
+        "original_dev_adaptive": {
+          "tau_conf": 0.333216,
+          "raw_f1_pct": 44.78,
+          "effective_f1_pct": 42.21,
+          "coverage_pct": 74.55,
+          "selective_accuracy_pct": 56.62,
+          "selective_risk_pct": 43.38,
+          "harmful_abstention_rate_pct": 10.71,
+          "valid_abstention_precision_pct": 89.29,
+          "ece": 0.0936,
+          "auroc_confidence": 0.7124,
+          "aurc": 0.399388
+        },
+        "split_conformal_alpha15": {
+          "fit": {
+            "tau_conf": 0.34019,
+            "nonconformity_q": 0.65981,
+            "n_pos_dev": 34,
+            "alpha_harmful": 0.15,
+            "finite_sample_retain_prob": 0.8571
+          },
+          "test_eval": {
+            "tau_conf": 0.34019,
+            "raw_f1_pct": 44.78,
+            "effective_f1_pct": 42.21,
+            "coverage_pct": 74.09,
+            "selective_accuracy_pct": 56.97,
+            "selective_risk_pct": 43.03,
+            "harmful_abstention_rate_pct": 10.53,
+            "valid_abstention_precision_pct": 89.47,
+            "ece": 0.0936,
+            "auroc_confidence": 0.7124,
+            "aurc": 0.399388
+          }
+        },
+        "conformal_risk_ucb40": {
+          "fit": {
+            "tau_conf": 0.496008,
+            "achieved_feasible": false,
+            "dev_emp_risk_pct": 36.79,
+            "dev_ucb_risk_pct": 59.91
+          },
+          "test_eval": {
+            "tau_conf": 0.496008,
+            "raw_f1_pct": 44.78,
+            "effective_f1_pct": 24.9,
+            "coverage_pct": 43.64,
+            "selective_accuracy_pct": 57.07,
+            "selective_risk_pct": 42.93,
+            "harmful_abstention_rate_pct": 36.29,
+            "valid_abstention_precision_pct": 63.71,
+            "ece": 0.0936,
+            "auroc_confidence": 0.7124,
+            "aurc": 0.399388
+          }
+        }
+      },
+      "musique": {
+        "n_dev": 80,
+        "n_test": 220,
+        "original_dev_adaptive": {
+          "tau_conf": 0.253064,
+          "raw_f1_pct": 25.65,
+          "effective_f1_pct": 23.2,
+          "coverage_pct": 71.82,
+          "selective_accuracy_pct": 32.31,
+          "selective_risk_pct": 67.69,
+          "harmful_abstention_rate_pct": 11.29,
+          "valid_abstention_precision_pct": 88.71,
+          "ece": 0.098,
+          "auroc_confidence": 0.7505,
+          "aurc": 0.564343
+        },
+        "split_conformal_alpha15": {
+          "fit": {
+            "tau_conf": 0.261618,
+            "nonconformity_q": 0.738382,
+            "n_pos_dev": 28,
+            "alpha_harmful": 0.15,
+            "finite_sample_retain_prob": 0.8621
+          },
+          "test_eval": {
+            "tau_conf": 0.261618,
+            "raw_f1_pct": 25.65,
+            "effective_f1_pct": 23.14,
+            "coverage_pct": 69.55,
+            "selective_accuracy_pct": 33.28,
+            "selective_risk_pct": 66.72,
+            "harmful_abstention_rate_pct": 10.45,
+            "valid_abstention_precision_pct": 89.55,
+            "ece": 0.098,
+            "auroc_confidence": 0.7505,
+            "aurc": 0.564343
+          }
+        },
+        "conformal_risk_ucb40": {
+          "fit": {
+            "tau_conf": 0.407703,
+            "achieved_feasible": false,
+            "dev_emp_risk_pct": 49.72,
+            "dev_ucb_risk_pct": 73.72
+          },
+          "test_eval": {
+            "tau_conf": 0.407703,
+            "raw_f1_pct": 25.65,
+            "effective_f1_pct": 14.41,
+            "coverage_pct": 28.18,
+            "selective_accuracy_pct": 51.13,
+            "selective_risk_pct": 48.87,
+            "harmful_abstention_rate_pct": 18.99,
+            "valid_abstention_precision_pct": 81.01,
+            "ece": 0.098,
+            "auroc_confidence": 0.7505,
+            "aurc": 0.564343
+          }
+        }
+      }
+    },
+    "llama3_8b": {
+      "hotpotqa": {
+        "n_dev": 80,
+        "n_test": 320,
+        "original_dev_adaptive": {
+          "tau_conf": 0.404673,
+          "raw_f1_pct": 51.99,
+          "effective_f1_pct": 41.82,
+          "coverage_pct": 72.5,
+          "selective_accuracy_pct": 57.69,
+          "selective_risk_pct": 42.31,
+          "harmful_abstention_rate_pct": 38.64,
+          "valid_abstention_precision_pct": 61.36,
+          "ece": 0.0465,
+          "auroc_confidence": 0.6892,
+          "aurc": 0.338316
+        },
+        "split_conformal_alpha15": {
+          "fit": {
+            "tau_conf": 0.393445,
+            "nonconformity_q": 0.606555,
+            "n_pos_dev": 43,
+            "alpha_harmful": 0.15,
+            "finite_sample_retain_prob": 0.8636
+          },
+          "test_eval": {
+            "tau_conf": 0.393445,
+            "raw_f1_pct": 51.99,
+            "effective_f1_pct": 42.81,
+            "coverage_pct": 74.69,
+            "selective_accuracy_pct": 57.32,
+            "selective_risk_pct": 42.68,
+            "harmful_abstention_rate_pct": 37.04,
+            "valid_abstention_precision_pct": 62.96,
+            "ece": 0.0465,
+            "auroc_confidence": 0.6892,
+            "aurc": 0.338316
+          }
+        },
+        "conformal_risk_ucb40": {
+          "fit": {
+            "tau_conf": 0.62215,
+            "achieved_feasible": false,
+            "dev_emp_risk_pct": 21.32,
+            "dev_ucb_risk_pct": 44.04
+          },
+          "test_eval": {
+            "tau_conf": 0.62215,
+            "raw_f1_pct": 51.99,
+            "effective_f1_pct": 19.98,
+            "coverage_pct": 28.75,
+            "selective_accuracy_pct": 69.51,
+            "selective_risk_pct": 30.49,
+            "harmful_abstention_rate_pct": 46.93,
+            "valid_abstention_precision_pct": 53.07,
+            "ece": 0.0465,
+            "auroc_confidence": 0.6892,
+            "aurc": 0.338316
+          }
+        }
+      },
+      "popqa": {
+        "n_dev": 80,
+        "n_test": 120,
+        "original_dev_adaptive": {
+          "tau_conf": 0.781999,
+          "raw_f1_pct": 86.25,
+          "effective_f1_pct": 70.77,
+          "coverage_pct": 80.83,
+          "selective_accuracy_pct": 87.55,
+          "selective_risk_pct": 12.45,
+          "harmful_abstention_rate_pct": 86.96,
+          "valid_abstention_precision_pct": 13.04,
+          "ece": 0.0519,
+          "auroc_confidence": 0.548,
+          "aurc": 0.10157
+        },
+        "split_conformal_alpha15": {
+          "fit": {
+            "tau_conf": 0.737645,
+            "nonconformity_q": 0.262355,
+            "n_pos_dev": 72,
+            "alpha_harmful": 0.15,
+            "finite_sample_retain_prob": 0.863
+          },
+          "test_eval": {
+            "tau_conf": 0.737645,
+            "raw_f1_pct": 86.25,
+            "effective_f1_pct": 77.83,
+            "coverage_pct": 88.33,
+            "selective_accuracy_pct": 88.11,
+            "selective_risk_pct": 11.89,
+            "harmful_abstention_rate_pct": 78.57,
+            "valid_abstention_precision_pct": 21.43,
+            "ece": 0.0519,
+            "auroc_confidence": 0.548,
+            "aurc": 0.10157
+          }
+        },
+        "conformal_risk_ucb40": {
+          "fit": {
+            "tau_conf": 0.367442,
+            "achieved_feasible": true,
+            "dev_coverage_pct": 100.0,
+            "dev_ucb_risk_pct": 30.37
+          },
+          "test_eval": {
+            "tau_conf": 0.367442,
+            "raw_f1_pct": 86.25,
+            "effective_f1_pct": 86.25,
+            "coverage_pct": 100.0,
+            "selective_accuracy_pct": 86.25,
+            "selective_risk_pct": 13.75,
+            "harmful_abstention_rate_pct": 0.0,
+            "valid_abstention_precision_pct": 0.0,
+            "ece": 0.0519,
+            "auroc_confidence": 0.548,
+            "aurc": 0.10157
+          }
+        }
+      },
+      "2wikimultihop": {
+        "n_dev": 80,
+        "n_test": 220,
+        "original_dev_adaptive": {
+          "tau_conf": 0.195575,
+          "raw_f1_pct": 29.62,
+          "effective_f1_pct": 24.74,
+          "coverage_pct": 78.64,
+          "selective_accuracy_pct": 31.47,
+          "selective_risk_pct": 68.53,
+          "harmful_abstention_rate_pct": 23.4,
+          "valid_abstention_precision_pct": 76.6,
+          "ece": 0.0439,
+          "auroc_confidence": 0.5646,
+          "aurc": 0.643096
+        },
+        "split_conformal_alpha15": {
+          "fit": {
+            "tau_conf": 0.196631,
+            "nonconformity_q": 0.803369,
+            "n_pos_dev": 22,
+            "alpha_harmful": 0.15,
+            "finite_sample_retain_prob": 0.8696
+          },
+          "test_eval": {
+            "tau_conf": 0.196631,
+            "raw_f1_pct": 29.62,
+            "effective_f1_pct": 23.84,
+            "coverage_pct": 76.82,
+            "selective_accuracy_pct": 31.03,
+            "selective_risk_pct": 68.97,
+            "harmful_abstention_rate_pct": 25.49,
+            "valid_abstention_precision_pct": 74.51,
+            "ece": 0.0439,
+            "auroc_confidence": 0.5646,
+            "aurc": 0.643096
+          }
+        },
+        "conformal_risk_ucb40": {
+          "fit": {
+            "tau_conf": 0.325905,
+            "achieved_feasible": false,
+            "dev_emp_risk_pct": 61.32,
+            "dev_ucb_risk_pct": 86.3
+          },
+          "test_eval": {
+            "tau_conf": 0.325905,
+            "raw_f1_pct": 29.62,
+            "effective_f1_pct": 7.69,
+            "coverage_pct": 17.27,
+            "selective_accuracy_pct": 44.5,
+            "selective_risk_pct": 55.5,
+            "harmful_abstention_rate_pct": 24.73,
+            "valid_abstention_precision_pct": 75.27,
+            "ece": 0.0439,
+            "auroc_confidence": 0.5646,
+            "aurc": 0.643096
+          }
+        }
+      },
+      "musique": {
+        "n_dev": 80,
+        "n_test": 220,
+        "original_dev_adaptive": {
+          "tau_conf": 0.25354,
+          "raw_f1_pct": 29.44,
+          "effective_f1_pct": 29.34,
+          "coverage_pct": 93.64,
+          "selective_accuracy_pct": 31.34,
+          "selective_risk_pct": 68.66,
+          "harmful_abstention_rate_pct": 0.0,
+          "valid_abstention_precision_pct": 100.0,
+          "ece": 0.053,
+          "auroc_confidence": 0.5911,
+          "aurc": 0.613244
+        },
+        "split_conformal_alpha15": {
+          "fit": {
+            "tau_conf": 0.246773,
+            "nonconformity_q": 0.753227,
+            "n_pos_dev": 25,
+            "alpha_harmful": 0.15,
+            "finite_sample_retain_prob": 0.8846
+          },
+          "test_eval": {
+            "tau_conf": 0.246773,
+            "raw_f1_pct": 29.44,
+            "effective_f1_pct": 29.44,
+            "coverage_pct": 95.0,
+            "selective_accuracy_pct": 30.99,
+            "selective_risk_pct": 69.01,
+            "harmful_abstention_rate_pct": 0.0,
+            "valid_abstention_precision_pct": 100.0,
+            "ece": 0.053,
+            "auroc_confidence": 0.5911,
+            "aurc": 0.613244
+          }
+        },
+        "conformal_risk_ucb40": {
+          "fit": {
+            "tau_conf": 0.3118,
+            "achieved_feasible": false,
+            "dev_emp_risk_pct": 51.16,
+            "dev_ucb_risk_pct": 76.15
+          },
+          "test_eval": {
+            "tau_conf": 0.3118,
+            "raw_f1_pct": 29.44,
+            "effective_f1_pct": 16.97,
+            "coverage_pct": 46.36,
+            "selective_accuracy_pct": 36.6,
+            "selective_risk_pct": 63.4,
+            "harmful_abstention_rate_pct": 23.73,
+            "valid_abstention_precision_pct": 76.27,
+            "ece": 0.053,
+            "auroc_confidence": 0.5911,
+            "aurc": 0.613244
+          }
+        }
+      }
+    }
+  }
+}

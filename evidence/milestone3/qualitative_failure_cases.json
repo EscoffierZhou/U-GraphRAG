@@ -1,0 +1,117 @@
+{
+  "retrieval_miss": [],
+  "selection_loss": [
+    {
+      "source_run": "llama3_8b_2wikimultihop_Full_UGraphRAG_seed1024",
+      "id": "53ab316c08b911ebbd88ac1f6bf848b6",
+      "question": "Which film has the director who died later, The Fatal Mistake or The Devil'S Hairpin?",
+      "gold": [
+        "The Devil'S Hairpin"
+      ],
+      "prediction": "The Fatal Mistake",
+      "confidence": 0.3549,
+      "pool_gold_recall": 1.0,
+      "selected_sp_recall": 0.5
+    },
+    {
+      "source_run": "llama3_8b_2wikimultihop_Full_UGraphRAG_seed1024",
+      "id": "bc633e2c0baf11ebab90acde48001122",
+      "question": "Who is Maria Luisa Of Savoy's father-in-law?",
+      "gold": [
+        "Louis, Grand Dauphin"
+      ],
+      "prediction": "Philip V of Spain",
+      "confidence": 0.2502,
+      "pool_gold_recall": 1.0,
+      "selected_sp_recall": 0.5
+    },
+    {
+      "source_run": "llama3_8b_2wikimultihop_Full_UGraphRAG_seed1024",
+      "id": "2b4bd5020baf11ebab90acde48001122",
+      "question": "Who is the paternal grandfather of Kujō Yoritsugu?",
+      "gold": [
+        "Kujō Michiie"
+      ],
+      "prediction": "Kujō Yoritsugu's paternal grandfather is not mentioned in the provided references",
+      "confidence": 0.2759,
+      "pool_gold_recall": 1.0,
+      "selected_sp_recall": 0.5
+    }
+  ],
+  "generation_or_reasoning_error": [
+    {
+      "source_run": "llama3_8b_2wikimultihop_Full_UGraphRAG_seed1024",
+      "id": "5c0c69f80bdd11eba7f7acde48001122",
+      "question": "What is the place of birth of the director of film Letter To The King?",
+      "gold": [
+        "Kurdish"
+      ],
+      "prediction": "Lillehammer",
+      "confidence": 0.3243,
+      "pool_gold_recall": 1.0,
+      "selected_sp_recall": 1.0
+    },
+    {
+      "source_run": "llama3_8b_2wikimultihop_Full_UGraphRAG_seed1024",
+      "id": "a9f9985a09a211ebbdb0ac1f6bf848b6",
+      "question": "Which song was released more recently, Go Ahead And Break My Heart or Knee Deep In My Heart?",
+      "gold": [
+        "Go Ahead And Break My Heart"
+      ],
+      "prediction": "2016. ]]",
+      "confidence": 0.2381,
+      "pool_gold_recall": 1.0,
+      "selected_sp_recall": 1.0
+    },
+    {
+      "source_run": "llama3_8b_2wikimultihop_Full_UGraphRAG_seed1024",
+      "id": "d6074911090011ebbdadac1f6bf848b6",
+      "question": "Which film came out first, Repeated Absences or She Wore A Yellow Ribbon?",
+      "gold": [
+        "She Wore A Yellow Ribbon"
+      ],
+      "prediction": "1972 or 1949. 1972 > 1949. 1949. 1972. 1949. 1972. 1972. 1949. 1972. 1949",
+      "confidence": 0.2718,
+      "pool_gold_recall": 1.0,
+      "selected_sp_recall": 1.0
+    }
+  ],
+  "harmful_abstention": [
+    {
+      "source_run": "llama3_8b_2wikimultihop_Full_UGraphRAG_seed1024",
+      "id": "29427eea0bdd11eba7f7acde48001122",
+      "question": "Where was the performer of song God (John Lennon Song) born?",
+      "gold": [
+        "Liverpool"
+      ],
+      "prediction": "Liverpool",
+      "confidence": 0.1843,
+      "pool_gold_recall": 1.0,
+      "selected_sp_recall": 1.0
+    },
+    {
+      "source_run": "llama3_8b_2wikimultihop_Full_UGraphRAG_seed1024",
+      "id": "3647118c0bdd11eba7f7acde48001122",
+      "question": "What is the place of birth of the director of film Marianela (1940 Film)?",
+      "gold": [
+        "Madrid"
+      ],
+      "prediction": "Madrid",
+      "confidence": 0.1729,
+      "pool_gold_recall": 1.0,
+      "selected_sp_recall": 1.0
+    },
+    {
+      "source_run": "llama3_8b_2wikimultihop_Full_UGraphRAG_seed1024",
+      "id": "71d8e20e0bdb11eba7f7acde48001122",
+      "question": "What is the place of birth of Clara Novello's father?",
+      "gold": [
+        "London"
+      ],
+      "prediction": "London",
+      "confidence": 0.1767,
+      "pool_gold_recall": 1.0,
+      "selected_sp_recall": 1.0
+    }
+  ]
+}
