@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "experiment": "Step 1 Corrected Baselines (bfloat16 NF4)",
+    "timestamp": "2026-11-15 18:58:03",
+    "hotpot_eval_count": 100,
+    "popqa_eval_count": 100,
+    "hardware": "NVIDIA GeForce RTX 5060 Laptop GPU"
+  },
+  "smoke_test": {
+    "Qwen2.5-3B-Instruct": {
+      "exact_match": 1.0,
+      "f1": 1.0
+    },
+    "Qwen2.5-7B-Instruct": {
+      "exact_match": 1.0,
+      "f1": 1.0
+    }
+  },
+  "models": {
+    "Qwen2.5-3B-Instruct": {
+      "hotpotqa": {
+        "num_samples": 100,
+        "exact_match": 0.41,
+        "f1": 0.5375496031746032,
+        "sp_precision": 0.36,
+        "sp_recall": 0.885,
+        "sp_f1": 0.5099749999999998,
+        "avg_latency_sec": 0.8650443816184997
+      },
+      "popqa": {
+        "num_samples": 100,
+        "exact_match": 0.24,
+        "f1": 0.2957692307692308,
+        "avg_latency_sec": 0.3812580156326294
+      },
+      "vram_profiling": {
+        "peak_allocated_mb": 1978.61,
+        "final_reserved_mb": 5306.0,
+        "headroom_mb": 2886.0
+      }
+    },
+    "Qwen2.5-7B-Instruct": {
+      "hotpotqa": {
+        "num_samples": 100,
+        "exact_match": 0.54,
+        "f1": 0.6467646797646799,
+        "sp_precision": 0.36,
+        "sp_recall": 0.885,
+        "sp_f1": 0.5099749999999998,
+        "avg_latency_sec": 0.9953452134132386
+      },
+      "popqa": {
+        "num_samples": 100,
+        "exact_match": 0.27,
+        "f1": 0.33885714285714286,
+        "avg_latency_sec": 0.2789437246322632
+      },
+      "vram_profiling": {
+        "peak_allocated_mb": 5310.8,
+        "final_reserved_mb": 5660.0,
+        "headroom_mb": 2532.0
+      }
+    }
+  }
+}

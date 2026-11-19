@@ -1,0 +1,5936 @@
+[
+  {
+    "id": 21770,
+    "question": "In what country is Givron?",
+    "subj": "Givron",
+    "prop": "country",
+    "obj": "France",
+    "s_wiki_title": "Givron",
+    "o_wiki_title": "France",
+    "ground_truth": "France",
+    "possible_answers": [
+      "France",
+      "fr",
+      "FR",
+      "République française",
+      "La France",
+      "Republic of France",
+      "French Republic",
+      "FRA",
+      "the Hexagon"
+    ],
+    "s_pop": 91,
+    "o_pop": 486947
+  },
+  {
+    "id": 6164304,
+    "question": "In what country is White, Smith & Company?",
+    "subj": "White, Smith & Company",
+    "prop": "country",
+    "obj": "United States of America",
+    "s_wiki_title": "White, Smith & Company",
+    "o_wiki_title": "United States",
+    "ground_truth": "United States of America",
+    "possible_answers": [
+      "United States of America",
+      "the United States of America",
+      "America",
+      "U.S.A.",
+      "USA",
+      "U.S.",
+      "US",
+      "the US",
+      "the USA",
+      "US of A",
+      "the United States",
+      "U. S. A.",
+      "U. S.",
+      "the States",
+      "the U.S.",
+      "'Merica",
+      "U.S",
+      "United States",
+      "'Murica"
+    ],
+    "s_pop": 145,
+    "o_pop": 1629691
+  },
+  {
+    "id": 5048367,
+    "question": "What genre is Chrome?",
+    "subj": "Chrome",
+    "prop": "genre",
+    "obj": "first-person shooter",
+    "s_wiki_title": "Chrome (video game)",
+    "o_wiki_title": "First-person shooter",
+    "ground_truth": "first-person shooter",
+    "possible_answers": [
+      "first-person shooter",
+      "fps",
+      "first person shooter video games",
+      "first-person shooter video game",
+      "FPS",
+      "FPS game",
+      "FPS video game",
+      "first-person shooter game"
+    ],
+    "s_pop": 1684,
+    "o_pop": 116620
+  },
+  {
+    "id": 2238655,
+    "question": "Who is the mother of Terry Fox?",
+    "subj": "Terry Fox",
+    "prop": "mother",
+    "obj": "Betty Fox",
+    "s_wiki_title": "Terry Fox",
+    "o_wiki_title": "Betty Fox",
+    "ground_truth": "Betty Fox",
+    "possible_answers": [
+      "Betty Fox",
+      "Betty Lou Fox",
+      "Betty Lou Wark",
+      "Betty Wark"
+    ],
+    "s_pop": 42263,
+    "o_pop": 1354
+  },
+  {
+    "id": 3198580,
+    "question": "Who is the mother of Rekha?",
+    "subj": "Rekha",
+    "prop": "mother",
+    "obj": "Pushpavalli",
+    "s_wiki_title": "Rekha",
+    "o_wiki_title": "Pushpavalli",
+    "ground_truth": "Pushpavalli",
+    "possible_answers": [
+      "Pushpavalli",
+      "Kandala Venkata Pushpavalli Tayaramma"
+    ],
+    "s_pop": 244093,
+    "o_pop": 115663
+  },
+  {
+    "id": 1469534,
+    "question": "In what country is Normania Township?",
+    "subj": "Normania Township",
+    "prop": "country",
+    "obj": "United States of America",
+    "s_wiki_title": "Normania Township, Yellow Medicine County, Minnesota",
+    "o_wiki_title": "United States",
+    "ground_truth": "United States of America",
+    "possible_answers": [
+      "United States of America",
+      "the United States of America",
+      "America",
+      "U.S.A.",
+      "USA",
+      "U.S.",
+      "US",
+      "the US",
+      "the USA",
+      "US of A",
+      "the United States",
+      "U. S. A.",
+      "U. S.",
+      "the States",
+      "the U.S.",
+      "'Merica",
+      "U.S",
+      "United States",
+      "'Murica"
+    ],
+    "s_pop": 57,
+    "o_pop": 1629691
+  },
+  {
+    "id": 1580995,
+    "question": "In what country is São Pedro do Sul?",
+    "subj": "São Pedro do Sul",
+    "prop": "country",
+    "obj": "Brazil",
+    "s_wiki_title": "São Pedro do Sul, Rio Grande do Sul",
+    "o_wiki_title": "Brazil",
+    "ground_truth": "Brazil",
+    "possible_answers": [
+      "Brazil",
+      "Federative Republic of Brazil",
+      "BR",
+      "BRA",
+      "br",
+      "🇧🇷"
+    ],
+    "s_pop": 131,
+    "o_pop": 328810
+  },
+  {
+    "id": 5626375,
+    "question": "Who was the producer of Romance?",
+    "subj": "Romance",
+    "prop": "producer",
+    "obj": "Ramanand Sagar",
+    "s_wiki_title": "Romance (1983 film)",
+    "o_wiki_title": "Ramanand Sagar",
+    "ground_truth": "Ramanand Sagar",
+    "possible_answers": [
+      "Ramanand Sagar"
+    ],
+    "s_pop": 1079,
+    "o_pop": 11583
+  },
+  {
+    "id": 176654,
+    "question": "What is the capital of Province of Canada?",
+    "subj": "Province of Canada",
+    "prop": "capital",
+    "obj": "Montreal",
+    "s_wiki_title": "Province of Canada",
+    "o_wiki_title": "Montreal",
+    "ground_truth": "Montreal",
+    "possible_answers": [
+      "Montreal",
+      "Montréal",
+      "City of Montreal",
+      "Montreal, Quebec",
+      "Ville de Montréal",
+      "Ville de Montreal"
+    ],
+    "s_pop": 12566,
+    "o_pop": 131670
+  },
+  {
+    "id": 6133150,
+    "question": "What is the capital of Iraq?",
+    "subj": "Iraq",
+    "prop": "capital",
+    "obj": "Baghdad",
+    "s_wiki_title": "Iraq",
+    "o_wiki_title": "Baghdad",
+    "ground_truth": "Baghdad",
+    "possible_answers": [
+      "Baghdad",
+      "Bagdad",
+      "Baghdād"
+    ],
+    "s_pop": 176047,
+    "o_pop": 55543
+  },
+  {
+    "id": 5378331,
+    "question": "What is Paolo Pellizzari's occupation?",
+    "subj": "Paolo Pellizzari",
+    "prop": "occupation",
+    "obj": "photographer",
+    "s_wiki_title": "Paolo Pellizzari",
+    "o_wiki_title": "Photographer",
+    "ground_truth": "photographer",
+    "possible_answers": [
+      "photographer",
+      "photog",
+      "photographers"
+    ],
+    "s_pop": 74,
+    "o_pop": 10855
+  },
+  {
+    "id": 262766,
+    "question": "What genre is The Storm?",
+    "subj": "The Storm",
+    "prop": "genre",
+    "obj": "disaster film",
+    "s_wiki_title": "The Storm (2009 film)",
+    "o_wiki_title": "Disaster film",
+    "ground_truth": "disaster film",
+    "possible_answers": [
+      "disaster film",
+      "disaster movie"
+    ],
+    "s_pop": 850,
+    "o_pop": 13381
+  },
+  {
+    "id": 207602,
+    "question": "Who was the composer of Out Run?",
+    "subj": "Out Run",
+    "prop": "composer",
+    "obj": "Hiroshi Kawaguchi",
+    "s_wiki_title": "Out Run",
+    "o_wiki_title": "Hiroshi Kawaguchi (composer)",
+    "ground_truth": "Hiroshi Kawaguchi",
+    "possible_answers": [
+      "Hiroshi Kawaguchi",
+      "Hiroshi Miyauchi"
+    ],
+    "s_pop": 7570,
+    "o_pop": 1011
+  },
+  {
+    "id": 2151993,
+    "question": "What is Lincoln the capital of?",
+    "subj": "Lincoln",
+    "prop": "capital of",
+    "obj": "Nebraska",
+    "s_wiki_title": "Lincoln, Nebraska",
+    "o_wiki_title": "Nebraska",
+    "ground_truth": "Nebraska",
+    "possible_answers": [
+      "Nebraska",
+      "NE",
+      "State of Nebraska",
+      "Nebr.",
+      "Neb."
+    ],
+    "s_pop": 27240,
+    "o_pop": 209628
+  },
+  {
+    "id": 6404382,
+    "question": "In what country is Greek?",
+    "subj": "Greek",
+    "prop": "country",
+    "obj": "Turkey",
+    "s_wiki_title": "Greek language",
+    "o_wiki_title": "Turkey",
+    "ground_truth": "Turkey",
+    "possible_answers": [
+      "United Kingdom",
+      "🇬🇧",
+      "UK",
+      "United Kingdom of Great Britain and Northern Ireland",
+      "U.K.",
+      "GBR",
+      "GB",
+      "U. K.",
+      "U K",
+      "G.B.",
+      "G. B.",
+      "G B",
+      "Great Britain",
+      "G.B.R.",
+      "G B R",
+      "Britain",
+      "Great Britain and Northern Ireland",
+      "Russia",
+      "Rossiya",
+      "Rossija",
+      "RU",
+      "ru",
+      "Rossijskaja Federatsija",
+      "Russian Federation",
+      "Rossiyskaya Federatsiya",
+      "Rus",
+      "RUS",
+      "RF",
+      "Canada",
+      "Dominion of Canada",
+      "British North America",
+      "CAN",
+      "CA",
+      "ca",
+      "can",
+      "Can.",
+      "Germany",
+      "FRG",
+      "BRD",
+      "Bundesrepublik Deutschland",
+      "Federal Republic of Germany",
+      "de",
+      "Deutschland",
+      "GER",
+      "BR Deutschland",
+      "DE",
+      "Ukraine",
+      "UA",
+      "UKR",
+      "ua",
+      "Ukrainia",
+      "🇺🇦",
+      "Ukr.",
+      "Ukraina",
+      "Albania",
+      "Republic of Albania",
+      "al",
+      "Republika e Shqipërisë",
+      "Shqipërisë",
+      "🇦🇱",
+      "ALB",
+      "Cyprus",
+      "cy",
+      "🇨🇾",
+      "Greek Cypriot State",
+      "Republic of Cyprus",
+      "Greek Administration of Southern Cyprus",
+      "Kazakhstan",
+      "Republic of Kazakhstan",
+      "kz",
+      "Qazaqstan",
+      "KAZ",
+      "🇰🇿",
+      "Abkhazia",
+      "Abkhasia",
+      "Abkazia",
+      "Abchasia",
+      "Abkhaziya",
+      "United States of America",
+      "the United States of America",
+      "America",
+      "U.S.A.",
+      "USA",
+      "U.S.",
+      "US",
+      "the US",
+      "the USA",
+      "US of A",
+      "the United States",
+      "U. S. A.",
+      "U. S.",
+      "the States",
+      "the U.S.",
+      "'Merica",
+      "U.S",
+      "United States",
+      "'Murica",
+      "Sweden",
+      "Kingdom of Sweden",
+      "SE",
+      "se",
+      "SWE",
+      "🇸🇪",
+      "Italy",
+      "Italia",
+      "Italian Republic",
+      "IT",
+      "🇮🇹",
+      "ITA",
+      "Armenia",
+      "Republic of Armenia",
+      "🇦🇲",
+      "ARM",
+      "AM",
+      "Australia",
+      "Commonwealth of Australia",
+      "AU",
+      "AUS",
+      "au",
+      "British Colony of Australia",
+      "🇦🇺",
+      "Straya",
+      "Aussieland",
+      "Greece",
+      "Hellenic Republic",
+      "Hellas",
+      "gr",
+      "el",
+      "🇬🇷",
+      "Greek Republic",
+      "GRE",
+      "Ellada",
+      "Greek",
+      "Turkey",
+      "Republic of Turkey",
+      "🇹🇷",
+      "TUR",
+      "TR",
+      "Egypt",
+      "Republic of Egypt",
+      "eg",
+      "EGY",
+      "🇪🇬",
+      "Arab Republic of Egypt",
+      "Arab Rep. Egypt",
+      "Rep. Egypt",
+      "Israel",
+      "State of Israel",
+      "il",
+      "🇮🇱",
+      "Holy Land",
+      "the Jewish state",
+      "ISR"
+    ],
+    "s_pop": 117605,
+    "o_pop": 454969
+  },
+  {
+    "id": 6099166,
+    "question": "In what country is Vera?",
+    "subj": "Vera",
+    "prop": "country",
+    "obj": "United States of America",
+    "s_wiki_title": "Vera, Virginia",
+    "o_wiki_title": "United States",
+    "ground_truth": "United States of America",
+    "possible_answers": [
+      "United States of America",
+      "the United States of America",
+      "America",
+      "U.S.A.",
+      "USA",
+      "U.S.",
+      "US",
+      "the US",
+      "the USA",
+      "US of A",
+      "the United States",
+      "U. S. A.",
+      "U. S.",
+      "the States",
+      "the U.S.",
+      "'Merica",
+      "U.S",
+      "United States",
+      "'Murica"
+    ],
+    "s_pop": 66,
+    "o_pop": 1629691
+  },
+  {
+    "id": 558463,
+    "question": "Who was the director of Sunrise?",
+    "subj": "Sunrise",
+    "prop": "director",
+    "obj": "Raymond Longford",
+    "s_wiki_title": "Sunrise (1926 film)",
+    "o_wiki_title": "Raymond Longford",
+    "ground_truth": "Raymond Longford",
+    "possible_answers": [
+      "Raymond Longford",
+      "John Walter Longford"
+    ],
+    "s_pop": 204,
+    "o_pop": 203
+  },
+  {
+    "id": 992567,
+    "question": "Who was the screenwriter for The Search?",
+    "subj": "The Search",
+    "prop": "screenwriter",
+    "obj": "Michel Hazanavicius",
+    "s_wiki_title": "The Search (2014 film)",
+    "o_wiki_title": "Michel Hazanavicius",
+    "ground_truth": "Michel Hazanavicius",
+    "possible_answers": [
+      "Michel Hazanavicius",
+      "Michel Hazanavičius"
+    ],
+    "s_pop": 1310,
+    "o_pop": 5479
+  },
+  {
+    "id": 6336725,
+    "question": "What is Rio de Janeiro the capital of?",
+    "subj": "Rio de Janeiro",
+    "prop": "capital of",
+    "obj": "Brazil",
+    "s_wiki_title": "Rio de Janeiro",
+    "o_wiki_title": "Brazil",
+    "ground_truth": "Brazil",
+    "possible_answers": [
+      "State of Brazil",
+      "Brazil",
+      "Federative Republic of Brazil",
+      "BR",
+      "BRA",
+      "br",
+      "🇧🇷",
+      "Rio de Janeiro",
+      "Rio de Janeiro state",
+      "RJ",
+      "Rio de Janeiro (state)"
+    ],
+    "s_pop": 82513,
+    "o_pop": 328810
+  },
+  {
+    "id": 51112,
+    "question": "What is the capital of Senegal?",
+    "subj": "Senegal",
+    "prop": "capital",
+    "obj": "Dakar",
+    "s_wiki_title": "Senegal",
+    "o_wiki_title": "Dakar",
+    "ground_truth": "Dakar",
+    "possible_answers": [
+      "Dakar"
+    ],
+    "s_pop": 108110,
+    "o_pop": 26897
+  },
+  {
+    "id": 926322,
+    "question": "In what city was Paul Braniff born?",
+    "subj": "Paul Braniff",
+    "prop": "place of birth",
+    "obj": "Portaferry",
+    "s_wiki_title": "Paul Braniff (hurler)",
+    "o_wiki_title": "Portaferry",
+    "ground_truth": "Portaferry",
+    "possible_answers": [
+      "Portaferry",
+      "Portaferry, County Down"
+    ],
+    "s_pop": 85,
+    "o_pop": 1503
+  },
+  {
+    "id": 5154012,
+    "question": "What is Richard Franck's occupation?",
+    "subj": "Richard Franck",
+    "prop": "occupation",
+    "obj": "composer",
+    "s_wiki_title": "Richard Franck",
+    "o_wiki_title": "Composer",
+    "ground_truth": "composer",
+    "possible_answers": [
+      "composer",
+      "pianist"
+    ],
+    "s_pop": 139,
+    "o_pop": 28389
+  },
+  {
+    "id": 1779351,
+    "question": "What genre is Snake River Conspiracy?",
+    "subj": "Snake River Conspiracy",
+    "prop": "genre",
+    "obj": "industrial rock",
+    "s_wiki_title": "Snake River Conspiracy",
+    "o_wiki_title": "Industrial rock",
+    "ground_truth": "industrial rock",
+    "possible_answers": [
+      "industrial rock"
+    ],
+    "s_pop": 1392,
+    "o_pop": 11267
+  },
+  {
+    "id": 1728179,
+    "question": "Who was the screenwriter for A.I. Artificial Intelligence?",
+    "subj": "A.I. Artificial Intelligence",
+    "prop": "screenwriter",
+    "obj": "Ian Watson",
+    "s_wiki_title": "A.I. Artificial Intelligence",
+    "o_wiki_title": "Ian Watson (author)",
+    "ground_truth": "Ian Watson",
+    "possible_answers": [
+      "Ian Watson",
+      "Stanley Kubrick",
+      "Steven Spielberg",
+      "Steven Allan Spielberg",
+      "Spielberg"
+    ],
+    "s_pop": 54344,
+    "o_pop": 5251
+  },
+  {
+    "id": 1677365,
+    "question": "Who was the screenwriter for The Ring?",
+    "subj": "The Ring",
+    "prop": "screenwriter",
+    "obj": "Kōji Suzuki",
+    "s_wiki_title": "The Ring (2002 film)",
+    "o_wiki_title": "Koji Suzuki",
+    "ground_truth": "Kōji Suzuki",
+    "possible_answers": [
+      "Kōji Suzuki",
+      "Koji Suzuki",
+      "Suzuki Kōji",
+      "Suzuki Koji",
+      "Kouji Suzuki"
+    ],
+    "s_pop": 127283,
+    "o_pop": 3253
+  },
+  {
+    "id": 5838023,
+    "question": "Who was the producer of Strand?",
+    "subj": "Strand",
+    "prop": "producer",
+    "obj": "Rouzbeh Rashidi",
+    "s_wiki_title": "Strand (film)",
+    "o_wiki_title": "Rouzbeh Rashidi",
+    "ground_truth": "Rouzbeh Rashidi",
+    "possible_answers": [
+      "Rouzbeh Rashidi"
+    ],
+    "s_pop": 98,
+    "o_pop": 267
+  },
+  {
+    "id": 4581309,
+    "question": "Who was the screenwriter for Island?",
+    "subj": "Island",
+    "prop": "screenwriter",
+    "obj": "Paul Cox",
+    "s_wiki_title": "Island (1989 film)",
+    "o_wiki_title": "Paul Cox (director)",
+    "ground_truth": "Paul Cox",
+    "possible_answers": [
+      "Paul Cox",
+      "Paulus Henriqus Benedictus Cox",
+      "Paulus Henrique Benedictus Cox"
+    ],
+    "s_pop": 166,
+    "o_pop": 852
+  },
+  {
+    "id": 1997153,
+    "question": "Who was the screenwriter for The Passion of Anna?",
+    "subj": "The Passion of Anna",
+    "prop": "screenwriter",
+    "obj": "Ingmar Bergman",
+    "s_wiki_title": "The Passion of Anna",
+    "o_wiki_title": "Ingmar Bergman",
+    "ground_truth": "Ingmar Bergman",
+    "possible_answers": [
+      "Ingmar Bergman",
+      "Ernst Ingmar Bergman"
+    ],
+    "s_pop": 2035,
+    "o_pop": 93841
+  },
+  {
+    "id": 5248300,
+    "question": "What genre is The Simple Life?",
+    "subj": "The Simple Life",
+    "prop": "genre",
+    "obj": "reality television",
+    "s_wiki_title": "The Simple Life",
+    "o_wiki_title": "Reality television",
+    "ground_truth": "reality television",
+    "possible_answers": [
+      "reality television",
+      "reality TV",
+      "reality television program",
+      "reality TV program",
+      "reality television show",
+      "television reality program",
+      "television reality show",
+      "TV reality program",
+      "TV reality show"
+    ],
+    "s_pop": 12496,
+    "o_pop": 40906
+  },
+  {
+    "id": 263653,
+    "question": "Who is the mother of Thomas Jefferson?",
+    "subj": "Thomas Jefferson",
+    "prop": "mother",
+    "obj": "Jane Randolph Jefferson",
+    "s_wiki_title": "Thomas Jefferson",
+    "o_wiki_title": "Jane Randolph Jefferson",
+    "ground_truth": "Jane Randolph Jefferson",
+    "possible_answers": [
+      "Jane Randolph Jefferson"
+    ],
+    "s_pop": 254256,
+    "o_pop": 2684
+  },
+  {
+    "id": 3270459,
+    "question": "In what city was Aleksandar Markovski born?",
+    "subj": "Aleksandar Markovski",
+    "prop": "place of birth",
+    "obj": "Zrenjanin",
+    "s_wiki_title": "Aleksandar Markovski",
+    "o_wiki_title": "Zrenjanin",
+    "ground_truth": "Zrenjanin",
+    "possible_answers": [
+      "Zrenjanin",
+      "Bečkerek"
+    ],
+    "s_pop": 83,
+    "o_pop": 3896
+  },
+  {
+    "id": 1762383,
+    "question": "Who was the screenwriter for Tragic Hunt?",
+    "subj": "Tragic Hunt",
+    "prop": "screenwriter",
+    "obj": "Carlo Lizzani",
+    "s_wiki_title": "Tragic Hunt",
+    "o_wiki_title": "Carlo Lizzani",
+    "ground_truth": "Carlo Lizzani",
+    "possible_answers": [
+      "Carlo Lizzani",
+      "Giuseppe De Santis",
+      "Michelangelo Antonioni",
+      "An-tung-ni-ao-ni"
+    ],
+    "s_pop": 205,
+    "o_pop": 805
+  },
+  {
+    "id": 1342559,
+    "question": "Who was the producer of In the Room?",
+    "subj": "In the Room",
+    "prop": "producer",
+    "obj": "Zhao Wei",
+    "s_wiki_title": "In the Room (film)",
+    "o_wiki_title": "Zhao Wei",
+    "ground_truth": "Zhao Wei",
+    "possible_answers": [
+      "Zhao Wei"
+    ],
+    "s_pop": 2027,
+    "o_pop": 49360
+  },
+  {
+    "id": 631825,
+    "question": "What genre is The Perfect Man?",
+    "subj": "The Perfect Man",
+    "prop": "genre",
+    "obj": "romantic comedy",
+    "s_wiki_title": "The Perfect Man (2005 film)",
+    "o_wiki_title": "Romantic comedy",
+    "ground_truth": "romantic comedy",
+    "possible_answers": [
+      "romantic comedy",
+      "romedy",
+      "romcom"
+    ],
+    "s_pop": 10026,
+    "o_pop": 64579
+  },
+  {
+    "id": 3370309,
+    "question": "Who was the producer of The Holiday?",
+    "subj": "The Holiday",
+    "prop": "producer",
+    "obj": "Nancy Meyers",
+    "s_wiki_title": "The Holiday",
+    "o_wiki_title": "Nancy Meyers",
+    "ground_truth": "Nancy Meyers",
+    "possible_answers": [
+      "Columbia Pictures",
+      "CPII",
+      "Columbia Pictures Industries, Inc.",
+      "Columbia Pictures Entertainment",
+      "Columbia Pictures Corporation",
+      "Nancy Meyers",
+      "Nancy Jane Meyers"
+    ],
+    "s_pop": 101218,
+    "o_pop": 38059
+  },
+  {
+    "id": 2837484,
+    "question": "Who was the screenwriter for The Bride’s Journey?",
+    "subj": "The Bride’s Journey",
+    "prop": "screenwriter",
+    "obj": "Sergio Rubini",
+    "s_wiki_title": "The Bride's Journey",
+    "o_wiki_title": "Sergio Rubini",
+    "ground_truth": "Sergio Rubini",
+    "possible_answers": [
+      "Sergio Rubini"
+    ],
+    "s_pop": 62,
+    "o_pop": 1943
+  },
+  {
+    "id": 5536575,
+    "question": "Who was the screenwriter for The Fan?",
+    "subj": "The Fan",
+    "prop": "screenwriter",
+    "obj": "Walter Reisch",
+    "s_wiki_title": "The Fan (1949 film)",
+    "o_wiki_title": "Walter Reisch",
+    "ground_truth": "Walter Reisch",
+    "possible_answers": [
+      "Walter Reisch"
+    ],
+    "s_pop": 667,
+    "o_pop": 525
+  },
+  {
+    "id": 6235266,
+    "question": "What genre is My Friends?",
+    "subj": "My Friends",
+    "prop": "genre",
+    "obj": "comedy-drama",
+    "s_wiki_title": "My Friends (film)",
+    "o_wiki_title": "Comedy-drama",
+    "ground_truth": "comedy-drama",
+    "possible_answers": [
+      "comedy-drama",
+      "dramedy",
+      "comedic drama",
+      "tragicomedy",
+      "seriocomedy",
+      "comedy drama",
+      "dramatic comedy",
+      "Comedy-drama, dramedy"
+    ],
+    "s_pop": 1463,
+    "o_pop": 36819
+  },
+  {
+    "id": 1761959,
+    "question": "Who is the father of Cable?",
+    "subj": "Cable",
+    "prop": "father",
+    "obj": "Cyclops",
+    "s_wiki_title": "Cable (character)",
+    "o_wiki_title": "Cyclops (Marvel Comics)",
+    "ground_truth": "Cyclops",
+    "possible_answers": [
+      "Cyclops",
+      "Scott Summers"
+    ],
+    "s_pop": 18178,
+    "o_pop": 21344
+  },
+  {
+    "id": 6409891,
+    "question": "What is the capital of Bhutan?",
+    "subj": "Bhutan",
+    "prop": "capital",
+    "obj": "Thimphu",
+    "s_wiki_title": "Bhutan",
+    "o_wiki_title": "Thimphu",
+    "ground_truth": "Thimphu",
+    "possible_answers": [
+      "Thimphu",
+      "Thimpu"
+    ],
+    "s_pop": 165876,
+    "o_pop": 13884
+  },
+  {
+    "id": 3093191,
+    "question": "What is the religion of Franciszek Rogaczewski?",
+    "subj": "Franciszek Rogaczewski",
+    "prop": "religion",
+    "obj": "Catholic Church",
+    "s_wiki_title": "Franciszek Rogaczewski",
+    "o_wiki_title": "Catholic Church",
+    "ground_truth": "Catholic Church",
+    "possible_answers": [
+      "Catholic Church",
+      "Roman Catholic Church",
+      "Church",
+      "Roman Apostolic Catholic Church"
+    ],
+    "s_pop": 78,
+    "o_pop": 195995
+  },
+  {
+    "id": 695842,
+    "question": "Who was the screenwriter for A Little Princess?",
+    "subj": "A Little Princess",
+    "prop": "screenwriter",
+    "obj": "Frances Marion",
+    "s_wiki_title": "A Little Princess (1917 film)",
+    "o_wiki_title": "Frances Marion",
+    "ground_truth": "Frances Marion",
+    "possible_answers": [
+      "Frances Marion"
+    ],
+    "s_pop": 508,
+    "o_pop": 2076
+  },
+  {
+    "id": 5783022,
+    "question": "What is Athens the capital of?",
+    "subj": "Athens",
+    "prop": "capital of",
+    "obj": "Henderson County",
+    "s_wiki_title": "Athens, Texas",
+    "o_wiki_title": "Henderson County, Texas",
+    "ground_truth": "Henderson County",
+    "possible_answers": [
+      "Henderson County",
+      "Henderson County, Texas"
+    ],
+    "s_pop": 3500,
+    "o_pop": 1716
+  },
+  {
+    "id": 218136,
+    "question": "Who was the screenwriter for The Exorcist III?",
+    "subj": "The Exorcist III",
+    "prop": "screenwriter",
+    "obj": "William Peter Blatty",
+    "s_wiki_title": "The Exorcist III",
+    "o_wiki_title": "William Peter Blatty",
+    "ground_truth": "William Peter Blatty",
+    "possible_answers": [
+      "William Peter Blatty"
+    ],
+    "s_pop": 51299,
+    "o_pop": 23761
+  },
+  {
+    "id": 3370313,
+    "question": "Who was the director of The Holiday?",
+    "subj": "The Holiday",
+    "prop": "director",
+    "obj": "Nancy Meyers",
+    "s_wiki_title": "The Holiday",
+    "o_wiki_title": "Nancy Meyers",
+    "ground_truth": "Nancy Meyers",
+    "possible_answers": [
+      "Nancy Meyers",
+      "Nancy Jane Meyers"
+    ],
+    "s_pop": 101218,
+    "o_pop": 38059
+  },
+  {
+    "id": 4889221,
+    "question": "In what country is Kuczynka?",
+    "subj": "Kuczynka",
+    "prop": "country",
+    "obj": "Poland",
+    "s_wiki_title": "Kuczynka",
+    "o_wiki_title": "Poland",
+    "ground_truth": "Poland",
+    "possible_answers": [
+      "Poland",
+      "POL",
+      "Republic of Poland",
+      "PL",
+      "Polska"
+    ],
+    "s_pop": 34,
+    "o_pop": 355720
+  },
+  {
+    "id": 5197650,
+    "question": "What sport does Mohamad Korhani play?",
+    "subj": "Mohamad Korhani",
+    "prop": "sport",
+    "obj": "association football",
+    "s_wiki_title": "Mohamad Korhani",
+    "o_wiki_title": "Association football",
+    "ground_truth": "association football",
+    "possible_answers": [
+      "association football",
+      "football",
+      "soccer"
+    ],
+    "s_pop": 138,
+    "o_pop": 197767
+  },
+  {
+    "id": 149716,
+    "question": "What is Claudio Naranjo's occupation?",
+    "subj": "Claudio Naranjo",
+    "prop": "occupation",
+    "obj": "psychiatrist",
+    "s_wiki_title": "Claudio Naranjo",
+    "o_wiki_title": "Psychiatrist",
+    "ground_truth": "psychiatrist",
+    "possible_answers": [
+      "psychiatrist",
+      "alienist",
+      "head-shrinker",
+      "shrinker"
+    ],
+    "s_pop": 2459,
+    "o_pop": 32596
+  },
+  {
+    "id": 6399551,
+    "question": "What genre is The Thing?",
+    "subj": "The Thing",
+    "prop": "genre",
+    "obj": "science fiction film",
+    "s_wiki_title": "The Thing (2011 film)",
+    "o_wiki_title": "Science fiction film",
+    "ground_truth": "science fiction film",
+    "possible_answers": [
+      "horror film",
+      "horror movie",
+      "science fiction film",
+      "sci-fi film",
+      "science fiction movie",
+      "sci-fi movie",
+      "scifi film",
+      "scifi movie",
+      "sci fi film",
+      "sci fi movie",
+      "scifi-film",
+      "scifi"
+    ],
+    "s_pop": 79535,
+    "o_pop": 41996
+  },
+  {
+    "id": 1014859,
+    "question": "What is the capital of Oklahoma?",
+    "subj": "Oklahoma",
+    "prop": "capital",
+    "obj": "Oklahoma City",
+    "s_wiki_title": "Oklahoma",
+    "o_wiki_title": "Oklahoma City",
+    "ground_truth": "Oklahoma City",
+    "possible_answers": [
+      "Oklahoma City",
+      "Oklahoma City, Oklahoma",
+      "OKC",
+      "Okla. City"
+    ],
+    "s_pop": 236104,
+    "o_pop": 42887
+  },
+  {
+    "id": 580445,
+    "question": "What sport does 1994 Swedish Open play?",
+    "subj": "1994 Swedish Open",
+    "prop": "sport",
+    "obj": "tennis",
+    "s_wiki_title": "1994 Swedish Open",
+    "o_wiki_title": "Tennis",
+    "ground_truth": "tennis",
+    "possible_answers": [
+      "tennis",
+      "lawn tennis",
+      "lawntennis"
+    ],
+    "s_pop": 69,
+    "o_pop": 62513
+  },
+  {
+    "id": 772487,
+    "question": "Who was the director of Into the Deep?",
+    "subj": "Into the Deep",
+    "prop": "director",
+    "obj": "Ron Underwood",
+    "s_wiki_title": "Into the Deep (Once Upon a Time)",
+    "o_wiki_title": "Ron Underwood",
+    "ground_truth": "Ron Underwood",
+    "possible_answers": [
+      "Ron Underwood",
+      "Ronald Brian Underwood"
+    ],
+    "s_pop": 388,
+    "o_pop": 4367
+  },
+  {
+    "id": 3956274,
+    "question": "What genre is Ange?",
+    "subj": "Ange",
+    "prop": "genre",
+    "obj": "progressive rock",
+    "s_wiki_title": "Ange",
+    "o_wiki_title": "Progressive rock",
+    "ground_truth": "progressive rock",
+    "possible_answers": [
+      "progressive rock",
+      "prog-rock",
+      "prog",
+      "classical rock",
+      "symphonic rock",
+      "art rock",
+      "progressive pop",
+      "prog rock",
+      "Progressive Rock"
+    ],
+    "s_pop": 1323,
+    "o_pop": 66527
+  },
+  {
+    "id": 4974601,
+    "question": "Who is the author of Anything Goes?",
+    "subj": "Anything Goes",
+    "prop": "author",
+    "obj": "Russel Crouse",
+    "s_wiki_title": "Anything Goes",
+    "o_wiki_title": "Russel Crouse",
+    "ground_truth": "Russel Crouse",
+    "possible_answers": [
+      "Howard Lindsay",
+      "Herman Nelke",
+      "Russel Crouse",
+      "P. G. Wodehouse",
+      "Pelham Grenville Wodehouse",
+      "Sir Pelham Grenville Wodehouse",
+      "P.G. Wodehouse",
+      "Guy Bolton",
+      "H. B. Trevelyan",
+      "Guy Reginald Bolton"
+    ],
+    "s_pop": 30025,
+    "o_pop": 1748
+  },
+  {
+    "id": 5932260,
+    "question": "What is the capital of Guatemala?",
+    "subj": "Guatemala",
+    "prop": "capital",
+    "obj": "Guatemala City",
+    "s_wiki_title": "Guatemala",
+    "o_wiki_title": "Guatemala City",
+    "ground_truth": "Guatemala City",
+    "possible_answers": [
+      "Guatemala City",
+      "Nueva Guatemala de la Asunción",
+      "City of Guatemala",
+      "Guate",
+      "Ciudad de Guatemala",
+      "Guatemala",
+      "Guatemala (Guatemala)"
+    ],
+    "s_pop": 107674,
+    "o_pop": 22716
+  },
+  {
+    "id": 2274098,
+    "question": "Who was the composer of Reißt euch los, bedrängte Sinnen, BWV 224?",
+    "subj": "Reißt euch los, bedrängte Sinnen, BWV 224",
+    "prop": "composer",
+    "obj": "Johann Sebastian Bach",
+    "s_wiki_title": "Reißt euch los, bedrängte Sinnen, BWV 224",
+    "o_wiki_title": "Johann Sebastian Bach",
+    "ground_truth": "Johann Sebastian Bach",
+    "possible_answers": [
+      "Johann Sebastian Bach",
+      "Bach",
+      "J.S. Bach",
+      "J. S. Bach",
+      "J S Bach"
+    ],
+    "s_pop": 67,
+    "o_pop": 120538
+  },
+  {
+    "id": 1828233,
+    "question": "Who was the producer of You and Me?",
+    "subj": "You and Me",
+    "prop": "producer",
+    "obj": "Fritz Lang",
+    "s_wiki_title": "You and Me (1938 film)",
+    "o_wiki_title": "Fritz Lang",
+    "ground_truth": "Fritz Lang",
+    "possible_answers": [
+      "Fritz Lang",
+      "Friedrich Christian Anton Lang",
+      "Friedrich Christian Anton \"Fritz\" Lang",
+      "Fritz Lang (1890-1976)"
+    ],
+    "s_pop": 606,
+    "o_pop": 27241
+  },
+  {
+    "id": 1677247,
+    "question": "Who was the producer of Rain?",
+    "subj": "Rain",
+    "prop": "producer",
+    "obj": "Lewis Milestone",
+    "s_wiki_title": "Rain (1932 film)",
+    "o_wiki_title": "Lewis Milestone",
+    "ground_truth": "Lewis Milestone",
+    "possible_answers": [
+      "Lewis Milestone",
+      "Leib Milstein"
+    ],
+    "s_pop": 1871,
+    "o_pop": 3680
+  },
+  {
+    "id": 2636385,
+    "question": "Who was the director of Mankatha?",
+    "subj": "Mankatha",
+    "prop": "director",
+    "obj": "Venkat Prabhu",
+    "s_wiki_title": "Mankatha",
+    "o_wiki_title": "Venkat Prabhu",
+    "ground_truth": "Venkat Prabhu",
+    "possible_answers": [
+      "Venkat Prabhu",
+      "Venkat Kumar Gangai Amaren"
+    ],
+    "s_pop": 13211,
+    "o_pop": 19193
+  },
+  {
+    "id": 1633964,
+    "question": "Who is the father of George W. Bush?",
+    "subj": "George W. Bush",
+    "prop": "father",
+    "obj": "George H. W. Bush",
+    "s_wiki_title": "George W. Bush",
+    "o_wiki_title": "George H. W. Bush",
+    "ground_truth": "George H. W. Bush",
+    "possible_answers": [
+      "George H. W. Bush",
+      "George Bush Sr.",
+      "GHW Bush",
+      "George Bush",
+      "George H.W.",
+      "G.H.W. Bush",
+      "GHWB",
+      "George H.W.Bush",
+      "George H. W",
+      "Bush I",
+      "George H W",
+      "George Herbert Bush",
+      "George H. W.",
+      "H W Bush",
+      "George Bush Snr.",
+      "George H. Bush",
+      "Vice President Bush",
+      "H. W. Bush",
+      "G. H. W. Bush",
+      "Herbert Walker Bush",
+      "George H Bush",
+      "Bush Sr.",
+      "G H W Bush",
+      "President Bush",
+      "George Herbert Walker Bush",
+      "President George H. W. Bush",
+      "George H W Bush",
+      "George Bush Sr",
+      "H.W. Bush",
+      "President George H.W. Bush",
+      "Bush Senior",
+      "George Bush Senior",
+      "Bush 41",
+      "George H.W. Bush",
+      "George W. Bush Senior",
+      "George Bush, Sr."
+    ],
+    "s_pop": 311254,
+    "o_pop": 256277
+  },
+  {
+    "id": 5360069,
+    "question": "Who was the director of Out?",
+    "subj": "Out",
+    "prop": "director",
+    "obj": "Lionel Rogosin",
+    "s_wiki_title": "Out (1957 film)",
+    "o_wiki_title": "Lionel Rogosin",
+    "ground_truth": "Lionel Rogosin",
+    "possible_answers": [
+      "Lionel Rogosin"
+    ],
+    "s_pop": 68,
+    "o_pop": 496
+  },
+  {
+    "id": 2339625,
+    "question": "In what country is Nakina railway station?",
+    "subj": "Nakina railway station",
+    "prop": "country",
+    "obj": "Canada",
+    "s_wiki_title": "Nakina station",
+    "o_wiki_title": "Canada",
+    "ground_truth": "Canada",
+    "possible_answers": [
+      "Canada",
+      "Dominion of Canada",
+      "British North America",
+      "CAN",
+      "CA",
+      "ca",
+      "can",
+      "Can."
+    ],
+    "s_pop": 165,
+    "o_pop": 816653
+  },
+  {
+    "id": 3986894,
+    "question": "What sport does Massimo Donati play?",
+    "subj": "Massimo Donati",
+    "prop": "sport",
+    "obj": "association football",
+    "s_wiki_title": "Massimo Donati",
+    "o_wiki_title": "Association football",
+    "ground_truth": "association football",
+    "possible_answers": [
+      "association football",
+      "football",
+      "soccer"
+    ],
+    "s_pop": 1261,
+    "o_pop": 197767
+  },
+  {
+    "id": 1423107,
+    "question": "Who was the screenwriter for Room?",
+    "subj": "Room",
+    "prop": "screenwriter",
+    "obj": "Emma Donoghue",
+    "s_wiki_title": "Room (2015 film)",
+    "o_wiki_title": "Emma Donoghue",
+    "ground_truth": "Emma Donoghue",
+    "possible_answers": [
+      "Emma Donoghue"
+    ],
+    "s_pop": 56453,
+    "o_pop": 5086
+  },
+  {
+    "id": 1824126,
+    "question": "Who was the composer of Lost?",
+    "subj": "Lost",
+    "prop": "composer",
+    "obj": "Michael Giacchino",
+    "s_wiki_title": "Lost (TV series)",
+    "o_wiki_title": "Michael Giacchino",
+    "ground_truth": "Michael Giacchino",
+    "possible_answers": [
+      "Michael Giacchino",
+      "Michael George Giacchino"
+    ],
+    "s_pop": 154447,
+    "o_pop": 44355
+  },
+  {
+    "id": 2100090,
+    "question": "In what country is Donji Matejevac?",
+    "subj": "Donji Matejevac",
+    "prop": "country",
+    "obj": "Serbia",
+    "s_wiki_title": "Donji Matejevac",
+    "o_wiki_title": "Serbia",
+    "ground_truth": "Serbia",
+    "possible_answers": [
+      "Serbia",
+      "🇷🇸",
+      "Republic of Serbia",
+      "Republika Srbija",
+      "rs",
+      "Srbija",
+      "SRB",
+      "RS"
+    ],
+    "s_pop": 78,
+    "o_pop": 232782
+  },
+  {
+    "id": 3323678,
+    "question": "What is the religion of Andover Newton Theological School?",
+    "subj": "Andover Newton Theological School",
+    "prop": "religion",
+    "obj": "American Baptist Churches USA",
+    "s_wiki_title": "Andover Newton Theological School",
+    "o_wiki_title": "American Baptist Churches USA",
+    "ground_truth": "American Baptist Churches USA",
+    "possible_answers": [
+      "American Baptist Churches USA"
+    ],
+    "s_pop": 854,
+    "o_pop": 6035
+  },
+  {
+    "id": 2922047,
+    "question": "Who was the producer of Agony?",
+    "subj": "Agony",
+    "prop": "producer",
+    "obj": "Elem Klimov",
+    "s_wiki_title": "Agony (1981 film)",
+    "o_wiki_title": "Elem Klimov",
+    "ground_truth": "Elem Klimov",
+    "possible_answers": [
+      "Elem Klimov",
+      "Elem Germanovich Klimov"
+    ],
+    "s_pop": 1099,
+    "o_pop": 7100
+  },
+  {
+    "id": 1340076,
+    "question": "Who is the author of King Lear?",
+    "subj": "King Lear",
+    "prop": "author",
+    "obj": "William Shakespeare",
+    "s_wiki_title": "King Lear",
+    "o_wiki_title": "William Shakespeare",
+    "ground_truth": "William Shakespeare",
+    "possible_answers": [
+      "William Shakespeare",
+      "Shakespeare",
+      "The Bard",
+      "The Bard of Avon",
+      "William Shakspere",
+      "Swan of Avon",
+      "Bard of Avon",
+      "Shakespere",
+      "Shakespear",
+      "Shakspeare",
+      "Shackspeare",
+      "William Shake‐ſpeare"
+    ],
+    "s_pop": 56971,
+    "o_pop": 439673
+  },
+  {
+    "id": 315905,
+    "question": "What is Jerusalem the capital of?",
+    "subj": "Jerusalem",
+    "prop": "capital of",
+    "obj": "State of Palestine",
+    "s_wiki_title": "Jerusalem",
+    "o_wiki_title": "State of Palestine",
+    "ground_truth": "State of Palestine",
+    "possible_answers": [
+      "Jerusalem District",
+      "Mandatory Palestine",
+      "British Mandate for Palestine",
+      "Palestine",
+      "British Palestine",
+      "Mandate Palestine",
+      "State of Palestine",
+      "🇵🇸",
+      "Palestinian state",
+      "Palestine",
+      "Palestinian National Authority",
+      "Palestinian Authority",
+      "Judah",
+      "Kingdom of Judah",
+      "Kingdom of Judea",
+      "Southern Kingdom",
+      "Kingdom Of Judah",
+      "Kingdom of Jerusalem",
+      "Latin Kingdom of Jerusalem",
+      "Jerusalem",
+      "Israel",
+      "State of Israel",
+      "il",
+      "🇮🇱",
+      "Holy Land",
+      "the Jewish state",
+      "ISR"
+    ],
+    "s_pop": 136734,
+    "o_pop": 135275
+  },
+  {
+    "id": 5895036,
+    "question": "What genre is Tempting The Gods: The Selected Stories of Tanith Lee, Volume 1?",
+    "subj": "Tempting The Gods: The Selected Stories of Tanith Lee, Volume 1",
+    "prop": "genre",
+    "obj": "short story",
+    "s_wiki_title": "Tempting The Gods: The Selected Stories of Tanith Lee, Volume 1",
+    "o_wiki_title": "Short story",
+    "ground_truth": "short story",
+    "possible_answers": [
+      "fantasy",
+      "fantasy fiction",
+      "short story",
+      "tale",
+      "pripovijetka"
+    ],
+    "s_pop": 70,
+    "o_pop": 60371
+  },
+  {
+    "id": 2493408,
+    "question": "What genre is The Capture?",
+    "subj": "The Capture",
+    "prop": "genre",
+    "obj": "thriller",
+    "s_wiki_title": "The Capture (film)",
+    "o_wiki_title": "Thriller (genre)",
+    "ground_truth": "thriller",
+    "possible_answers": [
+      "thriller",
+      "suspense",
+      "thriller television program",
+      "thriller TV program",
+      "thriller television show",
+      "thriller TV show",
+      "suspense television program",
+      "suspense TV program",
+      "suspense television show",
+      "suspense TV show"
+    ],
+    "s_pop": 513,
+    "o_pop": 144161
+  },
+  {
+    "id": 1775656,
+    "question": "Who is the author of Post Office?",
+    "subj": "Post Office",
+    "prop": "author",
+    "obj": "Charles Bukowski",
+    "s_wiki_title": "Post Office (novel)",
+    "o_wiki_title": "Charles Bukowski",
+    "ground_truth": "Charles Bukowski",
+    "possible_answers": [
+      "Charles Bukowski",
+      "Henry Charles Bukowski",
+      "Buk",
+      "charles bukowski"
+    ],
+    "s_pop": 4326,
+    "o_pop": 75112
+  },
+  {
+    "id": 1705692,
+    "question": "Who is the father of David I of Scotland?",
+    "subj": "David I of Scotland",
+    "prop": "father",
+    "obj": "Malcolm III of Scotland",
+    "s_wiki_title": "David I of Scotland",
+    "o_wiki_title": "Malcolm III of Scotland",
+    "ground_truth": "Malcolm III of Scotland",
+    "possible_answers": [
+      "Malcolm III of Scotland",
+      "Malcolm Canmore"
+    ],
+    "s_pop": 13103,
+    "o_pop": 10069
+  },
+  {
+    "id": 246233,
+    "question": "What is the capital of Ghana?",
+    "subj": "Ghana",
+    "prop": "capital",
+    "obj": "Accra",
+    "s_wiki_title": "Ghana",
+    "o_wiki_title": "Accra",
+    "ground_truth": "Accra",
+    "possible_answers": [
+      "Accra"
+    ],
+    "s_pop": 173146,
+    "o_pop": 33751
+  },
+  {
+    "id": 4078079,
+    "question": "What genre is Evil?",
+    "subj": "Evil",
+    "prop": "genre",
+    "obj": "alternative rock",
+    "s_wiki_title": "Evil (Grinderman song)",
+    "o_wiki_title": "Alternative rock",
+    "ground_truth": "alternative rock",
+    "possible_answers": [
+      "alternative rock",
+      "alternative music",
+      "alt-rock",
+      "alternative",
+      "alt rock",
+      "pop/rock",
+      "Alternative Rock"
+    ],
+    "s_pop": 52,
+    "o_pop": 138822
+  },
+  {
+    "id": 2165304,
+    "question": "What genre is Higher and Higher?",
+    "subj": "Higher and Higher",
+    "prop": "genre",
+    "obj": "musical film",
+    "s_wiki_title": "Higher and Higher (film)",
+    "o_wiki_title": "Musical film",
+    "ground_truth": "musical film",
+    "possible_answers": [
+      "musical film",
+      "musical movie"
+    ],
+    "s_pop": 796,
+    "o_pop": 22860
+  },
+  {
+    "id": 3497437,
+    "question": "Who was the composer of Big B?",
+    "subj": "Big B",
+    "prop": "composer",
+    "obj": "Alphons Joseph",
+    "s_wiki_title": "Big B (film)",
+    "o_wiki_title": "Alphons Joseph",
+    "ground_truth": "Alphons Joseph",
+    "possible_answers": [
+      "Alphons Joseph"
+    ],
+    "s_pop": 7542,
+    "o_pop": 3600
+  },
+  {
+    "id": 6300318,
+    "question": "Who was the producer of The Fountain?",
+    "subj": "The Fountain",
+    "prop": "producer",
+    "obj": "Iain Smith",
+    "s_wiki_title": "The Fountain",
+    "o_wiki_title": "Iain Smith (producer)",
+    "ground_truth": "Iain Smith",
+    "possible_answers": [
+      "Iain Smith"
+    ],
+    "s_pop": 29036,
+    "o_pop": 1215
+  },
+  {
+    "id": 504663,
+    "question": "What is the capital of Virginia?",
+    "subj": "Virginia",
+    "prop": "capital",
+    "obj": "Richmond",
+    "s_wiki_title": "Virginia",
+    "o_wiki_title": "Richmond, Virginia",
+    "ground_truth": "Richmond",
+    "possible_answers": [
+      "Richmond",
+      "Richmond, Virginia",
+      "Richmond, VA",
+      "Richmond City"
+    ],
+    "s_pop": 289975,
+    "o_pop": 57223
+  },
+  {
+    "id": 1818407,
+    "question": "In what country is Mrákotín?",
+    "subj": "Mrákotín",
+    "prop": "country",
+    "obj": "Czech Republic",
+    "s_wiki_title": "Mrákotín (Chrudim District)",
+    "o_wiki_title": "Czech Republic",
+    "ground_truth": "Czech Republic",
+    "possible_answers": [
+      "Czech Republic",
+      "CZR",
+      "cz",
+      "Česko",
+      "Česká republika",
+      "ČR",
+      "cze",
+      "CZE",
+      "Czechia"
+    ],
+    "s_pop": 45,
+    "o_pop": 271047
+  },
+  {
+    "id": 3024635,
+    "question": "What sport does Nobuhiro Ishizaki play?",
+    "subj": "Nobuhiro Ishizaki",
+    "prop": "sport",
+    "obj": "association football",
+    "s_wiki_title": "Nobuhiro Ishizaki",
+    "o_wiki_title": "Association football",
+    "ground_truth": "association football",
+    "possible_answers": [
+      "association football",
+      "football",
+      "soccer"
+    ],
+    "s_pop": 132,
+    "o_pop": 197767
+  },
+  {
+    "id": 304013,
+    "question": "What is the capital of Appenzell Ausserrhoden?",
+    "subj": "Appenzell Ausserrhoden",
+    "prop": "capital",
+    "obj": "Trogen",
+    "s_wiki_title": "Appenzell Ausserrhoden",
+    "o_wiki_title": "Trogen",
+    "ground_truth": "Trogen",
+    "possible_answers": [
+      "Herisau",
+      "Herisau AR",
+      "Trogen",
+      "Trogen AR"
+    ],
+    "s_pop": 2001,
+    "o_pop": 180
+  },
+  {
+    "id": 1729004,
+    "question": "What genre is Star Trek: First Contact?",
+    "subj": "Star Trek: First Contact",
+    "prop": "genre",
+    "obj": "science fiction film",
+    "s_wiki_title": "Star Trek: First Contact",
+    "o_wiki_title": "Science fiction film",
+    "ground_truth": "science fiction film",
+    "possible_answers": [
+      "science fiction film",
+      "sci-fi film",
+      "science fiction movie",
+      "sci-fi movie",
+      "scifi film",
+      "scifi movie",
+      "sci fi film",
+      "sci fi movie",
+      "scifi-film",
+      "scifi"
+    ],
+    "s_pop": 28689,
+    "o_pop": 41996
+  },
+  {
+    "id": 6502612,
+    "question": "What color is Arsenal F.C.?",
+    "subj": "Arsenal F.C.",
+    "prop": "color",
+    "obj": "red",
+    "s_wiki_title": "Arsenal F.C.",
+    "o_wiki_title": "Red",
+    "ground_truth": "red",
+    "possible_answers": [
+      "red",
+      "red color"
+    ],
+    "s_pop": 319409,
+    "o_pop": 51772
+  },
+  {
+    "id": 1202978,
+    "question": "In what country is canton of Marseille-La Pomme?",
+    "subj": "canton of Marseille-La Pomme",
+    "prop": "country",
+    "obj": "France",
+    "s_wiki_title": "Canton of Marseille-La Pomme",
+    "o_wiki_title": "France",
+    "ground_truth": "France",
+    "possible_answers": [
+      "France",
+      "fr",
+      "FR",
+      "République française",
+      "La France",
+      "Republic of France",
+      "French Republic",
+      "FRA",
+      "the Hexagon"
+    ],
+    "s_pop": 57,
+    "o_pop": 486947
+  },
+  {
+    "id": 3549358,
+    "question": "What genre is Born Ruffians?",
+    "subj": "Born Ruffians",
+    "prop": "genre",
+    "obj": "indie rock",
+    "s_wiki_title": "Born Ruffians",
+    "o_wiki_title": "Indie rock",
+    "ground_truth": "indie rock",
+    "possible_answers": [
+      "indie rock",
+      "Independent rock",
+      "Indie Rock"
+    ],
+    "s_pop": 959,
+    "o_pop": 68145
+  },
+  {
+    "id": 692190,
+    "question": "Who is the author of Yakari?",
+    "subj": "Yakari",
+    "prop": "author",
+    "obj": "Job",
+    "s_wiki_title": "Yakari",
+    "o_wiki_title": "Job (comics)",
+    "ground_truth": "Job",
+    "possible_answers": [
+      "Job"
+    ],
+    "s_pop": 1857,
+    "o_pop": 157
+  },
+  {
+    "id": 1683301,
+    "question": "Who was the producer of Warning?",
+    "subj": "Warning",
+    "prop": "producer",
+    "obj": "Green Day",
+    "s_wiki_title": "Warning (Green Day album)",
+    "o_wiki_title": "Green Day",
+    "ground_truth": "Green Day",
+    "possible_answers": [
+      "Green Day",
+      "Greenday"
+    ],
+    "s_pop": 10335,
+    "o_pop": 134971
+  },
+  {
+    "id": 494409,
+    "question": "Who was the producer of Halloween?",
+    "subj": "Halloween",
+    "prop": "producer",
+    "obj": "John Carpenter",
+    "s_wiki_title": "Halloween (franchise)",
+    "o_wiki_title": "John Carpenter",
+    "ground_truth": "John Carpenter",
+    "possible_answers": [
+      "John Carpenter",
+      "John Howard Carpenter"
+    ],
+    "s_pop": 1137224,
+    "o_pop": 487945
+  },
+  {
+    "id": 4305353,
+    "question": "In what city was Gyula Czimra born?",
+    "subj": "Gyula Czimra",
+    "prop": "place of birth",
+    "obj": "Budapest",
+    "s_wiki_title": "Gyula Czimra",
+    "o_wiki_title": "Budapest",
+    "ground_truth": "Budapest",
+    "possible_answers": [
+      "Budapest",
+      "Buda Pest",
+      "Buda-Pest",
+      "Budapešť",
+      "Budapesta",
+      "Budapeszt",
+      "Buda",
+      "Ofen",
+      "Budín",
+      "Budim",
+      "Budon",
+      "Pest",
+      "Pešť",
+      "Pešta",
+      "Óbuda",
+      "Alt-Ofen",
+      "Kőbánya"
+    ],
+    "s_pop": 46,
+    "o_pop": 134197
+  },
+  {
+    "id": 3682685,
+    "question": "What is Charles A. Gillespie, Jr.'s occupation?",
+    "subj": "Charles A. Gillespie, Jr.",
+    "prop": "occupation",
+    "obj": "diplomat",
+    "s_wiki_title": "Charles A. Gillespie Jr.",
+    "o_wiki_title": "Diplomat",
+    "ground_truth": "diplomat",
+    "possible_answers": [
+      "diplomat"
+    ],
+    "s_pop": 107,
+    "o_pop": 14886
+  },
+  {
+    "id": 1290885,
+    "question": "Who was the producer of Restless?",
+    "subj": "Restless",
+    "prop": "producer",
+    "obj": "Bryce Dallas Howard",
+    "s_wiki_title": "Restless (2011 film)",
+    "o_wiki_title": "Bryce Dallas Howard",
+    "ground_truth": "Bryce Dallas Howard",
+    "possible_answers": [
+      "Ron Howard",
+      "Ronald William Howard",
+      "Bryce Dallas Howard",
+      "Brian Grazer",
+      "El Grazer"
+    ],
+    "s_pop": 3266,
+    "o_pop": 182414
+  },
+  {
+    "id": 3171050,
+    "question": "Who is the father of Corbin Bleu?",
+    "subj": "Corbin Bleu",
+    "prop": "father",
+    "obj": "David Reivers",
+    "s_wiki_title": "Corbin Bleu",
+    "o_wiki_title": "David Reivers",
+    "ground_truth": "David Reivers",
+    "possible_answers": [
+      "David Reivers"
+    ],
+    "s_pop": 29552,
+    "o_pop": 2042
+  },
+  {
+    "id": 6554019,
+    "question": "What is the capital of California?",
+    "subj": "California",
+    "prop": "capital",
+    "obj": "Sacramento",
+    "s_wiki_title": "California",
+    "o_wiki_title": "Sacramento, California",
+    "ground_truth": "Sacramento",
+    "possible_answers": [
+      "Sacramento",
+      "Sac-Town",
+      "Sac",
+      "The Indomitable City",
+      "City of Trees",
+      "The Big Tomato",
+      "The Capitol City",
+      "Sacramento, California",
+      "Camellia City",
+      "River City"
+    ],
+    "s_pop": 766733,
+    "o_pop": 127391
+  },
+  {
+    "id": 4346605,
+    "question": "What is Harvey William Burk's occupation?",
+    "subj": "Harvey William Burk",
+    "prop": "occupation",
+    "obj": "politician",
+    "s_wiki_title": "Harvey William Burk",
+    "o_wiki_title": "Politician",
+    "ground_truth": "politician",
+    "possible_answers": [
+      "politician",
+      "political leader",
+      "political figure",
+      "polit.",
+      "pol"
+    ],
+    "s_pop": 52,
+    "o_pop": 25692
+  },
+  {
+    "id": 1950413,
+    "question": "In what country is El Mourouj?",
+    "subj": "El Mourouj",
+    "prop": "country",
+    "obj": "Tunisia",
+    "s_wiki_title": "El Mourouj",
+    "o_wiki_title": "Tunisia",
+    "ground_truth": "Tunisia",
+    "possible_answers": [
+      "Tunisia",
+      "Republic of Tunisia",
+      "Tunisian Republic",
+      "tn",
+      "🇹🇳",
+      "TUN"
+    ],
+    "s_pop": 333,
+    "o_pop": 140030
+  },
+  {
+    "id": 179571,
+    "question": "Who was the composer of Locus iste?",
+    "subj": "Locus iste",
+    "prop": "composer",
+    "obj": "Anton Bruckner",
+    "s_wiki_title": "Locus iste (Bruckner)",
+    "o_wiki_title": "Anton Bruckner",
+    "ground_truth": "Anton Bruckner",
+    "possible_answers": [
+      "Anton Bruckner",
+      "Josef Anton Bruckner",
+      "Bruckner",
+      "Anton Josef Bruckner",
+      "Joseph Anton Bruckner",
+      "Anton Joseph Bruckner",
+      "Anton Brückner"
+    ],
+    "s_pop": 1372,
+    "o_pop": 13060
+  },
+  {
+    "id": 2409641,
+    "question": "Who was the producer of Jeans?",
+    "subj": "Jeans",
+    "prop": "producer",
+    "obj": "Sunanda Murali Manohar",
+    "s_wiki_title": "Jeans (film)",
+    "o_wiki_title": "Sunanda Murali Manohar",
+    "ground_truth": "Sunanda Murali Manohar",
+    "possible_answers": [
+      "Ashok Amritraj",
+      "Sunanda Murali Manohar"
+    ],
+    "s_pop": 24650,
+    "o_pop": 1893
+  },
+  {
+    "id": 1722400,
+    "question": "What is Rome the capital of?",
+    "subj": "Rome",
+    "prop": "capital of",
+    "obj": "Papal States",
+    "s_wiki_title": "Rome",
+    "o_wiki_title": "Papal States",
+    "ground_truth": "Papal States",
+    "possible_answers": [
+      "Lazio",
+      "Province of Rome",
+      "provincia di Roma",
+      "Papal States",
+      "Papal State",
+      "Church State",
+      "State of the Church",
+      "Stato della Chiesa",
+      "Status Ecclesiae",
+      "Ecclesiastical States",
+      "Roman Republic",
+      "res publica",
+      "Rome",
+      "Roman Empire",
+      "Imperium Romanum",
+      "Romanum imperium",
+      "imperium romanum",
+      "Senatus Populusque Romanus",
+      "Italy",
+      "Italia",
+      "Italian Republic",
+      "IT",
+      "🇮🇹",
+      "ITA"
+    ],
+    "s_pop": 193323,
+    "o_pop": 52067
+  },
+  {
+    "id": 4626587,
+    "question": "What is James M. Geraghty's occupation?",
+    "subj": "James M. Geraghty",
+    "prop": "occupation",
+    "obj": "politician",
+    "s_wiki_title": "James M. Geraghty",
+    "o_wiki_title": "Politician",
+    "ground_truth": "politician",
+    "possible_answers": [
+      "lawyer",
+      "attorney",
+      "solicitor",
+      "barrister",
+      "lawyers",
+      "politician",
+      "political leader",
+      "political figure",
+      "polit.",
+      "pol"
+    ],
+    "s_pop": 66,
+    "o_pop": 25692
+  },
+  {
+    "id": 1349568,
+    "question": "Who was the producer of About Face?",
+    "subj": "About Face",
+    "prop": "producer",
+    "obj": "Hal Roach",
+    "s_wiki_title": "About Face (1942 film)",
+    "o_wiki_title": "Hal Roach",
+    "ground_truth": "Hal Roach",
+    "possible_answers": [
+      "Hal Roach"
+    ],
+    "s_pop": 154,
+    "o_pop": 9198
+  },
+  {
+    "id": 6547738,
+    "question": "What is Superior the capital of?",
+    "subj": "Superior",
+    "prop": "capital of",
+    "obj": "Douglas County",
+    "s_wiki_title": "Superior, Wisconsin",
+    "o_wiki_title": "Douglas County, Wisconsin",
+    "ground_truth": "Douglas County",
+    "possible_answers": [
+      "Douglas County",
+      "Douglas County, Wisconsin"
+    ],
+    "s_pop": 5811,
+    "o_pop": 1437
+  },
+  {
+    "id": 389221,
+    "question": "Who is the author of From Hell letter?",
+    "subj": "From Hell letter",
+    "prop": "author",
+    "obj": "Jack the Ripper",
+    "s_wiki_title": "From Hell letter",
+    "o_wiki_title": "Jack the Ripper",
+    "ground_truth": "Jack the Ripper",
+    "possible_answers": [
+      "Jack the Ripper",
+      "The Whitechapel Murderer",
+      "Whitechapel Murderer",
+      "Leather Apron"
+    ],
+    "s_pop": 24403,
+    "o_pop": 206442
+  },
+  {
+    "id": 1900421,
+    "question": "Who was the composer of Frozen?",
+    "subj": "Frozen",
+    "prop": "composer",
+    "obj": "Robert Lopez",
+    "s_wiki_title": "Frozen (2013 film)",
+    "o_wiki_title": "Robert Lopez",
+    "ground_truth": "Robert Lopez",
+    "possible_answers": [
+      "Christophe Beck",
+      "Jean-Christophe Beck",
+      "Robert Lopez",
+      "Robert Joseph Lopez",
+      "Kristen Anderson-Lopez",
+      "Kristen Anderson",
+      "Kristen Jane Anderson"
+    ],
+    "s_pop": 116766,
+    "o_pop": 14437
+  },
+  {
+    "id": 3213622,
+    "question": "In what city was Abraham Raimbach born?",
+    "subj": "Abraham Raimbach",
+    "prop": "place of birth",
+    "obj": "London",
+    "s_wiki_title": "Abraham Raimbach",
+    "o_wiki_title": "London",
+    "ground_truth": "London",
+    "possible_answers": [
+      "London",
+      "London, UK",
+      "London, United Kingdom",
+      "London, England",
+      "Modern Babylon"
+    ],
+    "s_pop": 91,
+    "o_pop": 523018
+  },
+  {
+    "id": 5296241,
+    "question": "Who was the producer of On the Run?",
+    "subj": "On the Run",
+    "prop": "producer",
+    "obj": "Jay Chou",
+    "s_wiki_title": "On the Run!",
+    "o_wiki_title": "Jay Chou",
+    "ground_truth": "Jay Chou",
+    "possible_answers": [
+      "Jay Chou",
+      "Zhou Jielun",
+      "Chou Chieh-lun",
+      "sheldon"
+    ],
+    "s_pop": 487,
+    "o_pop": 33295
+  },
+  {
+    "id": 1612356,
+    "question": "Who was the producer of 18?",
+    "subj": "18",
+    "prop": "producer",
+    "obj": "Moby",
+    "s_wiki_title": "18 (Moby album)",
+    "o_wiki_title": "Moby",
+    "ground_truth": "Moby",
+    "possible_answers": [
+      "Moby",
+      "Richard Melville Hall",
+      "Voodoo Child",
+      "Barracuda",
+      "Brainstorm",
+      "Schaumgummi",
+      "Pippy Baliunas",
+      "UHF",
+      "Elizabeth McBride"
+    ],
+    "s_pop": 3427,
+    "o_pop": 88473
+  },
+  {
+    "id": 237675,
+    "question": "What genre is Nine Inch Nails?",
+    "subj": "Nine Inch Nails",
+    "prop": "genre",
+    "obj": "industrial metal",
+    "s_wiki_title": "Nine Inch Nails",
+    "o_wiki_title": "Industrial metal",
+    "ground_truth": "industrial metal",
+    "possible_answers": [
+      "alternative rock",
+      "alternative music",
+      "alt-rock",
+      "alternative",
+      "alt rock",
+      "pop/rock",
+      "Alternative Rock",
+      "ambient music",
+      "ambient",
+      "Ambient",
+      "industrial metal",
+      "Industrial Metal",
+      "industrial music",
+      "industrial",
+      "industrial rock"
+    ],
+    "s_pop": 78652,
+    "o_pop": 15760
+  },
+  {
+    "id": 6295671,
+    "question": "What is London the capital of?",
+    "subj": "London",
+    "prop": "capital of",
+    "obj": "England",
+    "s_wiki_title": "London",
+    "o_wiki_title": "England",
+    "ground_truth": "England",
+    "possible_answers": [
+      "Kingdom of Essex",
+      "kingdom of the East Saxons",
+      "Essex",
+      "United Kingdom",
+      "🇬🇧",
+      "UK",
+      "United Kingdom of Great Britain and Northern Ireland",
+      "U.K.",
+      "GBR",
+      "GB",
+      "U. K.",
+      "U K",
+      "G.B.",
+      "G. B.",
+      "G B",
+      "Great Britain",
+      "G.B.R.",
+      "G B R",
+      "Britain",
+      "Great Britain and Northern Ireland",
+      "Great Britain",
+      "United Kingdom of Great Britain",
+      "UK",
+      "GB",
+      "UKGB",
+      "Kingdom of Great Britain",
+      "United Kingdom of Great Britain and Ireland",
+      "United Kingdom",
+      "UK",
+      "GB",
+      "UKGBI",
+      "Great Britain and Ireland",
+      "the United Kingdom",
+      "Britain",
+      "Kingdom of England",
+      "England",
+      "England",
+      "British North America",
+      "British America",
+      "Commonwealth of England",
+      "English Republic",
+      "Commonwealth",
+      "Interregnum",
+      "Protectorate",
+      "Commonwealth of England, Scotland and Ireland"
+    ],
+    "s_pop": 523018,
+    "o_pop": 445438
+  },
+  {
+    "id": 5578918,
+    "question": "In what city was Richard S. Bull born?",
+    "subj": "Richard S. Bull",
+    "prop": "place of birth",
+    "obj": "Wilkinsburg",
+    "s_wiki_title": "Richard S. Bull",
+    "o_wiki_title": "Wilkinsburg, Pennsylvania",
+    "ground_truth": "Wilkinsburg",
+    "possible_answers": [
+      "Wilkinsburg"
+    ],
+    "s_pop": 27,
+    "o_pop": 5079
+  },
+  {
+    "id": 5921506,
+    "question": "What genre is The Details?",
+    "subj": "The Details",
+    "prop": "genre",
+    "obj": "indie rock",
+    "s_wiki_title": "The Details",
+    "o_wiki_title": "Indie rock",
+    "ground_truth": "indie rock",
+    "possible_answers": [
+      "indie rock",
+      "Independent rock",
+      "Indie Rock"
+    ],
+    "s_pop": 158,
+    "o_pop": 68145
+  },
+  {
+    "id": 471946,
+    "question": "Who was the producer of Light It Up?",
+    "subj": "Light It Up",
+    "prop": "producer",
+    "obj": "Tracey Edmonds",
+    "s_wiki_title": "Light It Up (film)",
+    "o_wiki_title": "Tracey Edmonds",
+    "ground_truth": "Tracey Edmonds",
+    "possible_answers": [
+      "Tracey Edmonds",
+      "Tracey Elaine Edmonds",
+      "Tracey Elaine McQuarn"
+    ],
+    "s_pop": 3930,
+    "o_pop": 20499
+  },
+  {
+    "id": 468550,
+    "question": "Who was the screenwriter for The Heat?",
+    "subj": "The Heat",
+    "prop": "screenwriter",
+    "obj": "Katie Dippold",
+    "s_wiki_title": "The Heat (film)",
+    "o_wiki_title": "Katie Dippold",
+    "ground_truth": "Katie Dippold",
+    "possible_answers": [
+      "Katie Dippold"
+    ],
+    "s_pop": 16816,
+    "o_pop": 3162
+  },
+  {
+    "id": 1056532,
+    "question": "What is Tyler, the Creator's occupation?",
+    "subj": "Tyler, the Creator",
+    "prop": "occupation",
+    "obj": "record producer",
+    "s_wiki_title": "Tyler, the Creator",
+    "o_wiki_title": "Record producer",
+    "ground_truth": "record producer",
+    "possible_answers": [
+      "record producer",
+      "music producer",
+      "actor",
+      "actress",
+      "actors",
+      "actresses",
+      "graphic designer"
+    ],
+    "s_pop": 194634,
+    "o_pop": 42844
+  },
+  {
+    "id": 5435300,
+    "question": "In what country is Peterson?",
+    "subj": "Peterson",
+    "prop": "country",
+    "obj": "United States of America",
+    "s_wiki_title": "Peterson, Indiana",
+    "o_wiki_title": "United States",
+    "ground_truth": "United States of America",
+    "possible_answers": [
+      "United States of America",
+      "the United States of America",
+      "America",
+      "U.S.A.",
+      "USA",
+      "U.S.",
+      "US",
+      "the US",
+      "the USA",
+      "US of A",
+      "the United States",
+      "U. S. A.",
+      "U. S.",
+      "the States",
+      "the U.S.",
+      "'Merica",
+      "U.S",
+      "United States",
+      "'Murica"
+    ],
+    "s_pop": 47,
+    "o_pop": 1629691
+  },
+  {
+    "id": 2675600,
+    "question": "Who was the producer of The Tune?",
+    "subj": "The Tune",
+    "prop": "producer",
+    "obj": "Bill Plympton",
+    "s_wiki_title": "The Tune",
+    "o_wiki_title": "Bill Plympton",
+    "ground_truth": "Bill Plympton",
+    "possible_answers": [
+      "Bill Plympton",
+      "William Plympton"
+    ],
+    "s_pop": 583,
+    "o_pop": 2820
+  },
+  {
+    "id": 5387973,
+    "question": "Who was the director of Passenger?",
+    "subj": "Passenger",
+    "prop": "director",
+    "obj": "Ranjith Sankar",
+    "s_wiki_title": "Passenger (2009 film)",
+    "o_wiki_title": "Ranjith Sankar",
+    "ground_truth": "Ranjith Sankar",
+    "possible_answers": [
+      "Ranjith Sankar"
+    ],
+    "s_pop": 1489,
+    "o_pop": 5284
+  },
+  {
+    "id": 388973,
+    "question": "What genre is Banjo-Kazooie?",
+    "subj": "Banjo-Kazooie",
+    "prop": "genre",
+    "obj": "platform game",
+    "s_wiki_title": "Banjo-Kazooie (video game)",
+    "o_wiki_title": "Platform game",
+    "ground_truth": "platform game",
+    "possible_answers": [
+      "platform game",
+      "platformer",
+      "Platform video games"
+    ],
+    "s_pop": 12278,
+    "o_pop": 49998
+  },
+  {
+    "id": 1752279,
+    "question": "What is the capital of Bosnia and Herzegovina?",
+    "subj": "Bosnia and Herzegovina",
+    "prop": "capital",
+    "obj": "Sarajevo",
+    "s_wiki_title": "Bosnia and Herzegovina",
+    "o_wiki_title": "Sarajevo",
+    "ground_truth": "Sarajevo",
+    "possible_answers": [
+      "Sarajevo",
+      "City of Sarajevo"
+    ],
+    "s_pop": 173799,
+    "o_pop": 79610
+  },
+  {
+    "id": 3685425,
+    "question": "What is Charles Combe's occupation?",
+    "subj": "Charles Combe",
+    "prop": "occupation",
+    "obj": "physician",
+    "s_wiki_title": "Charles Combe",
+    "o_wiki_title": "Physician",
+    "ground_truth": "physician",
+    "possible_answers": [
+      "physician",
+      "physicians",
+      "medical doctor",
+      "medical practitioner",
+      "doctor",
+      "medical doctors"
+    ],
+    "s_pop": 71,
+    "o_pop": 48188
+  },
+  {
+    "id": 6231476,
+    "question": "Who was the composer of You Never Know?",
+    "subj": "You Never Know",
+    "prop": "composer",
+    "obj": "Cole Porter",
+    "s_wiki_title": "You Never Know (musical)",
+    "o_wiki_title": "Cole Porter",
+    "ground_truth": "Cole Porter",
+    "possible_answers": [
+      "Cole Porter",
+      "Cole Albert Porter"
+    ],
+    "s_pop": 298,
+    "o_pop": 52688
+  },
+  {
+    "id": 2021831,
+    "question": "Who was the producer of Henry Fool?",
+    "subj": "Henry Fool",
+    "prop": "producer",
+    "obj": "Hal Hartley",
+    "s_wiki_title": "Henry Fool",
+    "o_wiki_title": "Hal Hartley",
+    "ground_truth": "Hal Hartley",
+    "possible_answers": [
+      "Hal Hartley"
+    ],
+    "s_pop": 2272,
+    "o_pop": 6209
+  },
+  {
+    "id": 234486,
+    "question": "Who was the screenwriter for E.T. the Extra-Terrestrial?",
+    "subj": "E.T. the Extra-Terrestrial",
+    "prop": "screenwriter",
+    "obj": "Melissa Mathison",
+    "s_wiki_title": "E.T. the Extra-Terrestrial",
+    "o_wiki_title": "Melissa Mathison",
+    "ground_truth": "Melissa Mathison",
+    "possible_answers": [
+      "Melissa Mathison",
+      "Melissa Marie Mathison"
+    ],
+    "s_pop": 97322,
+    "o_pop": 31077
+  },
+  {
+    "id": 2769803,
+    "question": "What sport does James Rodríguez play?",
+    "subj": "James Rodríguez",
+    "prop": "sport",
+    "obj": "association football",
+    "s_wiki_title": "James Rodríguez",
+    "o_wiki_title": "Association football",
+    "ground_truth": "association football",
+    "possible_answers": [
+      "association football",
+      "football",
+      "soccer"
+    ],
+    "s_pop": 151571,
+    "o_pop": 197767
+  },
+  {
+    "id": 5545849,
+    "question": "What is Raymond S. Burton's occupation?",
+    "subj": "Raymond S. Burton",
+    "prop": "occupation",
+    "obj": "politician",
+    "s_wiki_title": "Raymond S. Burton",
+    "o_wiki_title": "Politician",
+    "ground_truth": "politician",
+    "possible_answers": [
+      "politician",
+      "political leader",
+      "political figure",
+      "polit.",
+      "pol"
+    ],
+    "s_pop": 97,
+    "o_pop": 25692
+  },
+  {
+    "id": 5467293,
+    "question": "In what country is Poland?",
+    "subj": "Poland",
+    "prop": "country",
+    "obj": "United States of America",
+    "s_wiki_title": "Poland, Wisconsin",
+    "o_wiki_title": "United States",
+    "ground_truth": "United States of America",
+    "possible_answers": [
+      "United States of America",
+      "the United States of America",
+      "America",
+      "U.S.A.",
+      "USA",
+      "U.S.",
+      "US",
+      "the US",
+      "the USA",
+      "US of A",
+      "the United States",
+      "U. S. A.",
+      "U. S.",
+      "the States",
+      "the U.S.",
+      "'Merica",
+      "U.S",
+      "United States",
+      "'Murica"
+    ],
+    "s_pop": 102,
+    "o_pop": 1629691
+  },
+  {
+    "id": 1847624,
+    "question": "Who is the author of Protector?",
+    "subj": "Protector",
+    "prop": "author",
+    "obj": "Larry Niven",
+    "s_wiki_title": "Protector (novel)",
+    "o_wiki_title": "Larry Niven",
+    "ground_truth": "Larry Niven",
+    "possible_answers": [
+      "Larry Niven",
+      "Laurence van Cott Niven"
+    ],
+    "s_pop": 1217,
+    "o_pop": 10497
+  },
+  {
+    "id": 2490440,
+    "question": "What sport does Houston Dynamo FC play?",
+    "subj": "Houston Dynamo FC",
+    "prop": "sport",
+    "obj": "association football",
+    "s_wiki_title": "Houston Dynamo FC",
+    "o_wiki_title": "Association football",
+    "ground_truth": "association football",
+    "possible_answers": [
+      "association football",
+      "football",
+      "soccer"
+    ],
+    "s_pop": 11557,
+    "o_pop": 197767
+  },
+  {
+    "id": 6297091,
+    "question": "Who is the father of Alexander the Great?",
+    "subj": "Alexander the Great",
+    "prop": "father",
+    "obj": "Philip II of Macedon",
+    "s_wiki_title": "Alexander the Great",
+    "o_wiki_title": "Philip II of Macedon",
+    "ground_truth": "Philip II of Macedon",
+    "possible_answers": [
+      "Philip II of Macedon",
+      "King of Macedonia Filippo II",
+      "King of Macedonia Philippos II",
+      "King of Macedonia Philip II",
+      "King of Macedonia Filip II",
+      "King of Macedonia Philippus II",
+      "Philip of Macedon"
+    ],
+    "s_pop": 394950,
+    "o_pop": 39365
+  },
+  {
+    "id": 1451981,
+    "question": "What is Rich Brightman's occupation?",
+    "subj": "Rich Brightman",
+    "prop": "occupation",
+    "obj": "singer-songwriter",
+    "s_wiki_title": "Rich Brightman",
+    "o_wiki_title": "Singer-songwriter",
+    "ground_truth": "singer-songwriter",
+    "possible_answers": [
+      "singer-songwriter",
+      "singer songwriter",
+      "singer/songwriter",
+      "singersongwriter",
+      "singer-songwriter"
+    ],
+    "s_pop": 75,
+    "o_pop": 5896
+  },
+  {
+    "id": 3878845,
+    "question": "Who was the director of Day Trip?",
+    "subj": "Day Trip",
+    "prop": "director",
+    "obj": "Park Chan-wook",
+    "s_wiki_title": "Day Trip (film)",
+    "o_wiki_title": "Park Chan-wook",
+    "ground_truth": "Park Chan-wook",
+    "possible_answers": [
+      "Park Chan-wook",
+      "Chan-wook Park",
+      "Park Chan-uk"
+    ],
+    "s_pop": 206,
+    "o_pop": 47075
+  },
+  {
+    "id": 1859830,
+    "question": "Who was the producer of The Being?",
+    "subj": "The Being",
+    "prop": "producer",
+    "obj": "Bill Osco",
+    "s_wiki_title": "The Being",
+    "o_wiki_title": "Bill Osco",
+    "ground_truth": "Bill Osco",
+    "possible_answers": [
+      "Bill Osco",
+      "William Osco"
+    ],
+    "s_pop": 1426,
+    "o_pop": 951
+  },
+  {
+    "id": 4926955,
+    "question": "What is Chang'an the capital of?",
+    "subj": "Chang'an",
+    "prop": "capital of",
+    "obj": "Sui dynasty",
+    "s_wiki_title": "Chang'an",
+    "o_wiki_title": "Sui dynasty",
+    "ground_truth": "Sui dynasty",
+    "possible_answers": [
+      "Western Wei",
+      "Western Yan",
+      "Former Qin",
+      "Qian Qin",
+      "Later Qin",
+      "Xin dynasty",
+      "Xin chao",
+      "New dynasty",
+      "Northern Zhou",
+      "Bei Zhou",
+      "Han dynasty",
+      "Han Empire",
+      "Han",
+      "Han China",
+      "Sui dynasty",
+      "Sui Dynasty",
+      "Tang Empire",
+      "Tang China",
+      "Tang",
+      "Tang dynasty",
+      "Tang Dynasty"
+    ],
+    "s_pop": 16628,
+    "o_pop": 22768
+  },
+  {
+    "id": 6166697,
+    "question": "Who is the father of James VI and I?",
+    "subj": "James VI and I",
+    "prop": "father",
+    "obj": "Henry Stuart, Lord Darnley",
+    "s_wiki_title": "James VI and I",
+    "o_wiki_title": "Henry Stuart, Lord Darnley",
+    "ground_truth": "Henry Stuart, Lord Darnley",
+    "possible_answers": [
+      "Henry Stuart, Lord Darnley",
+      "Henry Stuart",
+      "Lord Darnley"
+    ],
+    "s_pop": 151391,
+    "o_pop": 40929
+  },
+  {
+    "id": 5334136,
+    "question": "What sport does Oleg Imrekov play?",
+    "subj": "Oleg Imrekov",
+    "prop": "sport",
+    "obj": "association football",
+    "s_wiki_title": "Oleg Imrekov",
+    "o_wiki_title": "Association football",
+    "ground_truth": "association football",
+    "possible_answers": [
+      "association football",
+      "football",
+      "soccer"
+    ],
+    "s_pop": 50,
+    "o_pop": 197767
+  },
+  {
+    "id": 3233491,
+    "question": "Who was the composer of Le postillon de Lonjumeau?",
+    "subj": "Le postillon de Lonjumeau",
+    "prop": "composer",
+    "obj": "Adolphe Adam",
+    "s_wiki_title": "Le postillon de Lonjumeau",
+    "o_wiki_title": "Adolphe Adam",
+    "ground_truth": "Adolphe Adam",
+    "possible_answers": [
+      "Adolphe Adam",
+      "Adolphe Charles Adam",
+      "Adolphe-Charles Adam",
+      "00000146552 IPI"
+    ],
+    "s_pop": 471,
+    "o_pop": 3478
+  },
+  {
+    "id": 4366394,
+    "question": "Who was the producer of Rainbow?",
+    "subj": "Rainbow",
+    "prop": "producer",
+    "obj": "Mariah Carey",
+    "s_wiki_title": "Rainbow (Mariah Carey album)",
+    "o_wiki_title": "Mariah Carey",
+    "ground_truth": "Mariah Carey",
+    "possible_answers": [
+      "Mariah Carey",
+      "MC",
+      "Mirage",
+      "Mimi",
+      "Elusive Chanteuse",
+      "Songbird Supreme",
+      "Carey"
+    ],
+    "s_pop": 9159,
+    "o_pop": 336247
+  },
+  {
+    "id": 1348054,
+    "question": "In what country is KLM?",
+    "subj": "KLM",
+    "prop": "country",
+    "obj": "Netherlands",
+    "s_wiki_title": "KLM",
+    "o_wiki_title": "Netherlands",
+    "ground_truth": "Netherlands",
+    "possible_answers": [
+      "Netherlands",
+      "Holland",
+      "the Netherlands",
+      "NL",
+      "NED",
+      "Nederland",
+      "nl",
+      "🇳🇱",
+      "Netherlands (after 1945)"
+    ],
+    "s_pop": 44656,
+    "o_pop": 416350
+  },
+  {
+    "id": 654471,
+    "question": "What is the capital of Mississippi?",
+    "subj": "Mississippi",
+    "prop": "capital",
+    "obj": "Jackson",
+    "s_wiki_title": "Mississippi",
+    "o_wiki_title": "Jackson, Mississippi",
+    "ground_truth": "Jackson",
+    "possible_answers": [
+      "Jackson",
+      "Jackson, Mississippi",
+      "City of Jackson"
+    ],
+    "s_pop": 234406,
+    "o_pop": 35480
+  },
+  {
+    "id": 792503,
+    "question": "What sport does Livia Altmann play?",
+    "subj": "Livia Altmann",
+    "prop": "sport",
+    "obj": "ice hockey",
+    "s_wiki_title": "Livia Altmann",
+    "o_wiki_title": "Ice hockey",
+    "ground_truth": "ice hockey",
+    "possible_answers": [
+      "ice hockey"
+    ],
+    "s_pop": 96,
+    "o_pop": 59363
+  },
+  {
+    "id": 3783058,
+    "question": "What genre is Convicted?",
+    "subj": "Convicted",
+    "prop": "genre",
+    "obj": "film noir",
+    "s_wiki_title": "Convicted (1950 film)",
+    "o_wiki_title": "Film noir",
+    "ground_truth": "film noir",
+    "possible_answers": [
+      "film noir"
+    ],
+    "s_pop": 687,
+    "o_pop": 68425
+  },
+  {
+    "id": 4148632,
+    "question": "What is the religion of Frank Pavone?",
+    "subj": "Frank Pavone",
+    "prop": "religion",
+    "obj": "Catholic Church",
+    "s_wiki_title": "Frank Pavone",
+    "o_wiki_title": "Catholic Church",
+    "ground_truth": "Catholic Church",
+    "possible_answers": [
+      "Catholic Church",
+      "Roman Catholic Church",
+      "Church",
+      "Roman Apostolic Catholic Church"
+    ],
+    "s_pop": 1770,
+    "o_pop": 195995
+  },
+  {
+    "id": 1847844,
+    "question": "Who was the producer of Paid in Full?",
+    "subj": "Paid in Full",
+    "prop": "producer",
+    "obj": "Roc-A-Fella Records",
+    "s_wiki_title": "Paid in Full (2002 film)",
+    "o_wiki_title": "Roc-A-Fella Records",
+    "ground_truth": "Roc-A-Fella Records",
+    "possible_answers": [
+      "Roc-A-Fella Records"
+    ],
+    "s_pop": 36938,
+    "o_pop": 22005
+  },
+  {
+    "id": 6302289,
+    "question": "Who is the author of James Bond?",
+    "subj": "James Bond",
+    "prop": "author",
+    "obj": "Ian Fleming",
+    "s_wiki_title": "James Bond",
+    "o_wiki_title": "Ian Fleming",
+    "ground_truth": "Ian Fleming",
+    "possible_answers": [
+      "Ian Fleming",
+      "Ian Lancaster Fleming"
+    ],
+    "s_pop": 671954,
+    "o_pop": 308248
+  },
+  {
+    "id": 5765806,
+    "question": "Who is the father of Sir Capel Molyneux, 3rd Baronet?",
+    "subj": "Sir Capel Molyneux, 3rd Baronet",
+    "prop": "father",
+    "obj": "Sir Thomas Molyneux, 1st Baronet",
+    "s_wiki_title": "Sir Capel Molyneux, 3rd Baronet",
+    "o_wiki_title": "Sir Thomas Molyneux, 1st Baronet",
+    "ground_truth": "Sir Thomas Molyneux, 1st Baronet",
+    "possible_answers": [
+      "Sir Thomas Molyneux, 1st Baronet",
+      "Lieutenant General Sir Thomas Molyneux, 1st Baronet",
+      "Thomas Molyneux",
+      "Sir Thomas Molyneux, 1st Bt."
+    ],
+    "s_pop": 74,
+    "o_pop": 277
+  },
+  {
+    "id": 3183015,
+    "question": "What genre is 454 Big Block?",
+    "subj": "454 Big Block",
+    "prop": "genre",
+    "obj": "metalcore",
+    "s_wiki_title": "454 Big Block",
+    "o_wiki_title": "Metalcore",
+    "ground_truth": "metalcore",
+    "possible_answers": [
+      "metalcore",
+      "metallic hardcore"
+    ],
+    "s_pop": 345,
+    "o_pop": 37122
+  },
+  {
+    "id": 1600144,
+    "question": "Who was the director of All About the Benjamins?",
+    "subj": "All About the Benjamins",
+    "prop": "director",
+    "obj": "Kevin Bray",
+    "s_wiki_title": "All About the Benjamins",
+    "o_wiki_title": "Kevin Bray (director)",
+    "ground_truth": "Kevin Bray",
+    "possible_answers": [
+      "Kevin Bray"
+    ],
+    "s_pop": 6605,
+    "o_pop": 1441
+  },
+  {
+    "id": 2085709,
+    "question": "Who was the composer of The King and I?",
+    "subj": "The King and I",
+    "prop": "composer",
+    "obj": "Richard Rodgers",
+    "s_wiki_title": "The King and I (1956 film)",
+    "o_wiki_title": "Richard Rodgers",
+    "ground_truth": "Richard Rodgers",
+    "possible_answers": [
+      "Richard Rodgers",
+      "Richard Charles Rodgers"
+    ],
+    "s_pop": 29613,
+    "o_pop": 19255
+  },
+  {
+    "id": 5777301,
+    "question": "What genre is Prince?",
+    "subj": "Prince",
+    "prop": "genre",
+    "obj": "funk",
+    "s_wiki_title": "Prince (musician)",
+    "o_wiki_title": "Funk",
+    "ground_truth": "funk",
+    "possible_answers": [
+      "rock music",
+      "rock and roll",
+      "rock",
+      "Rock",
+      "funk",
+      "Funk",
+      "pop music",
+      "pop",
+      "Pop",
+      "rhythm and blues",
+      "R&B",
+      "RnB",
+      "RNB",
+      "R and B",
+      "R & B",
+      "Minneapolis sound"
+    ],
+    "s_pop": 380230,
+    "o_pop": 58500
+  },
+  {
+    "id": 3972968,
+    "question": "In what country is Earl?",
+    "subj": "Earl",
+    "prop": "country",
+    "obj": "United States of America",
+    "s_wiki_title": "Earl, Wisconsin",
+    "o_wiki_title": "United States",
+    "ground_truth": "United States of America",
+    "possible_answers": [
+      "United States of America",
+      "the United States of America",
+      "America",
+      "U.S.A.",
+      "USA",
+      "U.S.",
+      "US",
+      "the US",
+      "the USA",
+      "US of A",
+      "the United States",
+      "U. S. A.",
+      "U. S.",
+      "the States",
+      "the U.S.",
+      "'Merica",
+      "U.S",
+      "United States",
+      "'Murica"
+    ],
+    "s_pop": 83,
+    "o_pop": 1629691
+  },
+  {
+    "id": 5957176,
+    "question": "Who is the author of The Stain?",
+    "subj": "The Stain",
+    "prop": "author",
+    "obj": "Rikki Ducornet",
+    "s_wiki_title": "The Stain",
+    "o_wiki_title": "Rikki Ducornet",
+    "ground_truth": "Rikki Ducornet",
+    "possible_answers": [
+      "Rikki Ducornet",
+      "Erica DeGre"
+    ],
+    "s_pop": 248,
+    "o_pop": 2180
+  },
+  {
+    "id": 182485,
+    "question": "In what country is Williamson County?",
+    "subj": "Williamson County",
+    "prop": "country",
+    "obj": "United States of America",
+    "s_wiki_title": "Williamson County, Texas",
+    "o_wiki_title": "United States",
+    "ground_truth": "United States of America",
+    "possible_answers": [
+      "United States of America",
+      "the United States of America",
+      "America",
+      "U.S.A.",
+      "USA",
+      "U.S.",
+      "US",
+      "the US",
+      "the USA",
+      "US of A",
+      "the United States",
+      "U. S. A.",
+      "U. S.",
+      "the States",
+      "the U.S.",
+      "'Merica",
+      "U.S",
+      "United States",
+      "'Murica"
+    ],
+    "s_pop": 9836,
+    "o_pop": 1629691
+  },
+  {
+    "id": 766015,
+    "question": "Who was the director of Lucy?",
+    "subj": "Lucy",
+    "prop": "director",
+    "obj": "Luc Besson",
+    "s_wiki_title": "Lucy (2014 film)",
+    "o_wiki_title": "Luc Besson",
+    "ground_truth": "Luc Besson",
+    "possible_answers": [
+      "Luc Besson",
+      "Luc Paul Maurice Besson"
+    ],
+    "s_pop": 53411,
+    "o_pop": 80552
+  },
+  {
+    "id": 2539119,
+    "question": "What is Singapore the capital of?",
+    "subj": "Singapore",
+    "prop": "capital of",
+    "obj": "Straits Settlements",
+    "s_wiki_title": "Singapore",
+    "o_wiki_title": "Straits Settlements",
+    "ground_truth": "Straits Settlements",
+    "possible_answers": [
+      "Straits Settlements"
+    ],
+    "s_pop": 492490,
+    "o_pop": 14752
+  },
+  {
+    "id": 1036039,
+    "question": "In what country is Zec Petawaga?",
+    "subj": "Zec Petawaga",
+    "prop": "country",
+    "obj": "Canada",
+    "s_wiki_title": "Zec Petawaga",
+    "o_wiki_title": "Canada",
+    "ground_truth": "Canada",
+    "possible_answers": [
+      "Canada",
+      "Dominion of Canada",
+      "British North America",
+      "CAN",
+      "CA",
+      "ca",
+      "can",
+      "Can."
+    ],
+    "s_pop": 37,
+    "o_pop": 816653
+  },
+  {
+    "id": 2490804,
+    "question": "Who is the author of The Lake?",
+    "subj": "The Lake",
+    "prop": "author",
+    "obj": "Yasunari Kawabata",
+    "s_wiki_title": "The Lake (Yasunari Kawabata novel)",
+    "o_wiki_title": "Yasunari Kawabata",
+    "ground_truth": "Yasunari Kawabata",
+    "possible_answers": [
+      "Yasunari Kawabata"
+    ],
+    "s_pop": 261,
+    "o_pop": 10971
+  },
+  {
+    "id": 2647017,
+    "question": "Who was the screenwriter for Bread and Circuses?",
+    "subj": "Bread and Circuses",
+    "prop": "screenwriter",
+    "obj": "Gene Roddenberry",
+    "s_wiki_title": "Bread and Circuses (Star Trek: The Original Series)",
+    "o_wiki_title": "Gene Roddenberry",
+    "ground_truth": "Gene Roddenberry",
+    "possible_answers": [
+      "Gene Roddenberry",
+      "Eugene Wesley Roddenberry"
+    ],
+    "s_pop": 5130,
+    "o_pop": 63236
+  },
+  {
+    "id": 1407469,
+    "question": "Who was the composer of True Blood?",
+    "subj": "True Blood",
+    "prop": "composer",
+    "obj": "Nathan Barr",
+    "s_wiki_title": "True Blood",
+    "o_wiki_title": "Nathan Barr",
+    "ground_truth": "Nathan Barr",
+    "possible_answers": [
+      "Nathan Barr"
+    ],
+    "s_pop": 81457,
+    "o_pop": 2470
+  },
+  {
+    "id": 52919,
+    "question": "What is the capital of Seychelles?",
+    "subj": "Seychelles",
+    "prop": "capital",
+    "obj": "Victoria",
+    "s_wiki_title": "Seychelles",
+    "o_wiki_title": "Victoria, Seychelles",
+    "ground_truth": "Victoria",
+    "possible_answers": [
+      "Victoria",
+      "Port Victoria",
+      "Victoria, Seychelles"
+    ],
+    "s_pop": 142540,
+    "o_pop": 9216
+  },
+  {
+    "id": 1450805,
+    "question": "Who was the screenwriter for Mary's Ankle?",
+    "subj": "Mary's Ankle",
+    "prop": "screenwriter",
+    "obj": "Luther Reed",
+    "s_wiki_title": "Mary's Ankle",
+    "o_wiki_title": "Luther Reed",
+    "ground_truth": "Luther Reed",
+    "possible_answers": [
+      "Luther Reed"
+    ],
+    "s_pop": 87,
+    "o_pop": 289
+  },
+  {
+    "id": 5059380,
+    "question": "Who is the author of Make Love! The Bruce Campbell Way?",
+    "subj": "Make Love! The Bruce Campbell Way",
+    "prop": "author",
+    "obj": "Bruce Campbell",
+    "s_wiki_title": "Make Love! The Bruce Campbell Way",
+    "o_wiki_title": "Bruce Campbell",
+    "ground_truth": "Bruce Campbell",
+    "possible_answers": [
+      "Bruce Campbell",
+      "Bruce Lorne Campbell"
+    ],
+    "s_pop": 301,
+    "o_pop": 93377
+  },
+  {
+    "id": 5638006,
+    "question": "What genre is Quake II?",
+    "subj": "Quake II",
+    "prop": "genre",
+    "obj": "first-person shooter",
+    "s_wiki_title": "Quake II",
+    "o_wiki_title": "First-person shooter",
+    "ground_truth": "first-person shooter",
+    "possible_answers": [
+      "first-person shooter",
+      "fps",
+      "first person shooter video games",
+      "first-person shooter video game",
+      "FPS",
+      "FPS game",
+      "FPS video game",
+      "first-person shooter game"
+    ],
+    "s_pop": 8749,
+    "o_pop": 116620
+  },
+  {
+    "id": 6475052,
+    "question": "Who was the screenwriter for Gamer?",
+    "subj": "Gamer",
+    "prop": "screenwriter",
+    "obj": "Mark Neveldine",
+    "s_wiki_title": "Gamer (2009 film)",
+    "o_wiki_title": "Mark Neveldine",
+    "ground_truth": "Mark Neveldine",
+    "possible_answers": [
+      "Mark Neveldine"
+    ],
+    "s_pop": 15046,
+    "o_pop": 8610
+  },
+  {
+    "id": 1657474,
+    "question": "Who is the father of Wayne Gretzky?",
+    "subj": "Wayne Gretzky",
+    "prop": "father",
+    "obj": "Walter Gretzky",
+    "s_wiki_title": "Wayne Gretzky",
+    "o_wiki_title": "Walter Gretzky",
+    "ground_truth": "Walter Gretzky",
+    "possible_answers": [
+      "Walter Gretzky"
+    ],
+    "s_pop": 210751,
+    "o_pop": 8880
+  },
+  {
+    "id": 6094861,
+    "question": "Who was the director of Variety?",
+    "subj": "Variety",
+    "prop": "director",
+    "obj": "Adrian Brunel",
+    "s_wiki_title": "Variety (1935 film)",
+    "o_wiki_title": "Adrian Brunel",
+    "ground_truth": "Adrian Brunel",
+    "possible_answers": [
+      "Adrian Brunel",
+      "Adrian Hope Brunel"
+    ],
+    "s_pop": 83,
+    "o_pop": 322
+  },
+  {
+    "id": 2835856,
+    "question": "What genre is The Body?",
+    "subj": "The Body",
+    "prop": "genre",
+    "obj": "mystery fiction",
+    "s_wiki_title": "The Body (Sapir novel)",
+    "o_wiki_title": "Mystery fiction",
+    "ground_truth": "mystery fiction",
+    "possible_answers": [
+      "thriller",
+      "suspense",
+      "thriller television program",
+      "thriller TV program",
+      "thriller television show",
+      "thriller TV show",
+      "suspense television program",
+      "suspense TV program",
+      "suspense television show",
+      "suspense TV show",
+      "mystery fiction",
+      "mysteries",
+      "mystery",
+      "mystery books",
+      "mystery literature",
+      "detective and mystery fiction"
+    ],
+    "s_pop": 153,
+    "o_pop": 30174
+  },
+  {
+    "id": 505110,
+    "question": "Who is the author of Platinum Grit?",
+    "subj": "Platinum Grit",
+    "prop": "author",
+    "obj": "Doug Bayne",
+    "s_wiki_title": "Platinum Grit",
+    "o_wiki_title": "Doug Bayne",
+    "ground_truth": "Doug Bayne",
+    "possible_answers": [
+      "Doug Bayne"
+    ],
+    "s_pop": 1061,
+    "o_pop": -2
+  },
+  {
+    "id": 3453821,
+    "question": "Who is the author of Symposium?",
+    "subj": "Symposium",
+    "prop": "author",
+    "obj": "Plato",
+    "s_wiki_title": "Symposium (Plato)",
+    "o_wiki_title": "Plato",
+    "ground_truth": "Plato",
+    "possible_answers": [
+      "Plato",
+      "Platon",
+      "Aristocles"
+    ],
+    "s_pop": 16901,
+    "o_pop": 185896
+  },
+  {
+    "id": 1180118,
+    "question": "Who was the screenwriter for Toy Story?",
+    "subj": "Toy Story",
+    "prop": "screenwriter",
+    "obj": "Joe Ranft",
+    "s_wiki_title": "Toy Story",
+    "o_wiki_title": "Joe Ranft",
+    "ground_truth": "Joe Ranft",
+    "possible_answers": [
+      "John Lasseter",
+      "John Alan Lasseter",
+      "John A. Lasseter",
+      "Joss Whedon",
+      "Joseph Hill Whedon",
+      "Andrew Stanton",
+      "Andrew Christopher Stanton Jr.",
+      "Andrew Ayers Stanton",
+      "Pete Docter",
+      "Peter Docter",
+      "Peter Hans Docter",
+      "Alec Sokolow",
+      "Alec William Sokolow",
+      "Joe Ranft",
+      "Joseph Henry Ranft"
+    ],
+    "s_pop": 120670,
+    "o_pop": 20218
+  },
+  {
+    "id": 2175983,
+    "question": "What is Arafan Camara's occupation?",
+    "subj": "Arafan Camara",
+    "prop": "occupation",
+    "obj": "politician",
+    "s_wiki_title": "Arafan Camara",
+    "o_wiki_title": "Politician",
+    "ground_truth": "politician",
+    "possible_answers": [
+      "politician",
+      "political leader",
+      "political figure",
+      "polit.",
+      "pol"
+    ],
+    "s_pop": 83,
+    "o_pop": 25692
+  },
+  {
+    "id": 2051142,
+    "question": "What is Gina Krog's occupation?",
+    "subj": "Gina Krog",
+    "prop": "occupation",
+    "obj": "politician",
+    "s_wiki_title": "Gina Krog",
+    "o_wiki_title": "Politician",
+    "ground_truth": "politician",
+    "possible_answers": [
+      "politician",
+      "political leader",
+      "political figure",
+      "polit.",
+      "pol"
+    ],
+    "s_pop": 355,
+    "o_pop": 25692
+  },
+  {
+    "id": 16598,
+    "question": "Who was the composer of Burn?",
+    "subj": "Burn",
+    "prop": "composer",
+    "obj": "David Coverdale",
+    "s_wiki_title": "Burn (Deep Purple song)",
+    "o_wiki_title": "David Coverdale",
+    "ground_truth": "David Coverdale",
+    "possible_answers": [
+      "David Coverdale",
+      "David Jack Coverdale",
+      "Jon Lord",
+      "John Douglas Lord",
+      "John “Jon” Douglas Lord",
+      "John Lord",
+      "Ian Paice",
+      "Ian Anderson Paice",
+      "00041106142 IPI"
+    ],
+    "s_pop": 1525,
+    "o_pop": 44954
+  },
+  {
+    "id": 2925025,
+    "question": "What is the religion of Alī ibn Abī Ṭālib?",
+    "subj": "Alī ibn Abī Ṭālib",
+    "prop": "religion",
+    "obj": "Islam",
+    "s_wiki_title": "Ali",
+    "o_wiki_title": "Islam",
+    "ground_truth": "Islam",
+    "possible_answers": [
+      "Islam",
+      "Islamic religion",
+      "Mohammedanism",
+      "Muslim religion",
+      "al-’islām",
+      "religion of the Muslims"
+    ],
+    "s_pop": 90064,
+    "o_pop": 233485
+  },
+  {
+    "id": 3026511,
+    "question": "Who is the father of Krishna?",
+    "subj": "Krishna",
+    "prop": "father",
+    "obj": "Vasudeva",
+    "s_wiki_title": "Krishna",
+    "o_wiki_title": "Vasudeva",
+    "ground_truth": "Vasudeva",
+    "possible_answers": [
+      "Vasudeva"
+    ],
+    "s_pop": 164554,
+    "o_pop": 14590
+  },
+  {
+    "id": 193165,
+    "question": "Who is the father of Match II?",
+    "subj": "Match II",
+    "prop": "father",
+    "obj": "Tantieme",
+    "s_wiki_title": "Match II",
+    "o_wiki_title": "Tantieme",
+    "ground_truth": "Tantieme",
+    "possible_answers": [
+      "Tantieme"
+    ],
+    "s_pop": 58,
+    "o_pop": 165
+  },
+  {
+    "id": 5178965,
+    "question": "Who is the mother of Hermann II, Landgrave of Thuringia?",
+    "subj": "Hermann II, Landgrave of Thuringia",
+    "prop": "mother",
+    "obj": "Elizabeth of Hungary",
+    "s_wiki_title": "Hermann II, Landgrave of Thuringia",
+    "o_wiki_title": "Elizabeth of Hungary",
+    "ground_truth": "Elizabeth of Hungary",
+    "possible_answers": [
+      "Elizabeth of Hungary",
+      "Saint Elizabeth",
+      "Saint Elizabeth of Hungary",
+      "Elisabetta d'Ungheria",
+      "Isabel de la Casa de los Arpaád",
+      "Erszébet Magyarorszaági",
+      "Sankt Elisabeth Von Ungarn",
+      "Elisabeth of Thuringia",
+      "Ersebeth",
+      "Arpádházi Szent Erzsébet",
+      "Sankt Elisabeth von Ungarn",
+      "Zent Ersebeth",
+      "Isabel de la Casa de los Arpaad",
+      "Erszebet Magyarorszaagi",
+      "Arpadhazi Szent Erzsebet"
+    ],
+    "s_pop": 269,
+    "o_pop": 14059
+  },
+  {
+    "id": 3907939,
+    "question": "Who was the screenwriter for Meantime?",
+    "subj": "Meantime",
+    "prop": "screenwriter",
+    "obj": "Mike Leigh",
+    "s_wiki_title": "Meantime (film)",
+    "o_wiki_title": "Mike Leigh",
+    "ground_truth": "Mike Leigh",
+    "possible_answers": [
+      "Mike Leigh"
+    ],
+    "s_pop": 2619,
+    "o_pop": 19275
+  },
+  {
+    "id": 801731,
+    "question": "What genre is Viva la vida or Death and All His Friends?",
+    "subj": "Viva la vida or Death and All His Friends",
+    "prop": "genre",
+    "obj": "alternative rock",
+    "s_wiki_title": "Viva la Vida or Death and All His Friends",
+    "o_wiki_title": "Alternative rock",
+    "ground_truth": "alternative rock",
+    "possible_answers": [
+      "alternative rock",
+      "alternative music",
+      "alt-rock",
+      "alternative",
+      "alt rock",
+      "pop/rock",
+      "Alternative Rock"
+    ],
+    "s_pop": 32153,
+    "o_pop": 138822
+  },
+  {
+    "id": 3170519,
+    "question": "What is the religion of Marilyn Monroe?",
+    "subj": "Marilyn Monroe",
+    "prop": "religion",
+    "obj": "Judaism",
+    "s_wiki_title": "Marilyn Monroe",
+    "o_wiki_title": "Judaism",
+    "ground_truth": "Judaism",
+    "possible_answers": [
+      "Judaism",
+      "Jewish",
+      "Jewish religion"
+    ],
+    "s_pop": 487061,
+    "o_pop": 131476
+  },
+  {
+    "id": 3335561,
+    "question": "In what city was Andy Keeley born?",
+    "subj": "Andy Keeley",
+    "prop": "place of birth",
+    "obj": "Basildon",
+    "s_wiki_title": "Andy Keeley",
+    "o_wiki_title": "Basildon",
+    "ground_truth": "Basildon",
+    "possible_answers": [
+      "Basildon"
+    ],
+    "s_pop": 88,
+    "o_pop": 11190
+  },
+  {
+    "id": 2734070,
+    "question": "Who is the author of Americana?",
+    "subj": "Americana",
+    "prop": "author",
+    "obj": "Don DeLillo",
+    "s_wiki_title": "Americana (novel)",
+    "o_wiki_title": "Don DeLillo",
+    "ground_truth": "Don DeLillo",
+    "possible_answers": [
+      "Don DeLillo",
+      "Don Delillo",
+      "Donald Richard DeLillo"
+    ],
+    "s_pop": 876,
+    "o_pop": 18057
+  },
+  {
+    "id": 3433901,
+    "question": "What is the religion of Baker University?",
+    "subj": "Baker University",
+    "prop": "religion",
+    "obj": "United Methodist Church",
+    "s_wiki_title": "Baker University",
+    "o_wiki_title": "United Methodist Church",
+    "ground_truth": "United Methodist Church",
+    "possible_answers": [
+      "United Methodist Church",
+      "UMC"
+    ],
+    "s_pop": 3640,
+    "o_pop": 25243
+  },
+  {
+    "id": 6515820,
+    "question": "What is the capital of Tang Empire?",
+    "subj": "Tang Empire",
+    "prop": "capital",
+    "obj": "Chang'an",
+    "s_wiki_title": "Tang dynasty",
+    "o_wiki_title": "Chang'an",
+    "ground_truth": "Chang'an",
+    "possible_answers": [
+      "Chang'an",
+      "Changan",
+      "Chang An"
+    ],
+    "s_pop": 67196,
+    "o_pop": 16628
+  },
+  {
+    "id": 1468152,
+    "question": "Who was the screenwriter for Seven?",
+    "subj": "Seven",
+    "prop": "screenwriter",
+    "obj": "Andrew Kevin Walker",
+    "s_wiki_title": "Seven (1995 film)",
+    "o_wiki_title": "Andrew Kevin Walker",
+    "ground_truth": "Andrew Kevin Walker",
+    "possible_answers": [
+      "Andrew Kevin Walker"
+    ],
+    "s_pop": 136347,
+    "o_pop": 6712
+  },
+  {
+    "id": 2025404,
+    "question": "In what country is Rozsochatec?",
+    "subj": "Rozsochatec",
+    "prop": "country",
+    "obj": "Czech Republic",
+    "s_wiki_title": "Rozsochatec",
+    "o_wiki_title": "Czech Republic",
+    "ground_truth": "Czech Republic",
+    "possible_answers": [
+      "Czech Republic",
+      "CZR",
+      "cz",
+      "Česko",
+      "Česká republika",
+      "ČR",
+      "cze",
+      "CZE",
+      "Czechia"
+    ],
+    "s_pop": 53,
+    "o_pop": 271047
+  },
+  {
+    "id": 3783747,
+    "question": "What genre is Cool It?",
+    "subj": "Cool It",
+    "prop": "genre",
+    "obj": "television comedy",
+    "s_wiki_title": "Cool It (TV series)",
+    "o_wiki_title": "Television comedy",
+    "ground_truth": "television comedy",
+    "possible_answers": [
+      "television comedy",
+      "TV comedy",
+      "comedy TV",
+      "Telecomedia",
+      "comedy television"
+    ],
+    "s_pop": 134,
+    "o_pop": 6379
+  },
+  {
+    "id": 5922565,
+    "question": "Who was the producer of The Dove?",
+    "subj": "The Dove",
+    "prop": "producer",
+    "obj": "Gregory Peck",
+    "s_wiki_title": "The Dove (1974 film)",
+    "o_wiki_title": "Gregory Peck",
+    "ground_truth": "Gregory Peck",
+    "possible_answers": [
+      "Gregory Peck",
+      "Eldred Gregory Peck",
+      "Greg Peck"
+    ],
+    "s_pop": 1081,
+    "o_pop": 133451
+  },
+  {
+    "id": 1018668,
+    "question": "What is the religion of Swedes?",
+    "subj": "Swedes",
+    "prop": "religion",
+    "obj": "Lutheranism",
+    "s_wiki_title": "Swedes",
+    "o_wiki_title": "Lutheranism",
+    "ground_truth": "Lutheranism",
+    "possible_answers": [
+      "Lutheranism",
+      "Lutheran Church",
+      "Lutherans"
+    ],
+    "s_pop": 16893,
+    "o_pop": 81663
+  },
+  {
+    "id": 1354809,
+    "question": "Who was the screenwriter for Cars?",
+    "subj": "Cars",
+    "prop": "screenwriter",
+    "obj": "John Lasseter",
+    "s_wiki_title": "Cars (film)",
+    "o_wiki_title": "John Lasseter",
+    "ground_truth": "John Lasseter",
+    "possible_answers": [
+      "John Lasseter",
+      "John Alan Lasseter",
+      "John A. Lasseter",
+      "Joe Ranft",
+      "Joseph Henry Ranft"
+    ],
+    "s_pop": 107210,
+    "o_pop": 42491
+  },
+  {
+    "id": 3747076,
+    "question": "What is the capital of arrondissement of Florac?",
+    "subj": "arrondissement of Florac",
+    "prop": "capital",
+    "obj": "Florac",
+    "s_wiki_title": "Arrondissement of Florac",
+    "o_wiki_title": "Florac",
+    "ground_truth": "Florac",
+    "possible_answers": [
+      "Florac"
+    ],
+    "s_pop": 85,
+    "o_pop": 346
+  },
+  {
+    "id": 1567735,
+    "question": "Who was the producer of Strangers May Kiss?",
+    "subj": "Strangers May Kiss",
+    "prop": "producer",
+    "obj": "George Fitzmaurice",
+    "s_wiki_title": "Strangers May Kiss",
+    "o_wiki_title": "George Fitzmaurice",
+    "ground_truth": "George Fitzmaurice",
+    "possible_answers": [
+      "George Fitzmaurice"
+    ],
+    "s_pop": 259,
+    "o_pop": 760
+  },
+  {
+    "id": 3195023,
+    "question": "Who is the author of A Bird came down the Walk —?",
+    "subj": "A Bird came down the Walk —",
+    "prop": "author",
+    "obj": "Emily Dickinson",
+    "s_wiki_title": "A Bird came down the Walk",
+    "o_wiki_title": "Emily Dickinson",
+    "ground_truth": "Emily Dickinson",
+    "possible_answers": [
+      "Emily Dickinson",
+      "Emily Elizabeth Dickinson",
+      "Ai-mi-li Ti-chin-sen",
+      "Emilia Dickinson",
+      "Emily Dickinson"
+    ],
+    "s_pop": 1087,
+    "o_pop": 108089
+  },
+  {
+    "id": 4633315,
+    "question": "Who was the screenwriter for Inside Out?",
+    "subj": "Inside Out",
+    "prop": "screenwriter",
+    "obj": "Ronnie del Carmen",
+    "s_wiki_title": "Inside Out (2015 film)",
+    "o_wiki_title": "Ronnie del Carmen",
+    "ground_truth": "Ronnie del Carmen",
+    "possible_answers": [
+      "Bill Hader",
+      "William Thomas Hader Jr.",
+      "Amy Poehler",
+      "Amy Meredith Poehler",
+      "Pete Docter",
+      "Peter Docter",
+      "Peter Hans Docter",
+      "Ronnie del Carmen",
+      "Ronaldo del Carmen",
+      "Ronaldo Del Carmen"
+    ],
+    "s_pop": 74976,
+    "o_pop": 3296
+  },
+  {
+    "id": 546090,
+    "question": "What is the capital of Pennsylvania?",
+    "subj": "Pennsylvania",
+    "prop": "capital",
+    "obj": "Harrisburg",
+    "s_wiki_title": "Pennsylvania",
+    "o_wiki_title": "Harrisburg, Pennsylvania",
+    "ground_truth": "Harrisburg",
+    "possible_answers": [
+      "Harrisburg",
+      "Capital of Pennsylvania",
+      "Harrisburg, Pennsylvania"
+    ],
+    "s_pop": 314264,
+    "o_pop": 27157
+  },
+  {
+    "id": 2444770,
+    "question": "What sport does Sebastián Morquio play?",
+    "subj": "Sebastián Morquio",
+    "prop": "sport",
+    "obj": "association football",
+    "s_wiki_title": "Sebastián Morquio",
+    "o_wiki_title": "Association football",
+    "ground_truth": "association football",
+    "possible_answers": [
+      "association football",
+      "football",
+      "soccer"
+    ],
+    "s_pop": 50,
+    "o_pop": 197767
+  },
+  {
+    "id": 1647915,
+    "question": "What genre is Shaolin Temple?",
+    "subj": "Shaolin Temple",
+    "prop": "genre",
+    "obj": "martial arts film",
+    "s_wiki_title": "Shaolin Temple (1976 film)",
+    "o_wiki_title": "Martial arts film",
+    "ground_truth": "martial arts film",
+    "possible_answers": [
+      "martial arts film"
+    ],
+    "s_pop": 639,
+    "o_pop": 12573
+  },
+  {
+    "id": 326188,
+    "question": "What is Johann Heinrich Lambert's occupation?",
+    "subj": "Johann Heinrich Lambert",
+    "prop": "occupation",
+    "obj": "mathematician",
+    "s_wiki_title": "Johann Heinrich Lambert",
+    "o_wiki_title": "Mathematician",
+    "ground_truth": "mathematician",
+    "possible_answers": [
+      "astronomer",
+      "physicist",
+      "mathematician"
+    ],
+    "s_pop": 2922,
+    "o_pop": 23111
+  },
+  {
+    "id": 312767,
+    "question": "Who was the screenwriter for The Mothman Prophecies?",
+    "subj": "The Mothman Prophecies",
+    "prop": "screenwriter",
+    "obj": "John Keel",
+    "s_wiki_title": "The Mothman Prophecies (film)",
+    "o_wiki_title": "John Keel",
+    "ground_truth": "John Keel",
+    "possible_answers": [
+      "John Keel",
+      "John Alva Keel",
+      "Alva John Kiehle",
+      "John A. Keel"
+    ],
+    "s_pop": 22692,
+    "o_pop": 4394
+  },
+  {
+    "id": 6083018,
+    "question": "What is the capital of Egypt?",
+    "subj": "Egypt",
+    "prop": "capital",
+    "obj": "Cairo",
+    "s_wiki_title": "Egypt",
+    "o_wiki_title": "Cairo",
+    "ground_truth": "Cairo",
+    "possible_answers": [
+      "Cairo",
+      "Cairo, Egypt"
+    ],
+    "s_pop": 271405,
+    "o_pop": 75001
+  },
+  {
+    "id": 1557995,
+    "question": "What is Ivan Kulichenko's occupation?",
+    "subj": "Ivan Kulichenko",
+    "prop": "occupation",
+    "obj": "politician",
+    "s_wiki_title": "Ivan Kulichenko",
+    "o_wiki_title": "Politician",
+    "ground_truth": "politician",
+    "possible_answers": [
+      "politician",
+      "political leader",
+      "political figure",
+      "polit.",
+      "pol"
+    ],
+    "s_pop": 57,
+    "o_pop": 25692
+  },
+  {
+    "id": 280542,
+    "question": "Who was the director of The Mountain?",
+    "subj": "The Mountain",
+    "prop": "director",
+    "obj": "Markus Imhoof",
+    "s_wiki_title": "The Mountain (1991 film)",
+    "o_wiki_title": "Markus Imhoof",
+    "ground_truth": "Markus Imhoof",
+    "possible_answers": [
+      "Markus Imhoof"
+    ],
+    "s_pop": 178,
+    "o_pop": 243
+  },
+  {
+    "id": 6477836,
+    "question": "Who was the composer of The Love Letter?",
+    "subj": "The Love Letter",
+    "prop": "composer",
+    "obj": "Luis Bacalov",
+    "s_wiki_title": "The Love Letter (1999 film)",
+    "o_wiki_title": "Luis Bacalov",
+    "ground_truth": "Luis Bacalov",
+    "possible_answers": [
+      "Luis Bacalov",
+      "Luis Enríquez Bacalov",
+      "Luis Enrique Bacalov"
+    ],
+    "s_pop": 3583,
+    "o_pop": 2207
+  },
+  {
+    "id": 6453500,
+    "question": "Who was the director of The Doors?",
+    "subj": "The Doors",
+    "prop": "director",
+    "obj": "Oliver Stone",
+    "s_wiki_title": "The Doors (film)",
+    "o_wiki_title": "Oliver Stone",
+    "ground_truth": "Oliver Stone",
+    "possible_answers": [
+      "Oliver Stone",
+      "William Oliver Stone"
+    ],
+    "s_pop": 27955,
+    "o_pop": 66043
+  },
+  {
+    "id": 1085503,
+    "question": "Who is the mother of Edgar Allan Poe?",
+    "subj": "Edgar Allan Poe",
+    "prop": "mother",
+    "obj": "Eliza Poe",
+    "s_wiki_title": "Edgar Allan Poe",
+    "o_wiki_title": "Eliza Poe",
+    "ground_truth": "Eliza Poe",
+    "possible_answers": [
+      "Eliza Poe"
+    ],
+    "s_pop": 287843,
+    "o_pop": 5547
+  },
+  {
+    "id": 3333872,
+    "question": "What sport does Andrés Bottiglieri play?",
+    "subj": "Andrés Bottiglieri",
+    "prop": "sport",
+    "obj": "association football",
+    "s_wiki_title": "Andrés Bottiglieri",
+    "o_wiki_title": "Association football",
+    "ground_truth": "association football",
+    "possible_answers": [
+      "association football",
+      "football",
+      "soccer"
+    ],
+    "s_pop": 84,
+    "o_pop": 197767
+  },
+  {
+    "id": 2648097,
+    "question": "Who was the screenwriter for Sun?",
+    "subj": "Sun",
+    "prop": "screenwriter",
+    "obj": "Alessandro Blasetti",
+    "s_wiki_title": "Sun (film)",
+    "o_wiki_title": "Alessandro Blasetti",
+    "ground_truth": "Alessandro Blasetti",
+    "possible_answers": [
+      "Alessandro Blasetti"
+    ],
+    "s_pop": 189,
+    "o_pop": 623
+  },
+  {
+    "id": 2932710,
+    "question": "Who was the screenwriter for The Bat Whispers?",
+    "subj": "The Bat Whispers",
+    "prop": "screenwriter",
+    "obj": "Roland West",
+    "s_wiki_title": "The Bat Whispers",
+    "o_wiki_title": "Roland West",
+    "ground_truth": "Roland West",
+    "possible_answers": [
+      "Roland West",
+      "Roland Van Zimmer"
+    ],
+    "s_pop": 1296,
+    "o_pop": 2039
+  },
+  {
+    "id": 2820580,
+    "question": "Who is the father of Sejong the Great?",
+    "subj": "Sejong the Great",
+    "prop": "father",
+    "obj": "Taejong of Joseon",
+    "s_wiki_title": "Sejong the Great",
+    "o_wiki_title": "Taejong of Joseon",
+    "ground_truth": "Taejong of Joseon",
+    "possible_answers": [
+      "Taejong of Joseon",
+      "Li Fangyuan",
+      "Taizong",
+      "Gongding",
+      "Shengdeshengongwenwuguangxiaodaiwang",
+      "Yide"
+    ],
+    "s_pop": 30889,
+    "o_pop": 12073
+  },
+  {
+    "id": 471853,
+    "question": "What is Delhi the capital of?",
+    "subj": "Delhi",
+    "prop": "capital of",
+    "obj": "Delhi Sultanate",
+    "s_wiki_title": "Delhi",
+    "o_wiki_title": "Delhi Sultanate",
+    "ground_truth": "Delhi Sultanate",
+    "possible_answers": [
+      "Tughlaq dynasty",
+      "Lodhi dynasty",
+      "लोदी वंश",
+      "लोदी घराणे",
+      "Delhi Sultanate",
+      "Sultanate of Delhi",
+      "Sur Empire",
+      "Khalji dynasty"
+    ],
+    "s_pop": 219227,
+    "o_pop": 98279
+  },
+  {
+    "id": 3677224,
+    "question": "In what country is Cham Karim?",
+    "subj": "Cham Karim",
+    "prop": "country",
+    "obj": "Iran",
+    "s_wiki_title": "Cham Karim",
+    "o_wiki_title": "Iran",
+    "ground_truth": "Iran",
+    "possible_answers": [
+      "Iran",
+      "Islamic Republic of Iran",
+      "Persia",
+      "ir",
+      "Islamic Rep. Iran",
+      "🇮🇷"
+    ],
+    "s_pop": 36,
+    "o_pop": 317291
+  },
+  {
+    "id": 1138488,
+    "question": "Who was the composer of In Summer?",
+    "subj": "In Summer",
+    "prop": "composer",
+    "obj": "Kristen Anderson-Lopez",
+    "s_wiki_title": "In Summer",
+    "o_wiki_title": "Kristen Anderson-Lopez",
+    "ground_truth": "Kristen Anderson-Lopez",
+    "possible_answers": [
+      "Robert Lopez",
+      "Robert Joseph Lopez",
+      "Kristen Anderson-Lopez",
+      "Kristen Anderson",
+      "Kristen Jane Anderson"
+    ],
+    "s_pop": 536,
+    "o_pop": 8931
+  },
+  {
+    "id": 2095345,
+    "question": "In what city was Julee Cruise born?",
+    "subj": "Julee Cruise",
+    "prop": "place of birth",
+    "obj": "Creston",
+    "s_wiki_title": "Julee Cruise",
+    "o_wiki_title": "Creston, Iowa",
+    "ground_truth": "Creston",
+    "possible_answers": [
+      "Creston",
+      "Creston, Iowa"
+    ],
+    "s_pop": 8179,
+    "o_pop": 1475
+  },
+  {
+    "id": 1551846,
+    "question": "What genre is The Possession?",
+    "subj": "The Possession",
+    "prop": "genre",
+    "obj": "horror film",
+    "s_wiki_title": "The Possession",
+    "o_wiki_title": "Horror film",
+    "ground_truth": "horror film",
+    "possible_answers": [
+      "horror film",
+      "horror movie"
+    ],
+    "s_pop": 33463,
+    "o_pop": 90942
+  },
+  {
+    "id": 1249364,
+    "question": "What is Stockholm the capital of?",
+    "subj": "Stockholm",
+    "prop": "capital of",
+    "obj": "Stockholm Municipality",
+    "s_wiki_title": "Stockholm",
+    "o_wiki_title": "Stockholm Municipality",
+    "ground_truth": "Stockholm Municipality",
+    "possible_answers": [
+      "Stockholm County",
+      "Stockholms län",
+      "Sweden",
+      "Kingdom of Sweden",
+      "SE",
+      "se",
+      "SWE",
+      "🇸🇪",
+      "Stockholm Municipality",
+      "City of Stockholm",
+      "Stockholms stad",
+      "Union between Sweden and Norway",
+      "Svensk-norska unionen",
+      "Den svensk-norske union",
+      "Sweden-Norway"
+    ],
+    "s_pop": 153845,
+    "o_pop": 2982
+  },
+  {
+    "id": 4294776,
+    "question": "Who was the screenwriter for Guilty?",
+    "subj": "Guilty",
+    "prop": "screenwriter",
+    "obj": "Evan Katz",
+    "s_wiki_title": "Guilty (Awake)",
+    "o_wiki_title": "Evan Katz",
+    "ground_truth": "Evan Katz",
+    "possible_answers": [
+      "Howard Gordon",
+      "Evan Katz"
+    ],
+    "s_pop": 69,
+    "o_pop": 661
+  },
+  {
+    "id": 5913920,
+    "question": "Who was the director of The Boys?",
+    "subj": "The Boys",
+    "prop": "director",
+    "obj": "Mikko Niskanen",
+    "s_wiki_title": "The Boys (1962 Finnish film)",
+    "o_wiki_title": "Mikko Niskanen",
+    "ground_truth": "Mikko Niskanen",
+    "possible_answers": [
+      "Mikko Niskanen",
+      "Mikko Johannes Niskanen"
+    ],
+    "s_pop": 148,
+    "o_pop": 155
+  },
+  {
+    "id": 287935,
+    "question": "Who was the producer of The Front?",
+    "subj": "The Front",
+    "prop": "producer",
+    "obj": "Martin Ritt",
+    "s_wiki_title": "The Front",
+    "o_wiki_title": "Martin Ritt",
+    "ground_truth": "Martin Ritt",
+    "possible_answers": [
+      "Martin Ritt"
+    ],
+    "s_pop": 2679,
+    "o_pop": 3727
+  },
+  {
+    "id": 3432680,
+    "question": "What sport does Anderson play?",
+    "subj": "Anderson",
+    "prop": "sport",
+    "obj": "association football",
+    "s_wiki_title": "Anderson (footballer, born 1988)",
+    "o_wiki_title": "Association football",
+    "ground_truth": "association football",
+    "possible_answers": [
+      "association football",
+      "football",
+      "soccer"
+    ],
+    "s_pop": 14892,
+    "o_pop": 197767
+  },
+  {
+    "id": 1762839,
+    "question": "What is Donald Trump's occupation?",
+    "subj": "Donald Trump",
+    "prop": "occupation",
+    "obj": "real estate development",
+    "s_wiki_title": "Donald Trump",
+    "o_wiki_title": "Real estate development",
+    "ground_truth": "real estate development",
+    "possible_answers": [
+      "actor",
+      "actress",
+      "actors",
+      "actresses",
+      "socialite",
+      "prominent person",
+      "real estate development",
+      "property development",
+      "Real estate development",
+      "politician",
+      "political leader",
+      "political figure",
+      "polit.",
+      "pol",
+      "business magnate",
+      "businessperson",
+      "tycoon",
+      "magnate"
+    ],
+    "s_pop": 15101521,
+    "o_pop": 16427
+  },
+  {
+    "id": 4783605,
+    "question": "What genre is Just a Matter of Time?",
+    "subj": "Just a Matter of Time",
+    "prop": "genre",
+    "obj": "novella",
+    "s_wiki_title": "Just a Matter of Time (novel)",
+    "o_wiki_title": "Novella",
+    "ground_truth": "novella",
+    "possible_answers": [
+      "novella"
+    ],
+    "s_pop": 93,
+    "o_pop": 22512
+  },
+  {
+    "id": 2815934,
+    "question": "What is the capital of Clay County?",
+    "subj": "Clay County",
+    "prop": "capital",
+    "obj": "Clay Center",
+    "s_wiki_title": "Clay County, Kansas",
+    "o_wiki_title": "Clay Center, Kansas",
+    "ground_truth": "Clay Center",
+    "possible_answers": [
+      "Clay Center",
+      "Clay Center, Kansas"
+    ],
+    "s_pop": 659,
+    "o_pop": 751
+  },
+  {
+    "id": 437313,
+    "question": "What genre is Embrace?",
+    "subj": "Embrace",
+    "prop": "genre",
+    "obj": "hardcore punk",
+    "s_wiki_title": "Embrace (American band)",
+    "o_wiki_title": "Hardcore punk",
+    "ground_truth": "hardcore punk",
+    "possible_answers": [
+      "hardcore punk",
+      "hXc",
+      "Punk/HC",
+      "hardcore",
+      "Hardcore Punk",
+      "emo",
+      "emotional hardcore",
+      "emocore",
+      "emo-core",
+      "Emo"
+    ],
+    "s_pop": 1959,
+    "o_pop": 34061
+  },
+  {
+    "id": 1793340,
+    "question": "In what country is Devon?",
+    "subj": "Devon",
+    "prop": "country",
+    "obj": "United Kingdom",
+    "s_wiki_title": "Devon",
+    "o_wiki_title": "United Kingdom",
+    "ground_truth": "United Kingdom",
+    "possible_answers": [
+      "United Kingdom",
+      "🇬🇧",
+      "UK",
+      "United Kingdom of Great Britain and Northern Ireland",
+      "U.K.",
+      "GBR",
+      "GB",
+      "U. K.",
+      "U K",
+      "G.B.",
+      "G. B.",
+      "G B",
+      "Great Britain",
+      "G.B.R.",
+      "G B R",
+      "Britain",
+      "Great Britain and Northern Ireland"
+    ],
+    "s_pop": 38425,
+    "o_pop": 1066107
+  },
+  {
+    "id": 6368219,
+    "question": "What is the capital of Afghanistan?",
+    "subj": "Afghanistan",
+    "prop": "capital",
+    "obj": "Kabul",
+    "s_wiki_title": "Afghanistan",
+    "o_wiki_title": "Kabul",
+    "ground_truth": "Kabul",
+    "possible_answers": [
+      "Kabul",
+      "Cabool",
+      "Caubul",
+      "Kabol",
+      "Cabul"
+    ],
+    "s_pop": 683050,
+    "o_pop": 48855
+  },
+  {
+    "id": 196395,
+    "question": "What is the religion of Cosmo Francesco Ruppi?",
+    "subj": "Cosmo Francesco Ruppi",
+    "prop": "religion",
+    "obj": "Catholic Church",
+    "s_wiki_title": "Cosmo Francesco Ruppi",
+    "o_wiki_title": "Catholic Church",
+    "ground_truth": "Catholic Church",
+    "possible_answers": [
+      "Catholic Church",
+      "Roman Catholic Church",
+      "Church",
+      "Roman Apostolic Catholic Church"
+    ],
+    "s_pop": 45,
+    "o_pop": 195995
+  },
+  {
+    "id": 5453581,
+    "question": "Who was the director of Pilot?",
+    "subj": "Pilot",
+    "prop": "director",
+    "obj": "Chris Koch",
+    "s_wiki_title": "Meet the Neighbors",
+    "o_wiki_title": "Chris Koch",
+    "ground_truth": "Chris Koch",
+    "possible_answers": [
+      "Chris Koch"
+    ],
+    "s_pop": 140,
+    "o_pop": 864
+  },
+  {
+    "id": 1554292,
+    "question": "Who was the director of Unexpected?",
+    "subj": "Unexpected",
+    "prop": "director",
+    "obj": "Mike Vejar",
+    "s_wiki_title": "Unexpected (Star Trek: Enterprise)",
+    "o_wiki_title": "Mike Vejar",
+    "ground_truth": "Mike Vejar",
+    "possible_answers": [
+      "Mike Vejar",
+      "Michael Laurence Vejar",
+      "Michael Vejar"
+    ],
+    "s_pop": 1259,
+    "o_pop": 411
+  },
+  {
+    "id": 1323264,
+    "question": "Who was the director of The Shining?",
+    "subj": "The Shining",
+    "prop": "director",
+    "obj": "Mick Garris",
+    "s_wiki_title": "The Shining (miniseries)",
+    "o_wiki_title": "Mick Garris",
+    "ground_truth": "Mick Garris",
+    "possible_answers": [
+      "Mick Garris"
+    ],
+    "s_pop": 18433,
+    "o_pop": 9728
+  },
+  {
+    "id": 6295666,
+    "question": "What is London the capital of?",
+    "subj": "London",
+    "prop": "capital of",
+    "obj": "Kingdom of Essex",
+    "s_wiki_title": "London",
+    "o_wiki_title": "Kingdom of Essex",
+    "ground_truth": "Kingdom of Essex",
+    "possible_answers": [
+      "Kingdom of Essex",
+      "kingdom of the East Saxons",
+      "Essex",
+      "United Kingdom",
+      "🇬🇧",
+      "UK",
+      "United Kingdom of Great Britain and Northern Ireland",
+      "U.K.",
+      "GBR",
+      "GB",
+      "U. K.",
+      "U K",
+      "G.B.",
+      "G. B.",
+      "G B",
+      "Great Britain",
+      "G.B.R.",
+      "G B R",
+      "Britain",
+      "Great Britain and Northern Ireland",
+      "Great Britain",
+      "United Kingdom of Great Britain",
+      "UK",
+      "GB",
+      "UKGB",
+      "Kingdom of Great Britain",
+      "United Kingdom of Great Britain and Ireland",
+      "United Kingdom",
+      "UK",
+      "GB",
+      "UKGBI",
+      "Great Britain and Ireland",
+      "the United Kingdom",
+      "Britain",
+      "Kingdom of England",
+      "England",
+      "England",
+      "British North America",
+      "British America",
+      "Commonwealth of England",
+      "English Republic",
+      "Commonwealth",
+      "Interregnum",
+      "Protectorate",
+      "Commonwealth of England, Scotland and Ireland"
+    ],
+    "s_pop": 523018,
+    "o_pop": 4950
+  },
+  {
+    "id": 814608,
+    "question": "What sport does Masahito Noto play?",
+    "subj": "Masahito Noto",
+    "prop": "sport",
+    "obj": "association football",
+    "s_wiki_title": "Masahito Noto",
+    "o_wiki_title": "Association football",
+    "ground_truth": "association football",
+    "possible_answers": [
+      "association football",
+      "football",
+      "soccer"
+    ],
+    "s_pop": 96,
+    "o_pop": 197767
+  },
+  {
+    "id": 6471900,
+    "question": "Who is the author of Frost?",
+    "subj": "Frost",
+    "prop": "author",
+    "obj": "Thomas Bernhard",
+    "s_wiki_title": "Frost (Bernhard novel)",
+    "o_wiki_title": "Thomas Bernhard",
+    "ground_truth": "Thomas Bernhard",
+    "possible_answers": [
+      "Thomas Bernhard",
+      "Nicolaas Thomas Bernhard"
+    ],
+    "s_pop": 376,
+    "o_pop": 7200
+  },
+  {
+    "id": 2301191,
+    "question": "What genre is Early B?",
+    "subj": "Early B",
+    "prop": "genre",
+    "obj": "dancehall",
+    "s_wiki_title": "Early B",
+    "o_wiki_title": "Dancehall",
+    "ground_truth": "dancehall",
+    "possible_answers": [
+      "dancehall",
+      "reggae dancehall",
+      "bashment",
+      "Dancehall"
+    ],
+    "s_pop": 1266,
+    "o_pop": 24298
+  },
+  {
+    "id": 1466594,
+    "question": "What is the capital of County Down?",
+    "subj": "County Down",
+    "prop": "capital",
+    "obj": "Downpatrick",
+    "s_wiki_title": "County Down",
+    "o_wiki_title": "Downpatrick",
+    "ground_truth": "Downpatrick",
+    "possible_answers": [
+      "Downpatrick",
+      "Down, co. Down",
+      "Down, County Down"
+    ],
+    "s_pop": 12065,
+    "o_pop": 4589
+  },
+  {
+    "id": 2918829,
+    "question": "What is Ruby Rose's occupation?",
+    "subj": "Ruby Rose",
+    "prop": "occupation",
+    "obj": "disc jockey",
+    "s_wiki_title": "Ruby Rose",
+    "o_wiki_title": "Disc jockey",
+    "ground_truth": "disc jockey",
+    "possible_answers": [
+      "disc jockey",
+      "DJ",
+      "dee jay",
+      "dj",
+      "D.J.",
+      "disk jockey",
+      "dee-jay",
+      "deejay",
+      "disquaire",
+      "discaire",
+      "actor",
+      "actress",
+      "actors",
+      "actresses",
+      "television presenter",
+      "host",
+      "hostess",
+      "TV host",
+      "television host",
+      "TV presenter",
+      "TV anchor",
+      "television anchor"
+    ],
+    "s_pop": 245402,
+    "o_pop": 38478
+  },
+  {
+    "id": 2449220,
+    "question": "Who was the director of Le Guérisseur?",
+    "subj": "Le Guérisseur",
+    "prop": "director",
+    "obj": "Yves Ciampi",
+    "s_wiki_title": "Le Guérisseur",
+    "o_wiki_title": "Yves Ciampi",
+    "ground_truth": "Yves Ciampi",
+    "possible_answers": [
+      "Yves Ciampi"
+    ],
+    "s_pop": 83,
+    "o_pop": 202
+  },
+  {
+    "id": 2086865,
+    "question": "In what city was Gilbert Bodart born?",
+    "subj": "Gilbert Bodart",
+    "prop": "place of birth",
+    "obj": "Seraing",
+    "s_wiki_title": "Gilbert Bodart",
+    "o_wiki_title": "Seraing",
+    "ground_truth": "Seraing",
+    "possible_answers": [
+      "Seraing"
+    ],
+    "s_pop": 299,
+    "o_pop": 1744
+  },
+  {
+    "id": 2999897,
+    "question": "Who was the director of From Time to Time?",
+    "subj": "From Time to Time",
+    "prop": "director",
+    "obj": "Julian Fellowes",
+    "s_wiki_title": "From Time to Time (film)",
+    "o_wiki_title": "Julian Fellowes",
+    "ground_truth": "Julian Fellowes",
+    "possible_answers": [
+      "Julian Fellowes",
+      "Julian Fellowes, Baron Fellowes of West Stafford",
+      "The Lord Fellowes of West Stafford",
+      "Baron Fellowes of West Stafford",
+      "Julian Kitchener-Fellowes",
+      "Julian Kitchener-Fellowes, Baron Fellowes of West Stafford",
+      "Julian Alexander Kitchener-Fellowes, Baron Fellowes of West Stafford"
+    ],
+    "s_pop": 1996,
+    "o_pop": 33676
+  },
+  {
+    "id": 248060,
+    "question": "Who was the producer of The Pledge?",
+    "subj": "The Pledge",
+    "prop": "producer",
+    "obj": "Sean Penn",
+    "s_wiki_title": "The Pledge (film)",
+    "o_wiki_title": "Sean Penn",
+    "ground_truth": "Sean Penn",
+    "possible_answers": [
+      "Sean Penn",
+      "Sean Justin Penn",
+      "Pappy Pariah"
+    ],
+    "s_pop": 10103,
+    "o_pop": 271420
+  },
+  {
+    "id": 761251,
+    "question": "What is the capital of Kansas?",
+    "subj": "Kansas",
+    "prop": "capital",
+    "obj": "Topeka",
+    "s_wiki_title": "Kansas",
+    "o_wiki_title": "Topeka, Kansas",
+    "ground_truth": "Topeka",
+    "possible_answers": [
+      "Topeka",
+      "Topeka, Kansas",
+      "Topeka (Kansas)"
+    ],
+    "s_pop": 222834,
+    "o_pop": 17219
+  },
+  {
+    "id": 2827342,
+    "question": "What is Guillem Ramon de Gironella's occupation?",
+    "subj": "Guillem Ramon de Gironella",
+    "prop": "occupation",
+    "obj": "troubadour",
+    "s_wiki_title": "Guillem Ramon de Gironella",
+    "o_wiki_title": "Troubadour",
+    "ground_truth": "troubadour",
+    "possible_answers": [
+      "troubadour"
+    ],
+    "s_pop": 63,
+    "o_pop": 30753
+  },
+  {
+    "id": 1660153,
+    "question": "What is Alexandria the capital of?",
+    "subj": "Alexandria",
+    "prop": "capital of",
+    "obj": "Teleorman County",
+    "s_wiki_title": "Alexandria, Romania",
+    "o_wiki_title": "Teleorman County",
+    "ground_truth": "Teleorman County",
+    "possible_answers": [
+      "Teleorman County"
+    ],
+    "s_pop": 870,
+    "o_pop": 1115
+  },
+  {
+    "id": 2612246,
+    "question": "Who is the father of Nathan?",
+    "subj": "Nathan",
+    "prop": "father",
+    "obj": "David",
+    "s_wiki_title": "Nathan (son of David)",
+    "o_wiki_title": "David",
+    "ground_truth": "David",
+    "possible_answers": [
+      "David",
+      "King David",
+      "sweet singer of Israel"
+    ],
+    "s_pop": 5694,
+    "o_pop": 111751
+  },
+  {
+    "id": 643465,
+    "question": "Who was the director of Into the Woods?",
+    "subj": "Into the Woods",
+    "prop": "director",
+    "obj": "Rob Marshall",
+    "s_wiki_title": "Into the Woods (film)",
+    "o_wiki_title": "Rob Marshall",
+    "ground_truth": "Rob Marshall",
+    "possible_answers": [
+      "Rob Marshall"
+    ],
+    "s_pop": 39224,
+    "o_pop": 16786
+  },
+  {
+    "id": 258682,
+    "question": "What is the capital of Himachal Pradesh?",
+    "subj": "Himachal Pradesh",
+    "prop": "capital",
+    "obj": "Shimla",
+    "s_wiki_title": "Himachal Pradesh",
+    "o_wiki_title": "Shimla",
+    "ground_truth": "Shimla",
+    "possible_answers": [
+      "Shimla",
+      "Simla",
+      "Queen of Hills"
+    ],
+    "s_pop": 130773,
+    "o_pop": 38448
+  },
+  {
+    "id": 1390145,
+    "question": "Who was the director of La renzoni?",
+    "subj": "La renzoni",
+    "prop": "director",
+    "obj": "Maurits Binger",
+    "s_wiki_title": "La renzoni",
+    "o_wiki_title": "Maurits Binger",
+    "ground_truth": "Maurits Binger",
+    "possible_answers": [
+      "Maurits Binger",
+      "Maurits H. Binger"
+    ],
+    "s_pop": 96,
+    "o_pop": 125
+  },
+  {
+    "id": 3881623,
+    "question": "Who is the author of Deadline?",
+    "subj": "Deadline",
+    "prop": "author",
+    "obj": "Seanan McGuire",
+    "s_wiki_title": "Deadline (Grant novel)",
+    "o_wiki_title": "Seanan McGuire",
+    "ground_truth": "Seanan McGuire",
+    "possible_answers": [
+      "Seanan McGuire",
+      "Mira Grant"
+    ],
+    "s_pop": 425,
+    "o_pop": 4962
+  },
+  {
+    "id": 4666767,
+    "question": "In what city was Joanna Elisabeth of Holstein-Gottorp born?",
+    "subj": "Joanna Elisabeth of Holstein-Gottorp",
+    "prop": "place of birth",
+    "obj": "Gottorf Castle",
+    "s_wiki_title": "Joanna Elisabeth of Holstein-Gottorp",
+    "o_wiki_title": "Gottorf Castle",
+    "ground_truth": "Gottorf Castle",
+    "possible_answers": [
+      "Gottorf Castle"
+    ],
+    "s_pop": 2796,
+    "o_pop": 1518
+  },
+  {
+    "id": 1117259,
+    "question": "Who was the screenwriter for Brooklyn?",
+    "subj": "Brooklyn",
+    "prop": "screenwriter",
+    "obj": "Nick Hornby",
+    "s_wiki_title": "Brooklyn (film)",
+    "o_wiki_title": "Nick Hornby",
+    "ground_truth": "Nick Hornby",
+    "possible_answers": [
+      "Nick Hornby",
+      "Nicholas Peter John Hornby"
+    ],
+    "s_pop": 27337,
+    "o_pop": 14707
+  },
+  {
+    "id": 6288361,
+    "question": "Who was the screenwriter for The Matrix?",
+    "subj": "The Matrix",
+    "prop": "screenwriter",
+    "obj": "The Wachowskis",
+    "s_wiki_title": "The Matrix",
+    "o_wiki_title": "The Wachowskis",
+    "ground_truth": "The Wachowskis",
+    "possible_answers": [
+      "The Wachowskis",
+      "Wachowski Brothers",
+      "The Wachowski Brothers",
+      "the Wachowski Starship",
+      "Wachowski Sisters"
+    ],
+    "s_pop": 291114,
+    "o_pop": 222498
+  },
+  {
+    "id": 2925643,
+    "question": "Who was the director of Sold?",
+    "subj": "Sold",
+    "prop": "director",
+    "obj": "Hugh Ford",
+    "s_wiki_title": "Sold (1915 film)",
+    "o_wiki_title": "Hugh Ford (director)",
+    "ground_truth": "Hugh Ford",
+    "possible_answers": [
+      "Hugh Ford"
+    ],
+    "s_pop": 97,
+    "o_pop": 125
+  },
+  {
+    "id": 1941457,
+    "question": "What sport does Kim Sung-gan play?",
+    "subj": "Kim Sung-gan",
+    "prop": "sport",
+    "obj": "association football",
+    "s_wiki_title": "Kim Sung-gan",
+    "o_wiki_title": "Association football",
+    "ground_truth": "association football",
+    "possible_answers": [
+      "association football",
+      "football",
+      "soccer"
+    ],
+    "s_pop": 127,
+    "o_pop": 197767
+  },
+  {
+    "id": 3338045,
+    "question": "Who was the director of Angel?",
+    "subj": "Angel",
+    "prop": "director",
+    "obj": "Ganesh Acharya",
+    "s_wiki_title": "Angel (2011 film)",
+    "o_wiki_title": "Ganesh Acharya",
+    "ground_truth": "Ganesh Acharya",
+    "possible_answers": [
+      "Ganesh Acharya"
+    ],
+    "s_pop": 1250,
+    "o_pop": 11790
+  },
+  {
+    "id": 3558669,
+    "question": "Who was the producer of Outbreak?",
+    "subj": "Outbreak",
+    "prop": "producer",
+    "obj": "Wolfgang Petersen",
+    "s_wiki_title": "Outbreak (film)",
+    "o_wiki_title": "Wolfgang Petersen",
+    "ground_truth": "Wolfgang Petersen",
+    "possible_answers": [
+      "Wolfgang Petersen"
+    ],
+    "s_pop": 27608,
+    "o_pop": 18634
+  },
+  {
+    "id": 1652074,
+    "question": "Who was the producer of 19?",
+    "subj": "19",
+    "prop": "producer",
+    "obj": "Eg White",
+    "s_wiki_title": "19 (Adele album)",
+    "o_wiki_title": "Eg White",
+    "ground_truth": "Eg White",
+    "possible_answers": [
+      "Eg White",
+      "00160488174  IPI",
+      "Francis Anthony White",
+      "Jim Abbiss"
+    ],
+    "s_pop": 129345,
+    "o_pop": 4789
+  },
+  {
+    "id": 819155,
+    "question": "What is Kyriakos Mavronikolas's occupation?",
+    "subj": "Kyriakos Mavronikolas",
+    "prop": "occupation",
+    "obj": "politician",
+    "s_wiki_title": "Kyriakos Mavronikolas",
+    "o_wiki_title": "Politician",
+    "ground_truth": "politician",
+    "possible_answers": [
+      "politician",
+      "political leader",
+      "political figure",
+      "polit.",
+      "pol"
+    ],
+    "s_pop": 57,
+    "o_pop": 25692
+  },
+  {
+    "id": 82988,
+    "question": "Who was the director of 1870?",
+    "subj": "1870",
+    "prop": "director",
+    "obj": "Alfredo Giannetti",
+    "s_wiki_title": "1870 (film)",
+    "o_wiki_title": "Alfredo Giannetti",
+    "ground_truth": "Alfredo Giannetti",
+    "possible_answers": [
+      "Alfredo Giannetti"
+    ],
+    "s_pop": 325,
+    "o_pop": 191
+  },
+  {
+    "id": 1558376,
+    "question": "Who was the composer of This Love?",
+    "subj": "This Love",
+    "prop": "composer",
+    "obj": "Jesse Carmichael",
+    "s_wiki_title": "This Love (Maroon 5 song)",
+    "o_wiki_title": "Jesse Carmichael",
+    "ground_truth": "Jesse Carmichael",
+    "possible_answers": [
+      "Jesse Carmichael",
+      "Jesse Royal Carmichael"
+    ],
+    "s_pop": 5583,
+    "o_pop": 7706
+  },
+  {
+    "id": 4540533,
+    "question": "Who was the screenwriter for The Pacific?",
+    "subj": "The Pacific",
+    "prop": "screenwriter",
+    "obj": "Robert Leckie",
+    "s_wiki_title": "The Pacific (miniseries)",
+    "o_wiki_title": "Robert Leckie (author)",
+    "ground_truth": "Robert Leckie",
+    "possible_answers": [
+      "Robert Leckie"
+    ],
+    "s_pop": 47708,
+    "o_pop": 13706
+  },
+  {
+    "id": 6295667,
+    "question": "What is London the capital of?",
+    "subj": "London",
+    "prop": "capital of",
+    "obj": "United Kingdom",
+    "s_wiki_title": "London",
+    "o_wiki_title": "United Kingdom",
+    "ground_truth": "United Kingdom",
+    "possible_answers": [
+      "Kingdom of Essex",
+      "kingdom of the East Saxons",
+      "Essex",
+      "United Kingdom",
+      "🇬🇧",
+      "UK",
+      "United Kingdom of Great Britain and Northern Ireland",
+      "U.K.",
+      "GBR",
+      "GB",
+      "U. K.",
+      "U K",
+      "G.B.",
+      "G. B.",
+      "G B",
+      "Great Britain",
+      "G.B.R.",
+      "G B R",
+      "Britain",
+      "Great Britain and Northern Ireland",
+      "Great Britain",
+      "United Kingdom of Great Britain",
+      "UK",
+      "GB",
+      "UKGB",
+      "Kingdom of Great Britain",
+      "United Kingdom of Great Britain and Ireland",
+      "United Kingdom",
+      "UK",
+      "GB",
+      "UKGBI",
+      "Great Britain and Ireland",
+      "the United Kingdom",
+      "Britain",
+      "Kingdom of England",
+      "England",
+      "England",
+      "British North America",
+      "British America",
+      "Commonwealth of England",
+      "English Republic",
+      "Commonwealth",
+      "Interregnum",
+      "Protectorate",
+      "Commonwealth of England, Scotland and Ireland"
+    ],
+    "s_pop": 523018,
+    "o_pop": 1066107
+  },
+  {
+    "id": 3391136,
+    "question": "In what country is Asahi Station?",
+    "subj": "Asahi Station",
+    "prop": "country",
+    "obj": "Japan",
+    "s_wiki_title": "Asahi Station (Kōchi)",
+    "o_wiki_title": "Japan",
+    "ground_truth": "Japan",
+    "possible_answers": [
+      "Japan",
+      "State of Japan",
+      "Land of the Rising Sun",
+      "Nihon",
+      "Nippon",
+      "JP",
+      "Nippon-koku",
+      "Nihon-koku",
+      "JA",
+      "JPN",
+      "jp",
+      "JAP",
+      "Ja",
+      "Jap"
+    ],
+    "s_pop": 47,
+    "o_pop": 702414
+  },
+  {
+    "id": 1187606,
+    "question": "Who is the author of Searching for Dragons?",
+    "subj": "Searching for Dragons",
+    "prop": "author",
+    "obj": "Patricia Wrede",
+    "s_wiki_title": "Searching for Dragons",
+    "o_wiki_title": "Patricia Wrede",
+    "ground_truth": "Patricia Wrede",
+    "possible_answers": [
+      "Patricia Wrede",
+      "Patricia C. Wrede",
+      "Patricia Collins Wrede"
+    ],
+    "s_pop": 185,
+    "o_pop": 985
+  },
+  {
+    "id": 3021617,
+    "question": "Who was the screenwriter for Mac?",
+    "subj": "Mac",
+    "prop": "screenwriter",
+    "obj": "John Turturro",
+    "s_wiki_title": "Mac (film)",
+    "o_wiki_title": "John Turturro",
+    "ground_truth": "John Turturro",
+    "possible_answers": [
+      "John Turturro",
+      "John Michael Turturro"
+    ],
+    "s_pop": 1168,
+    "o_pop": 105143
+  },
+  {
+    "id": 4525297,
+    "question": "What genre is Shaft?",
+    "subj": "Shaft",
+    "prop": "genre",
+    "obj": "action film",
+    "s_wiki_title": "Shaft (1971 film)",
+    "o_wiki_title": "Action film",
+    "ground_truth": "action film",
+    "possible_answers": [
+      "action film",
+      "action movie",
+      "film action",
+      "movie action",
+      "action",
+      "blaxploitation",
+      "blacksploitation"
+    ],
+    "s_pop": 17974,
+    "o_pop": 99831
+  },
+  {
+    "id": 2281513,
+    "question": "Who is the father of Jesus?",
+    "subj": "Jesus",
+    "prop": "father",
+    "obj": "God the Father",
+    "s_wiki_title": "Jesus",
+    "o_wiki_title": "God the Father",
+    "ground_truth": "God the Father",
+    "possible_answers": [
+      "Joseph",
+      "Saint Joseph",
+      "St Joseph",
+      "Josef",
+      "St. Joseph",
+      "God the Father",
+      "The Father",
+      "Father"
+    ],
+    "s_pop": 353596,
+    "o_pop": 22907
+  },
+  {
+    "id": 3769332,
+    "question": "What sport does Colombian Cycling Federation play?",
+    "subj": "Colombian Cycling Federation",
+    "prop": "sport",
+    "obj": "cycle sport",
+    "s_wiki_title": "Colombian Cycling Federation",
+    "o_wiki_title": "Cycle sport",
+    "ground_truth": "cycle sport",
+    "possible_answers": [
+      "cycle sport",
+      "bicycle sport",
+      "bike sport",
+      "cycling sport",
+      "sport cycling",
+      "sports cycling",
+      "cycling sports"
+    ],
+    "s_pop": 84,
+    "o_pop": 8002
+  },
+  {
+    "id": 5894779,
+    "question": "Who was the director of Temple Tower?",
+    "subj": "Temple Tower",
+    "prop": "director",
+    "obj": "Donald Gallaher",
+    "s_wiki_title": "Temple Tower",
+    "o_wiki_title": "Donald Gallaher",
+    "ground_truth": "Donald Gallaher",
+    "possible_answers": [
+      "Donald Gallaher"
+    ],
+    "s_pop": 170,
+    "o_pop": 169
+  },
+  {
+    "id": 163487,
+    "question": "What genre is Fled?",
+    "subj": "Fled",
+    "prop": "genre",
+    "obj": "action film",
+    "s_wiki_title": "Fled",
+    "o_wiki_title": "Action film",
+    "ground_truth": "action film",
+    "possible_answers": [
+      "action film",
+      "action movie",
+      "film action",
+      "movie action",
+      "action"
+    ],
+    "s_pop": 3056,
+    "o_pop": 99831
+  },
+  {
+    "id": 1785552,
+    "question": "Who was the screenwriter for Return of the Fly?",
+    "subj": "Return of the Fly",
+    "prop": "screenwriter",
+    "obj": "Edward Bernds",
+    "s_wiki_title": "Return of the Fly",
+    "o_wiki_title": "Edward Bernds",
+    "ground_truth": "Edward Bernds",
+    "possible_answers": [
+      "Edward Bernds"
+    ],
+    "s_pop": 10500,
+    "o_pop": 668
+  },
+  {
+    "id": 4351837,
+    "question": "What is Babylon the capital of?",
+    "subj": "Babylon",
+    "prop": "capital of",
+    "obj": "Achaemenid Empire",
+    "s_wiki_title": "Babylon",
+    "o_wiki_title": "Achaemenid Empire",
+    "ground_truth": "Achaemenid Empire",
+    "possible_answers": [
+      "Achaemenid Empire",
+      "First Persian Empire",
+      "Persian Empire",
+      "Persia",
+      "Achaemenid Persian Empire",
+      "Persian Achaemenid Empire",
+      "Achaemenid Persia",
+      "Neo-Babylonian Empire"
+    ],
+    "s_pop": 145084,
+    "o_pop": 140430
+  },
+  {
+    "id": 442737,
+    "question": "What sport does Francesco Reda play?",
+    "subj": "Francesco Reda",
+    "prop": "sport",
+    "obj": "road bicycle racing",
+    "s_wiki_title": "Francesco Reda",
+    "o_wiki_title": "Road bicycle racing",
+    "ground_truth": "road bicycle racing",
+    "possible_answers": [
+      "road bicycle racing",
+      "bicycle road cycling",
+      "bicycle road race",
+      "road bicycle race",
+      "road cycling race",
+      "road cycle racing",
+      "road bike racing",
+      "cycle race"
+    ],
+    "s_pop": 73,
+    "o_pop": 9517
+  },
+  {
+    "id": 6206193,
+    "question": "What genre is Winter: Five Windows on the Season?",
+    "subj": "Winter: Five Windows on the Season",
+    "prop": "genre",
+    "obj": "non-fiction",
+    "s_wiki_title": "Winter: Five Windows on the Season",
+    "o_wiki_title": "Nonfiction",
+    "ground_truth": "non-fiction",
+    "possible_answers": [
+      "non-fiction",
+      "nonfiction",
+      "non fiction"
+    ],
+    "s_pop": 121,
+    "o_pop": 17737
+  },
+  {
+    "id": 1779237,
+    "question": "Who was the composer of 3?",
+    "subj": "3",
+    "prop": "composer",
+    "obj": "Max Martin",
+    "s_wiki_title": "3 (song)",
+    "o_wiki_title": "Max Martin",
+    "ground_truth": "Max Martin",
+    "possible_answers": [
+      "Max Martin",
+      "Karl Martin Sandberg",
+      "Martin White"
+    ],
+    "s_pop": 7444,
+    "o_pop": 97580
+  },
+  {
+    "id": 3287222,
+    "question": "Who was the screenwriter for Amistad?",
+    "subj": "Amistad",
+    "prop": "screenwriter",
+    "obj": "David Franzoni",
+    "s_wiki_title": "Amistad (film)",
+    "o_wiki_title": "David Franzoni",
+    "ground_truth": "David Franzoni",
+    "possible_answers": [
+      "David Franzoni",
+      "David Harold Franzoni"
+    ],
+    "s_pop": 29668,
+    "o_pop": 5861
+  },
+  {
+    "id": 1722403,
+    "question": "What is Rome the capital of?",
+    "subj": "Rome",
+    "prop": "capital of",
+    "obj": "Italy",
+    "s_wiki_title": "Rome",
+    "o_wiki_title": "Italy",
+    "ground_truth": "Italy",
+    "possible_answers": [
+      "Lazio",
+      "Province of Rome",
+      "provincia di Roma",
+      "Papal States",
+      "Papal State",
+      "Church State",
+      "State of the Church",
+      "Stato della Chiesa",
+      "Status Ecclesiae",
+      "Ecclesiastical States",
+      "Roman Republic",
+      "res publica",
+      "Rome",
+      "Roman Empire",
+      "Imperium Romanum",
+      "Romanum imperium",
+      "imperium romanum",
+      "Senatus Populusque Romanus",
+      "Italy",
+      "Italia",
+      "Italian Republic",
+      "IT",
+      "🇮🇹",
+      "ITA"
+    ],
+    "s_pop": 193323,
+    "o_pop": 403188
+  },
+  {
+    "id": 3212853,
+    "question": "In what country is Abra, Ivory Coast?",
+    "subj": "Abra, Ivory Coast",
+    "prop": "country",
+    "obj": "Ivory Coast",
+    "s_wiki_title": "Abra, Ivory Coast",
+    "o_wiki_title": "Ivory Coast",
+    "ground_truth": "Ivory Coast",
+    "possible_answers": [
+      "Ivory Coast",
+      "Republic of Côte d'Ivoire",
+      "ci",
+      "Cote d'Ivoire",
+      "🇨🇮",
+      "Côte d'Ivoire",
+      "Republic of Cote d'Ivoire",
+      "Côte-d'Ivoire",
+      "Côte D'Ivoire",
+      "Cote D'Ivoire",
+      "Cote d'lvoire",
+      "Ivory coast",
+      "Cote D' Ivoire",
+      "Cote d' Ivoire",
+      "Côte d’Ivoire",
+      "Côte d'Ivorie",
+      "Côte d'ivoire",
+      "Cote d'ivoire",
+      "Cote d´Ivoire",
+      "Cote d ivoire",
+      "Cote divoire",
+      "Cote Ivoire",
+      "Cote d’Ivoire",
+      "République de Côte d'Ivoire",
+      "Republic of Ivory Coast",
+      "Cote Divoire",
+      "Cote-d'Ivoire",
+      "Cote d'ivore",
+      "Cote dIvoire",
+      "Côte d´Ivoire",
+      "Côte Divoire",
+      "Côte D'ivoire",
+      "Republic of the Ivory Coast",
+      "The Ivory Coast",
+      "CIV"
+    ],
+    "s_pop": 34,
+    "o_pop": 93137
+  },
+  {
+    "id": 2436209,
+    "question": "Who was the director of Family Tree?",
+    "subj": "Family Tree",
+    "prop": "director",
+    "obj": "Olivier Ducastel",
+    "s_wiki_title": "Family Tree (2010 film)",
+    "o_wiki_title": "Olivier Ducastel",
+    "ground_truth": "Olivier Ducastel",
+    "possible_answers": [
+      "Jacques Martineau",
+      "Olivier Ducastel"
+    ],
+    "s_pop": 145,
+    "o_pop": 447
+  },
+  {
+    "id": 4810283,
+    "question": "Who was the producer of Drama?",
+    "subj": "Drama",
+    "prop": "producer",
+    "obj": "Trevor Horn",
+    "s_wiki_title": "Drama (Yes album)",
+    "o_wiki_title": "Trevor Horn",
+    "ground_truth": "Trevor Horn",
+    "possible_answers": [
+      "Trevor Horn",
+      "Trevor Charles Horn"
+    ],
+    "s_pop": 8398,
+    "o_pop": 34096
+  },
+  {
+    "id": 4795088,
+    "question": "Who was the producer of A Night to Remember?",
+    "subj": "A Night to Remember",
+    "prop": "producer",
+    "obj": "William MacQuitty",
+    "s_wiki_title": "A Night to Remember (1958 film)",
+    "o_wiki_title": "William MacQuitty",
+    "ground_truth": "William MacQuitty",
+    "possible_answers": [
+      "William MacQuitty"
+    ],
+    "s_pop": 16933,
+    "o_pop": 310
+  },
+  {
+    "id": 4607987,
+    "question": "What is Dubai the capital of?",
+    "subj": "Dubai",
+    "prop": "capital of",
+    "obj": "Emirate of Dubai",
+    "s_wiki_title": "Dubai",
+    "o_wiki_title": "Emirate of Dubai",
+    "ground_truth": "Emirate of Dubai",
+    "possible_answers": [
+      "Emirate of Dubai",
+      "Dubai"
+    ],
+    "s_pop": 264470,
+    "o_pop": 26770
+  },
+  {
+    "id": 3904776,
+    "question": "What genre is Detour for Emmy?",
+    "subj": "Detour for Emmy",
+    "prop": "genre",
+    "obj": "young adult literature",
+    "s_wiki_title": "Detour for Emmy",
+    "o_wiki_title": "Young adult fiction",
+    "ground_truth": "young adult literature",
+    "possible_answers": [
+      "young adult literature",
+      "juvenile fiction",
+      "YA",
+      "youth literature",
+      "juvenile literature",
+      "young adult fiction",
+      "YA literature",
+      "YA fiction"
+    ],
+    "s_pop": 74,
+    "o_pop": 34659
+  },
+  {
+    "id": 3774804,
+    "question": "Who is the author of Company?",
+    "subj": "Company",
+    "prop": "author",
+    "obj": "Samuel Beckett",
+    "s_wiki_title": "Company (novella)",
+    "o_wiki_title": "Samuel Beckett",
+    "ground_truth": "Samuel Beckett",
+    "possible_answers": [
+      "Samuel Beckett",
+      "Samuel Barclay Beckett",
+      "Andrew Belis",
+      "Sam Beckett",
+      "Sa-miao-erh Pei-kʻo-tʻe",
+      "Samuel Beḳeṭ"
+    ],
+    "s_pop": 282,
+    "o_pop": 53965
+  },
+  {
+    "id": 1260399,
+    "question": "What genre is No Direction Home?",
+    "subj": "No Direction Home",
+    "prop": "genre",
+    "obj": "documentary film",
+    "s_wiki_title": "No Direction Home",
+    "o_wiki_title": "Documentary film",
+    "ground_truth": "documentary film",
+    "possible_answers": [
+      "documentary film",
+      "documentary movie",
+      "doc",
+      "film documentary",
+      "motion picture documentary",
+      "documentary",
+      "factual film"
+    ],
+    "s_pop": 3431,
+    "o_pop": 42565
+  },
+  {
+    "id": 1256119,
+    "question": "Who was the director of Partner?",
+    "subj": "Partner",
+    "prop": "director",
+    "obj": "David Dhawan",
+    "s_wiki_title": "Partner (2007 film)",
+    "o_wiki_title": "David Dhawan",
+    "ground_truth": "David Dhawan",
+    "possible_answers": [
+      "David Dhawan"
+    ],
+    "s_pop": 10116,
+    "o_pop": 23263
+  },
+  {
+    "id": 557793,
+    "question": "What is the capital of Indiana?",
+    "subj": "Indiana",
+    "prop": "capital",
+    "obj": "Indianapolis",
+    "s_wiki_title": "Indiana",
+    "o_wiki_title": "Indianapolis",
+    "ground_truth": "Indianapolis",
+    "possible_answers": [
+      "Indianapolis",
+      "Circle City",
+      "Indy",
+      "Naptown",
+      "Crossroads of America",
+      "Racing Capital of the World",
+      "Amateur Sports Capital of the World",
+      "INDPLS",
+      "Indianapolis, Indiana",
+      "India-no-place",
+      "Railroad City"
+    ],
+    "s_pop": 230842,
+    "o_pop": 65428
+  },
+  {
+    "id": 5951427,
+    "question": "Who was the director of The Return?",
+    "subj": "The Return",
+    "prop": "director",
+    "obj": "Antun Vrdoljak",
+    "s_wiki_title": "The Return (1979 film)",
+    "o_wiki_title": "Antun Vrdoljak",
+    "ground_truth": "Antun Vrdoljak",
+    "possible_answers": [
+      "Antun Vrdoljak"
+    ],
+    "s_pop": 98,
+    "o_pop": 1611
+  },
+  {
+    "id": 6082536,
+    "question": "Who is the author of Upside Down?",
+    "subj": "Upside Down",
+    "prop": "author",
+    "obj": "Eduardo Galeano",
+    "s_wiki_title": "Upside Down (book)",
+    "o_wiki_title": "Eduardo Galeano",
+    "ground_truth": "Eduardo Galeano",
+    "possible_answers": [
+      "Eduardo Galeano",
+      "Eduardo Hughes Galeano",
+      "Eduardo Germán María Hughes Galeano",
+      "Eduardo German Maria Hughes Galeano"
+    ],
+    "s_pop": 310,
+    "o_pop": 5605
+  },
+  {
+    "id": 5736293,
+    "question": "Who is the father of Jonathan?",
+    "subj": "Jonathan",
+    "prop": "father",
+    "obj": "Saul",
+    "s_wiki_title": "Jonathan (1 Samuel)",
+    "o_wiki_title": "Saul",
+    "ground_truth": "Saul",
+    "possible_answers": [
+      "Saul",
+      "Shaul"
+    ],
+    "s_pop": 5400,
+    "o_pop": 34478
+  },
+  {
+    "id": 2126877,
+    "question": "Who was the director of Taken?",
+    "subj": "Taken",
+    "prop": "director",
+    "obj": "Pierre Morel",
+    "s_wiki_title": "Taken (film)",
+    "o_wiki_title": "Pierre Morel",
+    "ground_truth": "Pierre Morel",
+    "possible_answers": [
+      "Pierre Morel"
+    ],
+    "s_pop": 64711,
+    "o_pop": 5168
+  },
+  {
+    "id": 600223,
+    "question": "What is the capital of South Carolina?",
+    "subj": "South Carolina",
+    "prop": "capital",
+    "obj": "Columbia",
+    "s_wiki_title": "South Carolina",
+    "o_wiki_title": "Columbia, South Carolina",
+    "ground_truth": "Columbia",
+    "possible_answers": [
+      "Columbia",
+      "Columbia, South Carolina",
+      "Cola",
+      "Columbia, SC"
+    ],
+    "s_pop": 218439,
+    "o_pop": 31552
+  },
+  {
+    "id": 2471916,
+    "question": "In what city was Louis Joseph Troost born?",
+    "subj": "Louis Joseph Troost",
+    "prop": "place of birth",
+    "obj": "Paris",
+    "s_wiki_title": "Louis Joseph Troost",
+    "o_wiki_title": "Paris",
+    "ground_truth": "Paris",
+    "possible_answers": [
+      "Paris",
+      "City of Light",
+      "Paris, France"
+    ],
+    "s_pop": 77,
+    "o_pop": 265592
+  },
+  {
+    "id": 5932221,
+    "question": "Who was the producer of The Holly and the Ivy?",
+    "subj": "The Holly and the Ivy",
+    "prop": "producer",
+    "obj": "Anatole de Grunwald",
+    "s_wiki_title": "The Holly and the Ivy (film)",
+    "o_wiki_title": "Anatole de Grunwald",
+    "ground_truth": "Anatole de Grunwald",
+    "possible_answers": [
+      "Anatole de Grunwald"
+    ],
+    "s_pop": 810,
+    "o_pop": 431
+  },
+  {
+    "id": 189279,
+    "question": "What genre is With or Without You?",
+    "subj": "With or Without You",
+    "prop": "genre",
+    "obj": "rock music",
+    "s_wiki_title": "With or Without You",
+    "o_wiki_title": "Rock music",
+    "ground_truth": "rock music",
+    "possible_answers": [
+      "rock music",
+      "rock and roll",
+      "rock",
+      "Rock"
+    ],
+    "s_pop": 8857,
+    "o_pop": 140450
+  },
+  {
+    "id": 4902992,
+    "question": "Who was the screenwriter for Hook?",
+    "subj": "Hook",
+    "prop": "screenwriter",
+    "obj": "Malia Scotch Marmo",
+    "s_wiki_title": "Hook (film)",
+    "o_wiki_title": "Malia Scotch Marmo",
+    "ground_truth": "Malia Scotch Marmo",
+    "possible_answers": [
+      "Malia Scotch Marmo",
+      "Nick Castle",
+      "Nicholas Charles Castle, Jr.",
+      "Nicholas Charles Castle Jr.",
+      "Nicholas Charles Castle"
+    ],
+    "s_pop": 46255,
+    "o_pop": 737
+  },
+  {
+    "id": 6499110,
+    "question": "What is the capital of Mexico?",
+    "subj": "Mexico",
+    "prop": "capital",
+    "obj": "Mexico City",
+    "s_wiki_title": "Mexico",
+    "o_wiki_title": "Mexico City",
+    "ground_truth": "Mexico City",
+    "possible_answers": [
+      "Mexico City",
+      "Mexico D.F.",
+      "Ciudad de México",
+      "City of Mexico",
+      "Mexico City, Mexico",
+      "CDMX",
+      "Mexico"
+    ],
+    "s_pop": 367408,
+    "o_pop": 156078
+  },
+  {
+    "id": 710729,
+    "question": "In what country is Mavjinjava?",
+    "subj": "Mavjinjava",
+    "prop": "country",
+    "obj": "India",
+    "s_wiki_title": "Mavjinjava",
+    "o_wiki_title": "India",
+    "ground_truth": "India",
+    "possible_answers": [
+      "India",
+      "Bharat",
+      "Hindustan",
+      "Bharatvarsh",
+      "in",
+      "IN",
+      "Republic of India",
+      "🇮🇳",
+      "IND",
+      "Aryavratt"
+    ],
+    "s_pop": 99,
+    "o_pop": 1301086
+  },
+  {
+    "id": 1070526,
+    "question": "Who is the author of The Example?",
+    "subj": "The Example",
+    "prop": "author",
+    "obj": "Tom Taylor",
+    "s_wiki_title": "The Example (comics)",
+    "o_wiki_title": "Tom Taylor",
+    "ground_truth": "Tom Taylor",
+    "possible_answers": [
+      "Tom Taylor",
+      "Thomas Taylor"
+    ],
+    "s_pop": 143,
+    "o_pop": 901
+  },
+  {
+    "id": 1960242,
+    "question": "Who was the director of Guess Who?",
+    "subj": "Guess Who",
+    "prop": "director",
+    "obj": "Kevin Rodney Sullivan",
+    "s_wiki_title": "Guess Who (film)",
+    "o_wiki_title": "Kevin Rodney Sullivan",
+    "ground_truth": "Kevin Rodney Sullivan",
+    "possible_answers": [
+      "Kevin Rodney Sullivan"
+    ],
+    "s_pop": 8644,
+    "o_pop": 1136
+  },
+  {
+    "id": 499672,
+    "question": "What is the capital of Western Visayas?",
+    "subj": "Western Visayas",
+    "prop": "capital",
+    "obj": "Iloilo City",
+    "s_wiki_title": "Western Visayas",
+    "o_wiki_title": "Iloilo City",
+    "ground_truth": "Iloilo City",
+    "possible_answers": [
+      "Iloilo City",
+      "Iloilo",
+      "City of Iloilo",
+      "Iloilo, Iloilo",
+      "Iloilo City, Iloilo"
+    ],
+    "s_pop": 17410,
+    "o_pop": 17853
+  },
+  {
+    "id": 6285203,
+    "question": "What is the capital of Malaysia?",
+    "subj": "Malaysia",
+    "prop": "capital",
+    "obj": "Kuala Lumpur",
+    "s_wiki_title": "Malaysia",
+    "o_wiki_title": "Kuala Lumpur",
+    "ground_truth": "Kuala Lumpur",
+    "possible_answers": [
+      "Kuala Lumpur",
+      "KL",
+      "Federal Territory of Kuala Lumpur"
+    ],
+    "s_pop": 288342,
+    "o_pop": 74837
+  }
+]

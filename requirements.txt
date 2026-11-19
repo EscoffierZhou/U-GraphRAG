@@ -1,0 +1,38 @@
+# U-GraphRAG (8GB VRAM) Environment Requirements
+# Tested working environment: Python 3.12.10 + CUDA 12.6 on Windows 11 (RTX 4070 Laptop 8GB)
+#
+# NOTE on PyTorch GPU install:
+# Install CUDA-enabled PyTorch matching your target NVIDIA driver / CUDA toolkit first, e.g.:
+#   pip install torch==2.9.0 --index-url https://download.pytorch.org/whl/cu126
+# Then install the remaining dependencies:
+#   pip install -r requirements.txt
+
+# --- Core Deep Learning & 4-bit Quantization Stack ---
+torch>=2.5.0                  # Tested: 2.9.0+cu126
+transformers>=4.50.0          # Tested: 4.57.3
+bitsandbytes>=0.45.0          # Tested: 0.48.2 (4-bit NF4 quantization)
+accelerate>=1.0.0             # Tested: 1.10.1 (device_map="auto")
+safetensors>=0.4.5            # Tested: 0.6.2
+
+# --- Retrieval, Embedding & Scientific Computing ---
+sentence-transformers>=3.0.0  # Tested: 5.2.3 (BAAI/bge-small-en-v1.5)
+scikit-learn>=1.3.0           # Tested: 1.7.2 (TF-IDF fallback in DenseRetriever)
+numpy>=1.26.4                 # Tested: 1.26.4
+scipy>=1.13.0                 # Tested: 1.13.1
+networkx>=3.0                 # Tested: 3.6
+
+# --- Plotting & Evaluation Reporting (scripts/plot_ablation_charts.py) ---
+matplotlib>=3.8.4             # Tested: 3.9.0
+
+# --- Model / Dataset Download & Verification Scripts ---
+huggingface-hub>=0.26.0       # Tested: 0.34.4
+modelscope>=1.18.0            # Ungated China/AutoDL mirror for Llama-3.1-8B / Qwen2.5
+requests>=2.31.0              # Tested: 2.32.5
+pandas>=2.2.0                 # Tested: 2.2.3 (used by scripts/download_datasets.py)
+pyarrow>=15.0.0               # Tested: 21.0.0 (parquet reader for download_datasets.py)
+datasets>=3.0.0               # Tested: 4.2.0
+tqdm>=4.66.4                  # Tested: 4.67.1
+rank-bm25>=0.2.2              # Sparse BM25 retriever (src/baseline_rag.py also has fallback)
+
+# --- Optional Hardware Utilities (Built-in Fallbacks Already Exist in src/) ---
+# nvidia-ml-py>=12.0.0        # Optional: src/metrics_profiler.py falls back to torch.cuda + nvidia-smi

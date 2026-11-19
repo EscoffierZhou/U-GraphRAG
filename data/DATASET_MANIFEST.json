@@ -1,0 +1,67 @@
+{
+  "version": "1.0",
+  "description": "Step 1 Benchmark Dataset & Embedding Assets Manifest",
+  "datasets": {
+    "hotpotqa_dev_300": {
+      "file_path": "data\\hotpotqa_dev_300.json",
+      "num_samples": 300,
+      "split": "validation",
+      "setting": "distractor (10 paragraphs per question)",
+      "sample_keys": [
+        "id",
+        "question",
+        "ground_truth",
+        "answer",
+        "type",
+        "level",
+        "context"
+      ],
+      "sample_preview": {
+        "id": "5a8b57f25542995d1e6f1371",
+        "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+        "ground_truth": "yes",
+        "type": "comparison",
+        "level": "hard",
+        "num_context_docs": 10
+      }
+    },
+    "popqa_test_300": {
+      "file_path": "data\\popqa_test_300.json",
+      "num_samples": 300,
+      "split": "test",
+      "sample_keys": [
+        "id",
+        "question",
+        "ground_truth",
+        "possible_answers",
+        "s_pop",
+        "o_pop",
+        "prop"
+      ],
+      "sample_preview": {
+        "id": 4222362,
+        "question": "What is George Rankin's occupation?",
+        "ground_truth": "politician",
+        "possible_answers": [
+          "politician",
+          "political leader",
+          "political figure",
+          "polit.",
+          "pol"
+        ],
+        "s_pop": 142,
+        "o_pop": 25692,
+        "prop": "occupation"
+      }
+    }
+  },
+  "models": {
+    "retrieval_embedding": {
+      "name": "BAAI/bge-small-en-v1.5",
+      "local_dir": "models\\bge-small-en-v1.5",
+      "embedding_dim": 384,
+      "framework": "sentence-transformers / HuggingFace",
+      "status": "verified_offline"
+    }
+  }
+}

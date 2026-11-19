@@ -1,0 +1,1442 @@
+{
+  "metadata": {
+    "task": "U-GraphRAG M3 & Full Pipeline Cross-Platform Academic Novelty Search",
+    "execution_time": "2026-11-14T11:42:05.957332",
+    "local_acl_corpus_size": 10020,
+    "platforms_audited": [
+      "Local_ACL_Anthology",
+      "arXiv",
+      "OpenAlex",
+      "Crossref",
+      "Semantic_Scholar"
+    ],
+    "query_count": 6
+  },
+  "summary": {
+    "Q7": {
+      "name": "Full Pipeline Strict",
+      "level": "Strict (Full Pipeline M1+M2+M3)",
+      "boolean_expression": "(\"Retrieval-Augmented Generation\" OR \"RAG\") AND (\"aleatoric\" OR \"epistemic\") AND (\"maximum spanning tree\") AND (\"contrastive decoding\" OR \"abstention\")",
+      "total_deduplicated_strict_hits": 0,
+      "platform_breakdown": {
+        "Local_ACL_Anthology": 0,
+        "arXiv": 0,
+        "OpenAlex": 0,
+        "Crossref": 0,
+        "Semantic_Scholar": 0
+      }
+    },
+    "Q8": {
+      "name": "M3 Strict",
+      "level": "Strict (Method 3 Core)",
+      "boolean_expression": "(\"Retrieval-Augmented Generation\" OR \"RAG\") AND (\"contrastive decoding\" OR \"entropy\") AND (\"selective abstention\" OR \"synchronous faithfulness\" OR \"backtracking\")",
+      "total_deduplicated_strict_hits": 1,
+      "platform_breakdown": {
+        "Local_ACL_Anthology": 1,
+        "arXiv": 1,
+        "OpenAlex": 0,
+        "Crossref": 0,
+        "Semantic_Scholar": 0
+      }
+    },
+    "Q9": {
+      "name": "M2+M3 Bridge",
+      "level": "Medium-Strict (M2-M3 Interface)",
+      "boolean_expression": "(\"Retrieval-Augmented Generation\" OR \"RAG\") AND (\"evidence reliability\" OR \"uncertainty\") AND (\"contrastive decoding\")",
+      "total_deduplicated_strict_hits": 1,
+      "platform_breakdown": {
+        "Local_ACL_Anthology": 1,
+        "arXiv": 1,
+        "OpenAlex": 0,
+        "Crossref": 0,
+        "Semantic_Scholar": 0
+      }
+    },
+    "Q10": {
+      "name": "Contrastive Decoding + Hallucination in RAG",
+      "level": "Medium (Direct Competitors)",
+      "boolean_expression": "(\"Retrieval-Augmented Generation\" OR \"RAG\") AND (\"contrastive decoding\") AND (\"hallucination\" OR \"faithfulness\")",
+      "total_deduplicated_strict_hits": 5,
+      "platform_breakdown": {
+        "Local_ACL_Anthology": 2,
+        "arXiv": 2,
+        "OpenAlex": 2,
+        "Crossref": 0,
+        "Semantic_Scholar": 0
+      }
+    },
+    "Q11": {
+      "name": "Uncertainty + Selective Abstention in RAG",
+      "level": "Broad-Medium (Competitors in Abstention)",
+      "boolean_expression": "(\"Retrieval-Augmented Generation\" OR \"RAG\") AND (\"uncertainty\") AND (\"abstention\" OR \"unanswerable\")",
+      "total_deduplicated_strict_hits": 16,
+      "platform_breakdown": {
+        "Local_ACL_Anthology": 2,
+        "arXiv": 13,
+        "OpenAlex": 6,
+        "Crossref": 0,
+        "Semantic_Scholar": 0
+      }
+    },
+    "Q12": {
+      "name": "Function Vectors + RAG",
+      "level": "Novelty Verification (Intervention & Vectors)",
+      "boolean_expression": "(\"function vector\" OR \"self-function vector\" OR \"attention head intervention\") AND (\"Retrieval-Augmented Generation\" OR \"RAG\") AND (\"uncertainty\")",
+      "total_deduplicated_strict_hits": 0,
+      "platform_breakdown": {
+        "Local_ACL_Anthology": 0,
+        "arXiv": 0,
+        "OpenAlex": 0,
+        "Crossref": 0,
+        "Semantic_Scholar": 0
+      }
+    }
+  },
+  "query_details": {
+    "Q7": {
+      "id": "Q7",
+      "name": "Full Pipeline Strict",
+      "level": "Strict (Full Pipeline M1+M2+M3)",
+      "expression": "(\"Retrieval-Augmented Generation\" OR \"RAG\") AND (\"aleatoric\" OR \"epistemic\") AND (\"maximum spanning tree\") AND (\"contrastive decoding\" OR \"abstention\")",
+      "description": "全链路复合创新端到端查重：不确定性图谱最大生成树 + 证据对比解码/拒答机制",
+      "platforms": {
+        "Local_ACL_Anthology": {
+          "searched_count": 10020,
+          "matched_count": 0,
+          "hits": []
+        },
+        "arXiv": {
+          "candidate_count": 25,
+          "matched_count": 0,
+          "hits": []
+        },
+        "OpenAlex": {
+          "candidate_count": 0,
+          "matched_count": 0,
+          "hits": []
+        },
+        "Crossref": {
+          "candidate_count": 20,
+          "matched_count": 0,
+          "hits": []
+        },
+        "Semantic_Scholar": {
+          "candidate_count": 0,
+          "matched_count": 0,
+          "hits": []
+        }
+      },
+      "deduplicated_strict_hits_count": 0,
+      "deduplicated_hits": []
+    },
+    "Q8": {
+      "id": "Q8",
+      "name": "M3 Strict",
+      "level": "Strict (Method 3 Core)",
+      "expression": "(\"Retrieval-Augmented Generation\" OR \"RAG\") AND (\"contrastive decoding\" OR \"entropy\") AND (\"selective abstention\" OR \"synchronous faithfulness\" OR \"backtracking\")",
+      "description": "M3 核心方案查重：RAG 场景下的对比解码/熵引导 + 同步句级忠实度监测/选择性拒答/回溯",
+      "platforms": {
+        "Local_ACL_Anthology": {
+          "searched_count": 10020,
+          "matched_count": 1,
+          "hits": [
+            {
+              "source": "Local_ACL_Anthology",
+              "id": "2024.emnlp-main.527",
+              "title": "Synchronous Faithfulness Monitoring for Trustworthy Retrieval-Augmented Generation",
+              "authors": [
+                "Di Wu",
+                "Jia-Chen Gu",
+                "Fan Yin",
+                "Nanyun Peng",
+                "Kai-Wei Chang"
+              ],
+              "year": 2024,
+              "venue": "ACL Anthology (2024.EMNLP)",
+              "url": "https://aclanthology.org/2024.emnlp-main.527",
+              "abstract_snippet": "Retrieval-augmented language models (RALMs) have shown strong performance and wide applicability in knowledge-intensive tasks. However, there are significant trustworthiness concerns as RALMs are prone to generating unfaithful outputs, including baseless infor...",
+              "strict_match": true,
+              "matched_criteria": {
+                "RAG": true,
+                "contrastive_decoding_or_entropy": true,
+                "selective_abstention_or_sync_or_backtracking": true
+              }
+            }
+          ]
+        },
+        "arXiv": {
+          "candidate_count": 1,
+          "matched_count": 1,
+          "hits": [
+            {
+              "source": "arXiv",
+              "id": "http://arxiv.org/abs/2406.13692v2",
+              "title": "Synchronous Faithfulness Monitoring for Trustworthy Retrieval-Augmented Generation",
+              "authors": [
+                "Di Wu",
+                "Jia-Chen Gu",
+                "Fan Yin",
+                "Nanyun Peng",
+                "Kai-Wei Chang"
+              ],
+              "year": 2024,
+              "venue": "arXiv preprint",
+              "url": "http://arxiv.org/abs/2406.13692v2",
+              "abstract_snippet": "Retrieval-augmented language models (RALMs) have shown strong performance and wide applicability in knowledge-intensive tasks. However, there are significant trustworthiness concerns as RALMs are prone to generating unfaithful outputs, including baseless infor...",
+              "strict_match": true,
+              "matched_criteria": {
+                "RAG": true,
+                "contrastive_decoding_or_entropy": true,
+                "selective_abstention_or_sync_or_backtracking": true
+              }
+            }
+          ]
+        },
+        "OpenAlex": {
+          "candidate_count": 12,
+          "matched_count": 0,
+          "hits": []
+        },
+        "Crossref": {
+          "candidate_count": 20,
+          "matched_count": 0,
+          "hits": []
+        },
+        "Semantic_Scholar": {
+          "candidate_count": 0,
+          "matched_count": 0,
+          "hits": []
+        }
+      },
+      "deduplicated_strict_hits_count": 1,
+      "deduplicated_hits": [
+        {
+          "source": "Local_ACL_Anthology",
+          "id": "2024.emnlp-main.527",
+          "title": "Synchronous Faithfulness Monitoring for Trustworthy Retrieval-Augmented Generation",
+          "authors": [
+            "Di Wu",
+            "Jia-Chen Gu",
+            "Fan Yin",
+            "Nanyun Peng",
+            "Kai-Wei Chang"
+          ],
+          "year": 2024,
+          "venue": "ACL Anthology (2024.EMNLP)",
+          "url": "https://aclanthology.org/2024.emnlp-main.527",
+          "abstract_snippet": "Retrieval-augmented language models (RALMs) have shown strong performance and wide applicability in knowledge-intensive tasks. However, there are significant trustworthiness concerns as RALMs are prone to generating unfaithful outputs, including baseless infor...",
+          "strict_match": true,
+          "matched_criteria": {
+            "RAG": true,
+            "contrastive_decoding_or_entropy": true,
+            "selective_abstention_or_sync_or_backtracking": true
+          }
+        }
+      ]
+    },
+    "Q9": {
+      "id": "Q9",
+      "name": "M2+M3 Bridge",
+      "level": "Medium-Strict (M2-M3 Interface)",
+      "expression": "(\"Retrieval-Augmented Generation\" OR \"RAG\") AND (\"evidence reliability\" OR \"uncertainty\") AND (\"contrastive decoding\")",
+      "description": "证据不确定性/可靠性度量与对比解码结合方案查重",
+      "platforms": {
+        "Local_ACL_Anthology": {
+          "searched_count": 10020,
+          "matched_count": 1,
+          "hits": [
+            {
+              "source": "Local_ACL_Anthology",
+              "id": "2024.emnlp-main.527",
+              "title": "Synchronous Faithfulness Monitoring for Trustworthy Retrieval-Augmented Generation",
+              "authors": [
+                "Di Wu",
+                "Jia-Chen Gu",
+                "Fan Yin",
+                "Nanyun Peng",
+                "Kai-Wei Chang"
+              ],
+              "year": 2024,
+              "venue": "ACL Anthology (2024.EMNLP)",
+              "url": "https://aclanthology.org/2024.emnlp-main.527",
+              "abstract_snippet": "Retrieval-augmented language models (RALMs) have shown strong performance and wide applicability in knowledge-intensive tasks. However, there are significant trustworthiness concerns as RALMs are prone to generating unfaithful outputs, including baseless infor...",
+              "strict_match": true,
+              "matched_criteria": {
+                "RAG": true,
+                "evidence_reliability_or_uncertainty": true,
+                "contrastive_decoding": true
+              }
+            }
+          ]
+        },
+        "arXiv": {
+          "candidate_count": 3,
+          "matched_count": 1,
+          "hits": [
+            {
+              "source": "arXiv",
+              "id": "http://arxiv.org/abs/2406.13692v2",
+              "title": "Synchronous Faithfulness Monitoring for Trustworthy Retrieval-Augmented Generation",
+              "authors": [
+                "Di Wu",
+                "Jia-Chen Gu",
+                "Fan Yin",
+                "Nanyun Peng",
+                "Kai-Wei Chang"
+              ],
+              "year": 2024,
+              "venue": "arXiv preprint",
+              "url": "http://arxiv.org/abs/2406.13692v2",
+              "abstract_snippet": "Retrieval-augmented language models (RALMs) have shown strong performance and wide applicability in knowledge-intensive tasks. However, there are significant trustworthiness concerns as RALMs are prone to generating unfaithful outputs, including baseless infor...",
+              "strict_match": true,
+              "matched_criteria": {
+                "RAG": true,
+                "evidence_reliability_or_uncertainty": true,
+                "contrastive_decoding": true
+              }
+            }
+          ]
+        },
+        "OpenAlex": {
+          "candidate_count": 3,
+          "matched_count": 0,
+          "hits": []
+        },
+        "Crossref": {
+          "candidate_count": 20,
+          "matched_count": 0,
+          "hits": []
+        },
+        "Semantic_Scholar": {
+          "candidate_count": 0,
+          "matched_count": 0,
+          "hits": []
+        }
+      },
+      "deduplicated_strict_hits_count": 1,
+      "deduplicated_hits": [
+        {
+          "source": "Local_ACL_Anthology",
+          "id": "2024.emnlp-main.527",
+          "title": "Synchronous Faithfulness Monitoring for Trustworthy Retrieval-Augmented Generation",
+          "authors": [
+            "Di Wu",
+            "Jia-Chen Gu",
+            "Fan Yin",
+            "Nanyun Peng",
+            "Kai-Wei Chang"
+          ],
+          "year": 2024,
+          "venue": "ACL Anthology (2024.EMNLP)",
+          "url": "https://aclanthology.org/2024.emnlp-main.527",
+          "abstract_snippet": "Retrieval-augmented language models (RALMs) have shown strong performance and wide applicability in knowledge-intensive tasks. However, there are significant trustworthiness concerns as RALMs are prone to generating unfaithful outputs, including baseless infor...",
+          "strict_match": true,
+          "matched_criteria": {
+            "RAG": true,
+            "evidence_reliability_or_uncertainty": true,
+            "contrastive_decoding": true
+          }
+        }
+      ]
+    },
+    "Q10": {
+      "id": "Q10",
+      "name": "Contrastive Decoding + Hallucination in RAG",
+      "level": "Medium (Direct Competitors)",
+      "expression": "(\"Retrieval-Augmented Generation\" OR \"RAG\") AND (\"contrastive decoding\") AND (\"hallucination\" OR \"faithfulness\")",
+      "description": "RAG 领域采用对比解码抑制幻觉或提升忠实度的既有基线工作（如 DoLa, CD, CAD 衍生等）",
+      "platforms": {
+        "Local_ACL_Anthology": {
+          "searched_count": 10020,
+          "matched_count": 2,
+          "hits": [
+            {
+              "source": "Local_ACL_Anthology",
+              "id": "2024.emnlp-main.266",
+              "title": "DVD: Dynamic Contrastive Decoding for Knowledge Amplification in Multi-Document Question Answering",
+              "authors": [
+                "Jing Jin",
+                "Houfeng Wang",
+                "Hao Zhang",
+                "Xiaoguang Li",
+                "Zhijiang Guo"
+              ],
+              "year": 2024,
+              "venue": "ACL Anthology (2024.EMNLP)",
+              "url": "https://aclanthology.org/2024.emnlp-main.266",
+              "abstract_snippet": "Large language models (LLMs) are widely used in question-answering (QA) systems but often generate information with hallucinations. Retrieval-augmented generation (RAG) offers a potential remedy, yet the uneven retrieval quality and irrelevant contents may dis...",
+              "strict_match": true,
+              "matched_criteria": {
+                "RAG": true,
+                "contrastive_decoding": true,
+                "hallucination_or_faithfulness": true
+              }
+            },
+            {
+              "source": "Local_ACL_Anthology",
+              "id": "2024.emnlp-main.527",
+              "title": "Synchronous Faithfulness Monitoring for Trustworthy Retrieval-Augmented Generation",
+              "authors": [
+                "Di Wu",
+                "Jia-Chen Gu",
+                "Fan Yin",
+                "Nanyun Peng",
+                "Kai-Wei Chang"
+              ],
+              "year": 2024,
+              "venue": "ACL Anthology (2024.EMNLP)",
+              "url": "https://aclanthology.org/2024.emnlp-main.527",
+              "abstract_snippet": "Retrieval-augmented language models (RALMs) have shown strong performance and wide applicability in knowledge-intensive tasks. However, there are significant trustworthiness concerns as RALMs are prone to generating unfaithful outputs, including baseless infor...",
+              "strict_match": true,
+              "matched_criteria": {
+                "RAG": true,
+                "contrastive_decoding": true,
+                "hallucination_or_faithfulness": true
+              }
+            }
+          ]
+        },
+        "arXiv": {
+          "candidate_count": 10,
+          "matched_count": 2,
+          "hits": [
+            {
+              "source": "arXiv",
+              "id": "http://arxiv.org/abs/2406.13692v2",
+              "title": "Synchronous Faithfulness Monitoring for Trustworthy Retrieval-Augmented Generation",
+              "authors": [
+                "Di Wu",
+                "Jia-Chen Gu",
+                "Fan Yin",
+                "Nanyun Peng",
+                "Kai-Wei Chang"
+              ],
+              "year": 2024,
+              "venue": "arXiv preprint",
+              "url": "http://arxiv.org/abs/2406.13692v2",
+              "abstract_snippet": "Retrieval-augmented language models (RALMs) have shown strong performance and wide applicability in knowledge-intensive tasks. However, there are significant trustworthiness concerns as RALMs are prone to generating unfaithful outputs, including baseless infor...",
+              "strict_match": true,
+              "matched_criteria": {
+                "RAG": true,
+                "contrastive_decoding": true,
+                "hallucination_or_faithfulness": true
+              }
+            },
+            {
+              "source": "arXiv",
+              "id": "http://arxiv.org/abs/2608.22652v1",
+              "title": "Evaluating Inference-Time Defenses Against Package Hallucination in LLM-Generated Code",
+              "authors": [
+                "Alberick Euraste Djire",
+                "Iyiola E. Olatunji",
+                "Melissa Tessa",
+                "Earl T. Barr",
+                "Jacques Klein"
+              ],
+              "year": 2026,
+              "venue": "arXiv preprint",
+              "url": "http://arxiv.org/abs/2608.22652v1",
+              "abstract_snippet": "LLMs are increasingly used for code generation, yet they frequently hallucinate non-existent software packages, creating exploitable entry points into the software supply chain. We make four contributions to this problem. First, we show that prior evaluation m...",
+              "strict_match": true,
+              "matched_criteria": {
+                "RAG": true,
+                "contrastive_decoding": true,
+                "hallucination_or_faithfulness": true
+              }
+            }
+          ]
+        },
+        "OpenAlex": {
+          "candidate_count": 25,
+          "matched_count": 2,
+          "hits": [
+            {
+              "source": "OpenAlex",
+              "id": "https://openalex.org/W7221981874",
+              "title": "Understanding and Mitigating Hallucinations in Large Language Models: A Systematic Survey of Mechanisms, Detection Paradigms, and Architectural Defenses",
+              "authors": [
+                "Anoopraj Verma"
+              ],
+              "year": 2026,
+              "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+              "url": "https://doi.org/10.5281/zenodo.23386084",
+              "abstract_snippet": "Large Language Models (LLMs) based on the autoregressive Transformer architecture have achieved remarkable empirical capabilities across open-domain dialogue, reasoning, code synthesis, and analytical tasks. Despite these milestones, their operational deployme...",
+              "strict_match": true,
+              "matched_criteria": {
+                "RAG": true,
+                "contrastive_decoding": true,
+                "hallucination_or_faithfulness": true
+              }
+            },
+            {
+              "source": "OpenAlex",
+              "id": "https://openalex.org/W7222794282",
+              "title": "HALLUCINATION IN LARGE LANGUAGE MODELS: CAUSES, DETECTION, AND MITIGATION STRATEGIES",
+              "authors": [
+                "Yesufu, Blessing Alpha",
+                "Omorogiuwa, Osaremwinda",
+                "Elvis, Browne Raphael"
+              ],
+              "year": 2026,
+              "venue": "International Research Journal of Modernization in Engineering Technology and Science",
+              "url": "https://doi.org/10.56726/irjmets102786",
+              "abstract_snippet": "One of the common problems with LLMs (Large Language Models) is that they sometimes produce fluent text that deviates from the given source or from world knowledge, a phenomenon known as hallucination.In search engines, healthcare, legal and enterprise applica...",
+              "strict_match": true,
+              "matched_criteria": {
+                "RAG": true,
+                "contrastive_decoding": true,
+                "hallucination_or_faithfulness": true
+              }
+            }
+          ]
+        },
+        "Crossref": {
+          "candidate_count": 20,
+          "matched_count": 0,
+          "hits": []
+        },
+        "Semantic_Scholar": {
+          "candidate_count": 0,
+          "matched_count": 0,
+          "hits": []
+        }
+      },
+      "deduplicated_strict_hits_count": 5,
+      "deduplicated_hits": [
+        {
+          "source": "Local_ACL_Anthology",
+          "id": "2024.emnlp-main.266",
+          "title": "DVD: Dynamic Contrastive Decoding for Knowledge Amplification in Multi-Document Question Answering",
+          "authors": [
+            "Jing Jin",
+            "Houfeng Wang",
+            "Hao Zhang",
+            "Xiaoguang Li",
+            "Zhijiang Guo"
+          ],
+          "year": 2024,
+          "venue": "ACL Anthology (2024.EMNLP)",
+          "url": "https://aclanthology.org/2024.emnlp-main.266",
+          "abstract_snippet": "Large language models (LLMs) are widely used in question-answering (QA) systems but often generate information with hallucinations. Retrieval-augmented generation (RAG) offers a potential remedy, yet the uneven retrieval quality and irrelevant contents may dis...",
+          "strict_match": true,
+          "matched_criteria": {
+            "RAG": true,
+            "contrastive_decoding": true,
+            "hallucination_or_faithfulness": true
+          }
+        },
+        {
+          "source": "Local_ACL_Anthology",
+          "id": "2024.emnlp-main.527",
+          "title": "Synchronous Faithfulness Monitoring for Trustworthy Retrieval-Augmented Generation",
+          "authors": [
+            "Di Wu",
+            "Jia-Chen Gu",
+            "Fan Yin",
+            "Nanyun Peng",
+            "Kai-Wei Chang"
+          ],
+          "year": 2024,
+          "venue": "ACL Anthology (2024.EMNLP)",
+          "url": "https://aclanthology.org/2024.emnlp-main.527",
+          "abstract_snippet": "Retrieval-augmented language models (RALMs) have shown strong performance and wide applicability in knowledge-intensive tasks. However, there are significant trustworthiness concerns as RALMs are prone to generating unfaithful outputs, including baseless infor...",
+          "strict_match": true,
+          "matched_criteria": {
+            "RAG": true,
+            "contrastive_decoding": true,
+            "hallucination_or_faithfulness": true
+          }
+        },
+        {
+          "source": "arXiv",
+          "id": "http://arxiv.org/abs/2608.22652v1",
+          "title": "Evaluating Inference-Time Defenses Against Package Hallucination in LLM-Generated Code",
+          "authors": [
+            "Alberick Euraste Djire",
+            "Iyiola E. Olatunji",
+            "Melissa Tessa",
+            "Earl T. Barr",
+            "Jacques Klein"
+          ],
+          "year": 2026,
+          "venue": "arXiv preprint",
+          "url": "http://arxiv.org/abs/2608.22652v1",
+          "abstract_snippet": "LLMs are increasingly used for code generation, yet they frequently hallucinate non-existent software packages, creating exploitable entry points into the software supply chain. We make four contributions to this problem. First, we show that prior evaluation m...",
+          "strict_match": true,
+          "matched_criteria": {
+            "RAG": true,
+            "contrastive_decoding": true,
+            "hallucination_or_faithfulness": true
+          }
+        },
+        {
+          "source": "OpenAlex",
+          "id": "https://openalex.org/W7221981874",
+          "title": "Understanding and Mitigating Hallucinations in Large Language Models: A Systematic Survey of Mechanisms, Detection Paradigms, and Architectural Defenses",
+          "authors": [
+            "Anoopraj Verma"
+          ],
+          "year": 2026,
+          "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+          "url": "https://doi.org/10.5281/zenodo.23386084",
+          "abstract_snippet": "Large Language Models (LLMs) based on the autoregressive Transformer architecture have achieved remarkable empirical capabilities across open-domain dialogue, reasoning, code synthesis, and analytical tasks. Despite these milestones, their operational deployme...",
+          "strict_match": true,
+          "matched_criteria": {
+            "RAG": true,
+            "contrastive_decoding": true,
+            "hallucination_or_faithfulness": true
+          }
+        },
+        {
+          "source": "OpenAlex",
+          "id": "https://openalex.org/W7222794282",
+          "title": "HALLUCINATION IN LARGE LANGUAGE MODELS: CAUSES, DETECTION, AND MITIGATION STRATEGIES",
+          "authors": [
+            "Yesufu, Blessing Alpha",
+            "Omorogiuwa, Osaremwinda",
+            "Elvis, Browne Raphael"
+          ],
+          "year": 2026,
+          "venue": "International Research Journal of Modernization in Engineering Technology and Science",
+          "url": "https://doi.org/10.56726/irjmets102786",
+          "abstract_snippet": "One of the common problems with LLMs (Large Language Models) is that they sometimes produce fluent text that deviates from the given source or from world knowledge, a phenomenon known as hallucination.In search engines, healthcare, legal and enterprise applica...",
+          "strict_match": true,
+          "matched_criteria": {
+            "RAG": true,
+            "contrastive_decoding": true,
+            "hallucination_or_faithfulness": true
+          }
+        }
+      ]
+    },
+    "Q11": {
+      "id": "Q11",
+      "name": "Uncertainty + Selective Abstention in RAG",
+      "level": "Broad-Medium (Competitors in Abstention)",
+      "expression": "(\"Retrieval-Augmented Generation\" OR \"RAG\") AND (\"uncertainty\") AND (\"abstention\" OR \"unanswerable\")",
+      "description": "RAG 领域基于不确定性度量的选择性拒答或不可回答检测机制",
+      "platforms": {
+        "Local_ACL_Anthology": {
+          "searched_count": 10020,
+          "matched_count": 2,
+          "hits": [
+            {
+              "source": "Local_ACL_Anthology",
+              "id": "2024.emnlp-main.527",
+              "title": "Synchronous Faithfulness Monitoring for Trustworthy Retrieval-Augmented Generation",
+              "authors": [
+                "Di Wu",
+                "Jia-Chen Gu",
+                "Fan Yin",
+                "Nanyun Peng",
+                "Kai-Wei Chang"
+              ],
+              "year": 2024,
+              "venue": "ACL Anthology (2024.EMNLP)",
+              "url": "https://aclanthology.org/2024.emnlp-main.527",
+              "abstract_snippet": "Retrieval-augmented language models (RALMs) have shown strong performance and wide applicability in knowledge-intensive tasks. However, there are significant trustworthiness concerns as RALMs are prone to generating unfaithful outputs, including baseless infor...",
+              "strict_match": true,
+              "matched_criteria": {
+                "RAG": true,
+                "uncertainty": true,
+                "abstention_or_unanswerable": true
+              }
+            },
+            {
+              "source": "Local_ACL_Anthology",
+              "id": "2025.acl-long.561",
+              "title": "Divide-Then-Align: Honest Alignment based on the Knowledge Boundary of RAG",
+              "authors": [
+                "Xin Sun",
+                "Jianan Xie",
+                "Zhongqi Chen",
+                "Qiang Liu",
+                "Shu Wu"
+              ],
+              "year": 2025,
+              "venue": "ACL Anthology (2025.ACL)",
+              "url": "https://aclanthology.org/2025.acl-long.561",
+              "abstract_snippet": "Large language models (LLMs) augmented with retrieval systems have significantly advanced natural language processing tasks by integrating external knowledge sources, enabling more accurate and contextually rich responses. To improve the robustness of such sys...",
+              "strict_match": true,
+              "matched_criteria": {
+                "RAG": true,
+                "uncertainty": true,
+                "abstention_or_unanswerable": true
+              }
+            }
+          ]
+        },
+        "arXiv": {
+          "candidate_count": 13,
+          "matched_count": 13,
+          "hits": [
+            {
+              "source": "arXiv",
+              "id": "http://arxiv.org/abs/2610.28340v1",
+              "title": "DeclineCraft: A RAG Abstention Benchmark for Jointly Measuring Combined Retrieval and Parametric Knowledge",
+              "authors": [
+                "Atharva Thakur",
+                "Abulhair Saparov",
+                "Bruno Ribeiro"
+              ],
+              "year": 2026,
+              "venue": "arXiv preprint",
+              "url": "http://arxiv.org/abs/2610.28340v1",
+              "abstract_snippet": "Reliable retrieval-augmented generation (RAG) requires recognizing when neither retrieved documents nor parametric knowledge supports an answer. We introduce DeclineCraft, a dynamic abstention benchmark whose unanswerable questions target Minecraft feature add...",
+              "strict_match": true,
+              "matched_criteria": {
+                "RAG": true,
+                "uncertainty": true,
+                "abstention_or_unanswerable": true
+              }
+            },
+            {
+              "source": "arXiv",
+              "id": "http://arxiv.org/abs/2604.20854v1",
+              "title": "ERA: Evidence-based Reliability Alignment for Honest Retrieval-Augmented Generation",
+              "authors": [
+                "Sunguk Shin",
+                "Meeyoung Cha",
+                "Byung-Jun Lee",
+                "Sungwon Park"
+              ],
+              "year": 2026,
+              "venue": "arXiv preprint",
+              "url": "http://arxiv.org/abs/2604.20854v1",
+              "abstract_snippet": "Retrieval-Augmented Generation (RAG) grounds language models in factual evidence but introduces critical challenges regarding knowledge conflicts between internalized parameters and retrieved information. However, existing reliability methods, typically relyin...",
+              "strict_match": true,
+              "matched_criteria": {
+                "RAG": true,
+                "uncertainty": true,
+                "abstention_or_unanswerable": true
+              }
+            },
+            {
+              "source": "arXiv",
+              "id": "http://arxiv.org/abs/2406.13692v2",
+              "title": "Synchronous Faithfulness Monitoring for Trustworthy Retrieval-Augmented Generation",
+              "authors": [
+                "Di Wu",
+                "Jia-Chen Gu",
+                "Fan Yin",
+                "Nanyun Peng",
+                "Kai-Wei Chang"
+              ],
+              "year": 2024,
+              "venue": "arXiv preprint",
+              "url": "http://arxiv.org/abs/2406.13692v2",
+              "abstract_snippet": "Retrieval-augmented language models (RALMs) have shown strong performance and wide applicability in knowledge-intensive tasks. However, there are significant trustworthiness concerns as RALMs are prone to generating unfaithful outputs, including baseless infor...",
+              "strict_match": true,
+              "matched_criteria": {
+                "RAG": true,
+                "uncertainty": true,
+                "abstention_or_unanswerable": true
+              }
+            },
+            {
+              "source": "arXiv",
+              "id": "http://arxiv.org/abs/2606.29959v1",
+              "title": "Know Before You Fetch: Calibrated Retrieval-Budget Allocation for Retrieval-Augmented Generation",
+              "authors": [
+                "Zhe Dong",
+                "Fang Qin",
+                "Manish Shah",
+                "Yicheng Wang"
+              ],
+              "year": 2026,
+              "venue": "arXiv preprint",
+              "url": "http://arxiv.org/abs/2606.29959v1",
+              "abstract_snippet": "Retrieval-augmented generation (RAG) typically retrieves a fixed number of passages for every query. This is wasteful when the reader already knows the answer, and it can be harmful when irrelevant or partially relevant passages distract the reader. We formula...",
+              "strict_match": true,
+              "matched_criteria": {
+                "RAG": true,
+                "uncertainty": true,
+                "abstention_or_unanswerable": true
+              }
+            },
+            {
+              "source": "arXiv",
+              "id": "http://arxiv.org/abs/2607.10491v1",
+              "title": "EvidentialRAG: Quantifying and Mitigating Information Conflict in Multi-Source Retrieval-Augmented Generation via Evidential Deep Learning",
+              "authors": [
+                "S M Asif Hossain",
+                "Ruksat Khan Shayoni",
+                "M. F. Mridha"
+              ],
+              "year": 2026,
+              "venue": "arXiv preprint",
+              "url": "http://arxiv.org/abs/2607.10491v1",
+              "abstract_snippet": "Retrieval-augmented generation grounds large language models in external evidence, but most pipelines still treat retrieved passages as deterministic and mutually consistent context. In open information environments, retrieved sources may disagree because of t...",
+              "strict_match": true,
+              "matched_criteria": {
+                "RAG": true,
+                "uncertainty": true,
+                "abstention_or_unanswerable": true
+              }
+            },
+            {
+              "source": "arXiv",
+              "id": "http://arxiv.org/abs/2607.24875v1",
+              "title": "FinAbstain: Uncertainty-Calibrated Multimodal RAG for Selective Financial Forecasting",
+              "authors": [
+                "Dorothy Torres",
+                "Wei Cheng",
+                "Henan Huang"
+              ],
+              "year": 2026,
+              "venue": "arXiv preprint",
+              "url": "http://arxiv.org/abs/2607.24875v1",
+              "abstract_snippet": "Large language models (LLMs) can synthesize financial narratives but may express high confidence when evidence is sparse, stale, or contradictory. This failure is especially consequential in forecasting, where filings, news, prices, volume, and technical signa...",
+              "strict_match": true,
+              "matched_criteria": {
+                "RAG": true,
+                "uncertainty": true,
+                "abstention_or_unanswerable": true
+              }
+            },
+            {
+              "source": "arXiv",
+              "id": "http://arxiv.org/abs/2405.02228v5",
+              "title": "Abstention vs. Hallucination: Benchmarking LLM Source Attribution for Scientific Citations",
+              "authors": [
+                "Deepa Tilwani",
+                "Yash Saxena",
+                "Seyedali Mohammadi",
+                "Ankur Padia",
+                "Edward Raff"
+              ],
+              "year": 2024,
+              "venue": "arXiv preprint",
+              "url": "http://arxiv.org/abs/2405.02228v5",
+              "abstract_snippet": "Large language models (LLMs) increasingly generate citation-backed responses, yet citation hallucination remains a major challenge for trustworthy scientific information access. We introduce REASONS, a benchmark of 12,723 sentence-level citation instances span...",
+              "strict_match": true,
+              "matched_criteria": {
+                "RAG": true,
+                "uncertainty": true,
+                "abstention_or_unanswerable": true
+              }
+            },
+            {
+              "source": "arXiv",
+              "id": "http://arxiv.org/abs/2510.11483v3",
+              "title": "Uncertainty Quantification for Retrieval-Augmented Reasoning",
+              "authors": [
+                "Heydar Soudani",
+                "Hamed Zamani",
+                "Faegheh Hasibi"
+              ],
+              "year": 2025,
+              "venue": "arXiv preprint",
+              "url": "http://arxiv.org/abs/2510.11483v3",
+              "abstract_snippet": "Retrieval-augmented reasoning (RAR) is a recent evolution of retrieval-augmented generation (RAG) that employs multiple reasoning steps for retrieval and generation. While effective for some complex queries, RAR remains vulnerable to errors and misleading outp...",
+              "strict_match": true,
+              "matched_criteria": {
+                "RAG": true,
+                "uncertainty": true,
+                "abstention_or_unanswerable": true
+              }
+            },
+            {
+              "source": "arXiv",
+              "id": "http://arxiv.org/abs/2505.20871v1",
+              "title": "Divide-Then-Align: Honest Alignment based on the Knowledge Boundary of RAG",
+              "authors": [
+                "Xin Sun",
+                "Jianan Xie",
+                "Zhongqi Chen",
+                "Qiang Liu",
+                "Shu Wu"
+              ],
+              "year": 2025,
+              "venue": "arXiv preprint",
+              "url": "http://arxiv.org/abs/2505.20871v1",
+              "abstract_snippet": "Large language models (LLMs) augmented with retrieval systems have significantly advanced natural language processing tasks by integrating external knowledge sources, enabling more accurate and contextually rich responses. To improve the robustness of such sys...",
+              "strict_match": true,
+              "matched_criteria": {
+                "RAG": true,
+                "uncertainty": true,
+                "abstention_or_unanswerable": true
+              }
+            },
+            {
+              "source": "arXiv",
+              "id": "http://arxiv.org/abs/2609.39139v1",
+              "title": "BELIEFRAG: Making Adaptive RAG State-Aware under Evolving Evidence",
+              "authors": [
+                "Hongji Pu"
+              ],
+              "year": 2026,
+              "venue": "arXiv preprint",
+              "url": "http://arxiv.org/abs/2609.39139v1",
+              "abstract_snippet": "Adaptive RAG uses signals such as confidence, relevance, support, and retrieval quality to decide when to search or correct evidence. In multi-step retrieval, however, these local signals must be combined into a persistent view of what the current evidence sup...",
+              "strict_match": true,
+              "matched_criteria": {
+                "RAG": true,
+                "uncertainty": true,
+                "abstention_or_unanswerable": true
+              }
+            },
+            {
+              "source": "arXiv",
+              "id": "http://arxiv.org/abs/2609.06391v1",
+              "title": "Building Trustworthy Graph-Agentic RAG for Social Good: Architectures, Failure Propagation, and Assurance by Construction",
+              "authors": [
+                "Vijay Bommireddy",
+                "Raviteja Bommireddy"
+              ],
+              "year": 2026,
+              "venue": "arXiv preprint",
+              "url": "http://arxiv.org/abs/2609.06391v1",
+              "abstract_snippet": "Graph-agentic retrieval-augmented generation combines structured evidence with adaptive controllers that can plan retrieval, traverse relations, verify intermediate claims, delegate subtasks, and use tools. This combination is useful when answers depend on rel...",
+              "strict_match": true,
+              "matched_criteria": {
+                "RAG": true,
+                "uncertainty": true,
+                "abstention_or_unanswerable": true
+              }
+            },
+            {
+              "source": "arXiv",
+              "id": "http://arxiv.org/abs/2510.19670v4",
+              "title": "CoSense-LLM: Semantics at the Edge with Cost- and Uncertainty-Aware Cloud-Edge Cooperation",
+              "authors": [
+                "Hasan Akgul",
+                "Mari Eplik",
+                "Javier Rojas",
+                "Aina Binti Abdullah",
+                "Pieter van der Merwe"
+              ],
+              "year": 2025,
+              "venue": "arXiv preprint",
+              "url": "http://arxiv.org/abs/2510.19670v4",
+              "abstract_snippet": "We present CoSense-LLM, an edge-first framework that turns continuous multimodal sensor streams (for example Wi-Fi CSI, IMU, audio, RFID, and lightweight vision) into compact, verifiable semantic tokens and coordinates with large language models under explicit...",
+              "strict_match": true,
+              "matched_criteria": {
+                "RAG": true,
+                "uncertainty": true,
+                "abstention_or_unanswerable": true
+              }
+            },
+            {
+              "source": "arXiv",
+              "id": "http://arxiv.org/abs/2610.28216v1",
+              "title": "A Multimodal Engineering GraphRAG Framework for Post-Wind-Event Building Assessment and Recovery Inference",
+              "authors": [
+                "Seyedeh Fatemeh Mirfakhar",
+                "Reda Snaiki",
+                "Rocio Lilen Segura"
+              ],
+              "year": 2026,
+              "venue": "arXiv preprint",
+              "url": "http://arxiv.org/abs/2610.28216v1",
+              "abstract_snippet": "Post-event building assessment requires linking observed physical damage to its consequences for safety, habitability, functionality, and recovery. Yet post-disaster evidence is often heterogeneous, incomplete, and distributed across images and reconnaissance ...",
+              "strict_match": true,
+              "matched_criteria": {
+                "RAG": true,
+                "uncertainty": true,
+                "abstention_or_unanswerable": true
+              }
+            }
+          ]
+        },
+        "OpenAlex": {
+          "candidate_count": 25,
+          "matched_count": 6,
+          "hits": [
+            {
+              "source": "OpenAlex",
+              "id": "https://openalex.org/W7155542449",
+              "title": "ERA: Evidence-based Reliability Alignment for Honest Retrieval-Augmented Generation",
+              "authors": [
+                "Sunguk Shin",
+                "Meeyoung Cha",
+                "Byung-Jun Lee",
+                "Sungwon Park"
+              ],
+              "year": 2026,
+              "venue": "arXiv (Cornell University)",
+              "url": "https://doi.org/10.48550/arxiv.2604.20854",
+              "abstract_snippet": "Retrieval-Augmented Generation (RAG) grounds language models in factual evidence but introduces critical challenges regarding knowledge conflicts between internalized parameters and retrieved information. However, existing reliability methods, typically relyin...",
+              "strict_match": true,
+              "matched_criteria": {
+                "RAG": true,
+                "uncertainty": true,
+                "abstention_or_unanswerable": true
+              }
+            },
+            {
+              "source": "OpenAlex",
+              "id": "https://openalex.org/W7203956628",
+              "title": "Building a Reliable Retrieval-Augmented Generation (RAG) System with Hallucination Awareness",
+              "authors": [
+                "Loreta Pajaziti"
+              ],
+              "year": 2026,
+              "venue": "Aaltodoc (Aalto University)",
+              "url": "https://openalex.org/W7203956628",
+              "abstract_snippet": "Retrieval-augmented generation has become an important approach for improving the factual grounding of large language model outputs by conditioning generation on externally retrieved documents. However, retrieval alone does not guarantee reliable answers. A sy...",
+              "strict_match": true,
+              "matched_criteria": {
+                "RAG": true,
+                "uncertainty": true,
+                "abstention_or_unanswerable": true
+              }
+            },
+            {
+              "source": "OpenAlex",
+              "id": "https://openalex.org/W7223089569",
+              "title": "DeclineCraft: A RAG Abstention Benchmark for Jointly Measuring Combined Retrieval and Parametric Knowledge",
+              "authors": [
+                "Atharva Thakur",
+                "Abulhair Saparov",
+                "Bruno Ribeiro"
+              ],
+              "year": 2026,
+              "venue": "arXiv (Cornell University)",
+              "url": "https://doi.org/10.48550/arxiv.2610.28340",
+              "abstract_snippet": "Reliable retrieval-augmented generation (RAG) requires recognizing when neither retrieved documents nor parametric knowledge supports an answer. We introduce DeclineCraft, a dynamic abstention benchmark whose unanswerable questions target Minecraft feature add...",
+              "strict_match": true,
+              "matched_criteria": {
+                "RAG": true,
+                "uncertainty": true,
+                "abstention_or_unanswerable": true
+              }
+            },
+            {
+              "source": "OpenAlex",
+              "id": "https://openalex.org/W7168270346",
+              "title": "EvidentialRAG: Quantifying and Mitigating Information Conflict in Multi-Source Retrieval-Augmented Generation via Evidential Deep Learning",
+              "authors": [
+                "S M Asif Hossain",
+                "Ruksat Khan Shayoni",
+                "M. F. Mridha"
+              ],
+              "year": 2026,
+              "venue": "arXiv (Cornell University)",
+              "url": "https://doi.org/10.48550/arxiv.2607.10491",
+              "abstract_snippet": "Retrieval-augmented generation grounds large language models in external evidence, but most pipelines still treat retrieved passages as deterministic and mutually consistent context. In open information environments, retrieved sources may disagree because of t...",
+              "strict_match": true,
+              "matched_criteria": {
+                "RAG": true,
+                "uncertainty": true,
+                "abstention_or_unanswerable": true
+              }
+            },
+            {
+              "source": "OpenAlex",
+              "id": "https://openalex.org/W7223304185",
+              "title": "Research on Factual Hallucination Detection and Mitigation in Large Language Models Based on Retrieval-Augmented Generation",
+              "authors": [
+                "Zehua Zhou"
+              ],
+              "year": 2026,
+              "venue": "International Journal of Advanced AI Applications",
+              "url": "https://doi.org/10.5281/zenodo.23588151",
+              "abstract_snippet": "Large language models (LLMs) can generate fluent, persuasive responses that nevertheless contain unsupported, outdated, or contradictory factual claims. Retrieval-augmented generation (RAG) reduces dependence on model parameters by supplying external evidence,...",
+              "strict_match": true,
+              "matched_criteria": {
+                "RAG": true,
+                "uncertainty": true,
+                "abstention_or_unanswerable": true
+              }
+            },
+            {
+              "source": "OpenAlex",
+              "id": "https://openalex.org/W7163000791",
+              "title": "BRAG: Bayesian Retrieval-Augmented Generation; A Methodological Framework for Evidence-Governed Decision Support",
+              "authors": [
+                "Lebede Ngartera",
+                "Saralees Nadarajah",
+                "koïna Rodoumta",
+                "Youssou Gningue"
+              ],
+              "year": 2026,
+              "venue": "Machine Learning and Knowledge Extraction",
+              "url": "https://doi.org/10.3390/make8060151",
+              "abstract_snippet": "In high-stakes settings, the most consequential failure of a language model is not a wrong answer but an answer it was not entitled to give. Existing retrieval-augmented generation (RAG) pipelines retrieve context, generate text, and perhaps add citations, but...",
+              "strict_match": true,
+              "matched_criteria": {
+                "RAG": true,
+                "uncertainty": true,
+                "abstention_or_unanswerable": true
+              }
+            }
+          ]
+        },
+        "Crossref": {
+          "candidate_count": 20,
+          "matched_count": 0,
+          "hits": []
+        },
+        "Semantic_Scholar": {
+          "candidate_count": 0,
+          "matched_count": 0,
+          "hits": []
+        }
+      },
+      "deduplicated_strict_hits_count": 16,
+      "deduplicated_hits": [
+        {
+          "source": "Local_ACL_Anthology",
+          "id": "2024.emnlp-main.527",
+          "title": "Synchronous Faithfulness Monitoring for Trustworthy Retrieval-Augmented Generation",
+          "authors": [
+            "Di Wu",
+            "Jia-Chen Gu",
+            "Fan Yin",
+            "Nanyun Peng",
+            "Kai-Wei Chang"
+          ],
+          "year": 2024,
+          "venue": "ACL Anthology (2024.EMNLP)",
+          "url": "https://aclanthology.org/2024.emnlp-main.527",
+          "abstract_snippet": "Retrieval-augmented language models (RALMs) have shown strong performance and wide applicability in knowledge-intensive tasks. However, there are significant trustworthiness concerns as RALMs are prone to generating unfaithful outputs, including baseless infor...",
+          "strict_match": true,
+          "matched_criteria": {
+            "RAG": true,
+            "uncertainty": true,
+            "abstention_or_unanswerable": true
+          }
+        },
+        {
+          "source": "Local_ACL_Anthology",
+          "id": "2025.acl-long.561",
+          "title": "Divide-Then-Align: Honest Alignment based on the Knowledge Boundary of RAG",
+          "authors": [
+            "Xin Sun",
+            "Jianan Xie",
+            "Zhongqi Chen",
+            "Qiang Liu",
+            "Shu Wu"
+          ],
+          "year": 2025,
+          "venue": "ACL Anthology (2025.ACL)",
+          "url": "https://aclanthology.org/2025.acl-long.561",
+          "abstract_snippet": "Large language models (LLMs) augmented with retrieval systems have significantly advanced natural language processing tasks by integrating external knowledge sources, enabling more accurate and contextually rich responses. To improve the robustness of such sys...",
+          "strict_match": true,
+          "matched_criteria": {
+            "RAG": true,
+            "uncertainty": true,
+            "abstention_or_unanswerable": true
+          }
+        },
+        {
+          "source": "arXiv",
+          "id": "http://arxiv.org/abs/2610.28340v1",
+          "title": "DeclineCraft: A RAG Abstention Benchmark for Jointly Measuring Combined Retrieval and Parametric Knowledge",
+          "authors": [
+            "Atharva Thakur",
+            "Abulhair Saparov",
+            "Bruno Ribeiro"
+          ],
+          "year": 2026,
+          "venue": "arXiv preprint",
+          "url": "http://arxiv.org/abs/2610.28340v1",
+          "abstract_snippet": "Reliable retrieval-augmented generation (RAG) requires recognizing when neither retrieved documents nor parametric knowledge supports an answer. We introduce DeclineCraft, a dynamic abstention benchmark whose unanswerable questions target Minecraft feature add...",
+          "strict_match": true,
+          "matched_criteria": {
+            "RAG": true,
+            "uncertainty": true,
+            "abstention_or_unanswerable": true
+          }
+        },
+        {
+          "source": "arXiv",
+          "id": "http://arxiv.org/abs/2604.20854v1",
+          "title": "ERA: Evidence-based Reliability Alignment for Honest Retrieval-Augmented Generation",
+          "authors": [
+            "Sunguk Shin",
+            "Meeyoung Cha",
+            "Byung-Jun Lee",
+            "Sungwon Park"
+          ],
+          "year": 2026,
+          "venue": "arXiv preprint",
+          "url": "http://arxiv.org/abs/2604.20854v1",
+          "abstract_snippet": "Retrieval-Augmented Generation (RAG) grounds language models in factual evidence but introduces critical challenges regarding knowledge conflicts between internalized parameters and retrieved information. However, existing reliability methods, typically relyin...",
+          "strict_match": true,
+          "matched_criteria": {
+            "RAG": true,
+            "uncertainty": true,
+            "abstention_or_unanswerable": true
+          }
+        },
+        {
+          "source": "arXiv",
+          "id": "http://arxiv.org/abs/2606.29959v1",
+          "title": "Know Before You Fetch: Calibrated Retrieval-Budget Allocation for Retrieval-Augmented Generation",
+          "authors": [
+            "Zhe Dong",
+            "Fang Qin",
+            "Manish Shah",
+            "Yicheng Wang"
+          ],
+          "year": 2026,
+          "venue": "arXiv preprint",
+          "url": "http://arxiv.org/abs/2606.29959v1",
+          "abstract_snippet": "Retrieval-augmented generation (RAG) typically retrieves a fixed number of passages for every query. This is wasteful when the reader already knows the answer, and it can be harmful when irrelevant or partially relevant passages distract the reader. We formula...",
+          "strict_match": true,
+          "matched_criteria": {
+            "RAG": true,
+            "uncertainty": true,
+            "abstention_or_unanswerable": true
+          }
+        },
+        {
+          "source": "arXiv",
+          "id": "http://arxiv.org/abs/2607.10491v1",
+          "title": "EvidentialRAG: Quantifying and Mitigating Information Conflict in Multi-Source Retrieval-Augmented Generation via Evidential Deep Learning",
+          "authors": [
+            "S M Asif Hossain",
+            "Ruksat Khan Shayoni",
+            "M. F. Mridha"
+          ],
+          "year": 2026,
+          "venue": "arXiv preprint",
+          "url": "http://arxiv.org/abs/2607.10491v1",
+          "abstract_snippet": "Retrieval-augmented generation grounds large language models in external evidence, but most pipelines still treat retrieved passages as deterministic and mutually consistent context. In open information environments, retrieved sources may disagree because of t...",
+          "strict_match": true,
+          "matched_criteria": {
+            "RAG": true,
+            "uncertainty": true,
+            "abstention_or_unanswerable": true
+          }
+        },
+        {
+          "source": "arXiv",
+          "id": "http://arxiv.org/abs/2607.24875v1",
+          "title": "FinAbstain: Uncertainty-Calibrated Multimodal RAG for Selective Financial Forecasting",
+          "authors": [
+            "Dorothy Torres",
+            "Wei Cheng",
+            "Henan Huang"
+          ],
+          "year": 2026,
+          "venue": "arXiv preprint",
+          "url": "http://arxiv.org/abs/2607.24875v1",
+          "abstract_snippet": "Large language models (LLMs) can synthesize financial narratives but may express high confidence when evidence is sparse, stale, or contradictory. This failure is especially consequential in forecasting, where filings, news, prices, volume, and technical signa...",
+          "strict_match": true,
+          "matched_criteria": {
+            "RAG": true,
+            "uncertainty": true,
+            "abstention_or_unanswerable": true
+          }
+        },
+        {
+          "source": "arXiv",
+          "id": "http://arxiv.org/abs/2405.02228v5",
+          "title": "Abstention vs. Hallucination: Benchmarking LLM Source Attribution for Scientific Citations",
+          "authors": [
+            "Deepa Tilwani",
+            "Yash Saxena",
+            "Seyedali Mohammadi",
+            "Ankur Padia",
+            "Edward Raff"
+          ],
+          "year": 2024,
+          "venue": "arXiv preprint",
+          "url": "http://arxiv.org/abs/2405.02228v5",
+          "abstract_snippet": "Large language models (LLMs) increasingly generate citation-backed responses, yet citation hallucination remains a major challenge for trustworthy scientific information access. We introduce REASONS, a benchmark of 12,723 sentence-level citation instances span...",
+          "strict_match": true,
+          "matched_criteria": {
+            "RAG": true,
+            "uncertainty": true,
+            "abstention_or_unanswerable": true
+          }
+        },
+        {
+          "source": "arXiv",
+          "id": "http://arxiv.org/abs/2510.11483v3",
+          "title": "Uncertainty Quantification for Retrieval-Augmented Reasoning",
+          "authors": [
+            "Heydar Soudani",
+            "Hamed Zamani",
+            "Faegheh Hasibi"
+          ],
+          "year": 2025,
+          "venue": "arXiv preprint",
+          "url": "http://arxiv.org/abs/2510.11483v3",
+          "abstract_snippet": "Retrieval-augmented reasoning (RAR) is a recent evolution of retrieval-augmented generation (RAG) that employs multiple reasoning steps for retrieval and generation. While effective for some complex queries, RAR remains vulnerable to errors and misleading outp...",
+          "strict_match": true,
+          "matched_criteria": {
+            "RAG": true,
+            "uncertainty": true,
+            "abstention_or_unanswerable": true
+          }
+        },
+        {
+          "source": "arXiv",
+          "id": "http://arxiv.org/abs/2609.39139v1",
+          "title": "BELIEFRAG: Making Adaptive RAG State-Aware under Evolving Evidence",
+          "authors": [
+            "Hongji Pu"
+          ],
+          "year": 2026,
+          "venue": "arXiv preprint",
+          "url": "http://arxiv.org/abs/2609.39139v1",
+          "abstract_snippet": "Adaptive RAG uses signals such as confidence, relevance, support, and retrieval quality to decide when to search or correct evidence. In multi-step retrieval, however, these local signals must be combined into a persistent view of what the current evidence sup...",
+          "strict_match": true,
+          "matched_criteria": {
+            "RAG": true,
+            "uncertainty": true,
+            "abstention_or_unanswerable": true
+          }
+        },
+        {
+          "source": "arXiv",
+          "id": "http://arxiv.org/abs/2609.06391v1",
+          "title": "Building Trustworthy Graph-Agentic RAG for Social Good: Architectures, Failure Propagation, and Assurance by Construction",
+          "authors": [
+            "Vijay Bommireddy",
+            "Raviteja Bommireddy"
+          ],
+          "year": 2026,
+          "venue": "arXiv preprint",
+          "url": "http://arxiv.org/abs/2609.06391v1",
+          "abstract_snippet": "Graph-agentic retrieval-augmented generation combines structured evidence with adaptive controllers that can plan retrieval, traverse relations, verify intermediate claims, delegate subtasks, and use tools. This combination is useful when answers depend on rel...",
+          "strict_match": true,
+          "matched_criteria": {
+            "RAG": true,
+            "uncertainty": true,
+            "abstention_or_unanswerable": true
+          }
+        },
+        {
+          "source": "arXiv",
+          "id": "http://arxiv.org/abs/2510.19670v4",
+          "title": "CoSense-LLM: Semantics at the Edge with Cost- and Uncertainty-Aware Cloud-Edge Cooperation",
+          "authors": [
+            "Hasan Akgul",
+            "Mari Eplik",
+            "Javier Rojas",
+            "Aina Binti Abdullah",
+            "Pieter van der Merwe"
+          ],
+          "year": 2025,
+          "venue": "arXiv preprint",
+          "url": "http://arxiv.org/abs/2510.19670v4",
+          "abstract_snippet": "We present CoSense-LLM, an edge-first framework that turns continuous multimodal sensor streams (for example Wi-Fi CSI, IMU, audio, RFID, and lightweight vision) into compact, verifiable semantic tokens and coordinates with large language models under explicit...",
+          "strict_match": true,
+          "matched_criteria": {
+            "RAG": true,
+            "uncertainty": true,
+            "abstention_or_unanswerable": true
+          }
+        },
+        {
+          "source": "arXiv",
+          "id": "http://arxiv.org/abs/2610.28216v1",
+          "title": "A Multimodal Engineering GraphRAG Framework for Post-Wind-Event Building Assessment and Recovery Inference",
+          "authors": [
+            "Seyedeh Fatemeh Mirfakhar",
+            "Reda Snaiki",
+            "Rocio Lilen Segura"
+          ],
+          "year": 2026,
+          "venue": "arXiv preprint",
+          "url": "http://arxiv.org/abs/2610.28216v1",
+          "abstract_snippet": "Post-event building assessment requires linking observed physical damage to its consequences for safety, habitability, functionality, and recovery. Yet post-disaster evidence is often heterogeneous, incomplete, and distributed across images and reconnaissance ...",
+          "strict_match": true,
+          "matched_criteria": {
+            "RAG": true,
+            "uncertainty": true,
+            "abstention_or_unanswerable": true
+          }
+        },
+        {
+          "source": "OpenAlex",
+          "id": "https://openalex.org/W7203956628",
+          "title": "Building a Reliable Retrieval-Augmented Generation (RAG) System with Hallucination Awareness",
+          "authors": [
+            "Loreta Pajaziti"
+          ],
+          "year": 2026,
+          "venue": "Aaltodoc (Aalto University)",
+          "url": "https://openalex.org/W7203956628",
+          "abstract_snippet": "Retrieval-augmented generation has become an important approach for improving the factual grounding of large language model outputs by conditioning generation on externally retrieved documents. However, retrieval alone does not guarantee reliable answers. A sy...",
+          "strict_match": true,
+          "matched_criteria": {
+            "RAG": true,
+            "uncertainty": true,
+            "abstention_or_unanswerable": true
+          }
+        },
+        {
+          "source": "OpenAlex",
+          "id": "https://openalex.org/W7223304185",
+          "title": "Research on Factual Hallucination Detection and Mitigation in Large Language Models Based on Retrieval-Augmented Generation",
+          "authors": [
+            "Zehua Zhou"
+          ],
+          "year": 2026,
+          "venue": "International Journal of Advanced AI Applications",
+          "url": "https://doi.org/10.5281/zenodo.23588151",
+          "abstract_snippet": "Large language models (LLMs) can generate fluent, persuasive responses that nevertheless contain unsupported, outdated, or contradictory factual claims. Retrieval-augmented generation (RAG) reduces dependence on model parameters by supplying external evidence,...",
+          "strict_match": true,
+          "matched_criteria": {
+            "RAG": true,
+            "uncertainty": true,
+            "abstention_or_unanswerable": true
+          }
+        },
+        {
+          "source": "OpenAlex",
+          "id": "https://openalex.org/W7163000791",
+          "title": "BRAG: Bayesian Retrieval-Augmented Generation; A Methodological Framework for Evidence-Governed Decision Support",
+          "authors": [
+            "Lebede Ngartera",
+            "Saralees Nadarajah",
+            "koïna Rodoumta",
+            "Youssou Gningue"
+          ],
+          "year": 2026,
+          "venue": "Machine Learning and Knowledge Extraction",
+          "url": "https://doi.org/10.3390/make8060151",
+          "abstract_snippet": "In high-stakes settings, the most consequential failure of a language model is not a wrong answer but an answer it was not entitled to give. Existing retrieval-augmented generation (RAG) pipelines retrieve context, generate text, and perhaps add citations, but...",
+          "strict_match": true,
+          "matched_criteria": {
+            "RAG": true,
+            "uncertainty": true,
+            "abstention_or_unanswerable": true
+          }
+        }
+      ]
+    },
+    "Q12": {
+      "id": "Q12",
+      "name": "Function Vectors + RAG",
+      "level": "Novelty Verification (Intervention & Vectors)",
+      "expression": "(\"function vector\" OR \"self-function vector\" OR \"attention head intervention\") AND (\"Retrieval-Augmented Generation\" OR \"RAG\") AND (\"uncertainty\")",
+      "description": "探测表征工程/功能向量/注意力头干预在 RAG 不确定性调控中的应用",
+      "platforms": {
+        "Local_ACL_Anthology": {
+          "searched_count": 10020,
+          "matched_count": 0,
+          "hits": []
+        },
+        "arXiv": {
+          "candidate_count": 8,
+          "matched_count": 0,
+          "hits": []
+        },
+        "OpenAlex": {
+          "candidate_count": 20,
+          "matched_count": 0,
+          "hits": []
+        },
+        "Crossref": {
+          "candidate_count": 20,
+          "matched_count": 0,
+          "hits": []
+        },
+        "Semantic_Scholar": {
+          "candidate_count": 15,
+          "matched_count": 0,
+          "hits": []
+        }
+      },
+      "deduplicated_strict_hits_count": 0,
+      "deduplicated_hits": []
+    }
+  }
+}

@@ -1,0 +1,69 @@
+# Python / Build / OS Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Credentials / Secrets (strictly never commit)
+.env
+.env.*
+*.pem
+*.key
+*pat*.txt
+*token*.txt
+*secret*
+
+# Large Model Weights, Vector Indices & Local Backups
+models/
+mempalace_acl/
+/dist/
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.safetensors
+*.bin
+*.ckpt
+*.pt
+
+# Local Administrative / Coursework Folders & Raw Unpacked Logs
+学校文件/
+SELECTED_SUPER_TOPIC_*.md
+Finale_SELECTED_SUPER_TOPIC_*.md
+results/TimeTable.txt
+
+# Raw Legacy Milestone Caches & Cloned External Repos (Summarized in evidence/)
+results/MileStone1_Hajimete_RAG/
+results/MileStone2_AblationExperiment_I/*
+!results/MileStone2_AblationExperiment_I/V5_FROZEN/
+results/MileStone3_AblationExperiment_II/
+results/MileStone4_MassiveDatasets&LLM/
+results/MileStoneAfter_ACL/
+results/MileStoneAfter_Arxiv/
+results/figures/
+results/MileStone4_Competitor/repos/
+results/MileStone4_Competitor/papers/
+results/MileStone4_Competitor/dist/outputs/
+results/MileStone4_Competitor/dist/outputs_qwen3b/
+results/MileStone4_Competitor/dist/outputs_qwen7b/
+results/MileStone4_Competitor/**/ckpt_*.json
+results/**/predictions/
+
+# LaTeX Auxiliary Build Artifacts inside paper/
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz
+paper/*.toc
