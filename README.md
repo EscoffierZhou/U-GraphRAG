@@ -5,8 +5,12 @@
 [![Unit Tests](https://img.shields.io/badge/CPU%20Tests-57%2F57%20Passing-brightgreen.svg)](docs/07_REPRODUCIBILITY.md)
 [![License: Academic](https://img.shields.io/badge/License-Apache%202.0%20%2F%20MIT-lightgrey.svg)](docs/03_DATA_PROVENANCE.md)
 
-- **团队成员与贡献者**：周兴（`EscoffierZhou`，`zhouxing@sdufe.edu.cn`）、宋丽（`LindaSong0315`）、Neko 实验室维护者（`EscoffierWithNeko`）
-- **所属单位**：山东财经大学 计算机与人工智能学院（School of Computing and Artificial Intelligence, Shandong University of Finance and Economics）
+- **团队成员与贡献者**：
+
+- 周兴（`EscoffierZhou`，`zhouxing@sdufe.edu.cn`）、宋丽（`LindaSong0315`）、Nekoya(Gemini猫屋)（`EscoffierWithNeko`）
+- **所属单位**：
+
+- 山东财经大学 计算机与人工智能学院（School of Computing and Artificial Intelligence, Shandong University of Finance and Economics）
 - **代码仓库地址**：[https://github.com/EscoffierZhou/U-GraphRAG](https://github.com/EscoffierZhou/U-GraphRAG)
 
 ---
