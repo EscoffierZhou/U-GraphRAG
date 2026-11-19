@@ -1,6 +1,6 @@
 # U-GraphRAG：基于不确定性路由、冲突感知证据选择与校准解码的可靠检索增强生成
 
-**山东财经大学 `GeminiOutOfToken_Team` — 智能体科研创新挑战赛（Agentic Research Challenge 2026）官方 Research Package**  
+**山东财经大学 `GeminiOutOfToken_Team` — 智能体科研创新挑战赛官方 Research Package**  
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
 [![Unit Tests](https://img.shields.io/badge/CPU%20Tests-57%2F57%20Passing-brightgreen.svg)](docs/07_REPRODUCIBILITY.md)
 [![License: Academic](https://img.shields.io/badge/License-Apache%202.0%20%2F%20MIT-lightgrey.svg)](docs/03_DATA_PROVENANCE.md)
