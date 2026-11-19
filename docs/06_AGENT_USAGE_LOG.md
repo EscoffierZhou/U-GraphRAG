@@ -4,6 +4,14 @@
 
 ---
 
+## 0. 完整聊天记录直达链接（脱敏润色存档版）
+
+- **仓库内相对路径直链（本地解压包 / GitHub 浏览器均可直接点击）**：[docs/agent_logs/CHAT_TRANSCRIPT_LOG.md](agent_logs/CHAT_TRANSCRIPT_LOG.md)
+- **GitHub 在线永久访问链接**：[https://github.com/EscoffierZhou/U-GraphRAG/blob/main/docs/agent_logs/CHAT_TRANSCRIPT_LOG.md](https://github.com/EscoffierZhou/U-GraphRAG/blob/main/docs/agent_logs/CHAT_TRANSCRIPT_LOG.md)
+- **原始 Antigravity 本地会话溯源索引**：依据研发机本地 `.gemini/antigravity/brain/<conversation-id>/.system_generated/logs/transcript.jsonl` 提取核实，涵盖 `49639c65-71be-48c6-b134-e84c97a59fc7`（赛道论证，22 步）、`863b2eea-eea2-4dbf-b041-53cfd377a2b5`（全周期主研发与论文发布，21,100+ 步）及 `d2383aa9-9f02-4a3b-acb5-ccb2af83fdd0`（顶会文献抓取与对标，146 步）；为遵守开源与竞赛脱敏规范，原日志中的全部密钥/个人账号均已剥离，口语指令经学术润色后完整收录于上述对话实录文档。
+
+---
+
 ## 1. 全流程多智能体协同演进记录
 
 | 阶段 | 调用的主要 Agent / 工具链 | 核心任务目标与关键操作 | 产出与可验证审计线索 |

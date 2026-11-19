@@ -26,7 +26,7 @@
 | **3** | **数据来源说明** | [docs/03_DATA_PROVENANCE.md](docs/03_DATA_PROVENANCE.md)（HotpotQA、PopQA、2WikiMultiHopQA、MuSiQue、RAMDocs、NQ-Swap 获取方式、切分协议、开源许可与零 PII 脱敏声明） |
 | **4** | **实验证据** | [evidence/EVIDENCE_INDEX.md](evidence/EVIDENCE_INDEX.md)、[evidence/milestone3/](evidence/milestone3/)、`WP6–WP10` 原始检查点、[evidence/milestone4_after/](evidence/milestone4_after/) 竞品赛马汇总与 [evidence/figures/](evidence/figures/)（`fig2`–`fig8`） |
 | **5** | **文献引用核验表** | [docs/05_CITATION_VERIFICATION.md](docs/05_CITATION_VERIFICATION.md)（对 `ugraphrag_references.bib` 全部 **44/44** 篇文献逐一核验标题、作者、会议/arXiv 编号） |
-| **6** | **Agent 使用日志** | [docs/06_AGENT_USAGE_LOG.md](docs/06_AGENT_USAGE_LOG.md)（按 5 大阶段客观记录 AI Agent 工具使用与安全护栏，已清除全部敏感凭据） |
+| **6** | **Agent 使用日志** | [docs/06_AGENT_USAGE_LOG.md](docs/06_AGENT_USAGE_LOG.md)（按 5 大阶段客观记录 AI Agent 工具使用与安全护栏）及 **[完整脱敏聊天记录存档](docs/agent_logs/CHAT_TRANSCRIPT_LOG.md)** |
 | **7** | **可复现说明** | [docs/07_REPRODUCIBILITY.md](docs/07_REPRODUCIBILITY.md)（依赖环境、随机种子、`V5_FROZEN` 61 份 SHA-256 校验、57/57 CPU 单元测试命令与 RTX 4090 / LaTeX 复现指南） |
 | **8** | **人机分工声明** | [docs/08_HUMAN_AI_CONTRIBUTION.md](docs/08_HUMAN_AI_CONTRIBUTION.md)（人类科研团队与 AI 智能体各自完成工作的权责清单与诚信声明） |
 
