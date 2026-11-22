@@ -33,3 +33,13 @@
 - **零个人隐私信息（Zero PII）**：所有语料均源自公开 Wikipedia / Wikidata / Natural Questions 学术基准，不含任何个人隐私、学籍账务、医疗病历或未经授权的网络爬取隐私数据。
 - **凭据清理**：代码库与数据集中不包含任何 API 密钥、GitHub Token（PAT）、HuggingFace Token 或服务器连接密码。
 - **V5 冻结参数哈希校验**：`results/MileStone2_AblationExperiment_I/V5_FROZEN/SHA256SUMS.txt` 记录了 `61` 份核心脚本、数据与消融结果的 SHA-256 校验和，保证从 Milestone 2 到 Milestone 3/4 的零数据泄漏与参数不可篡改性。
+
+---
+
+## 4. 本项目开源协议与 DOI 永久标识
+
+本项目（包含 U-GraphRAG 核心算法源码、实验测试流水线、分析评估工具与研究报告）以 **Creative Commons Attribution 4.0 International (CC BY 4.0)** 许可证公开发布：
+
+- **开源许可证全文**：详见根目录 [LICENSE](../LICENSE)
+- **Zenodo 官方归档 DOI**：[https://doi.org/10.5281/zenodo.24431262](https://doi.org/10.5281/zenodo.24431262)
+- **协议权限摘要**：在保留原作者署名（Attribution）的前提下，享有在任何媒介以任何形式自由复制、发行作品，以及修改、转换或以此为基础进行创作的权利（包括商业性用途）。

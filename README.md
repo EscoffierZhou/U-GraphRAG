@@ -3,7 +3,8 @@
 **山东财经大学 `GeminiOutOfToken_Team` — 智能体科研创新挑战赛官方 Research Package**  
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
 [![Unit Tests](https://img.shields.io/badge/CPU%20Tests-57%2F57%20Passing-brightgreen.svg)](docs/07_REPRODUCIBILITY.md)
-[![License: Academic](https://img.shields.io/badge/License-Apache%202.0%20%2F%20MIT-lightgrey.svg)](docs/03_DATA_PROVENANCE.md)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24431262.svg)](https://doi.org/10.5281/zenodo.24431262)
 
 - **团队成员与贡献者**：
 
@@ -72,3 +73,34 @@ python results/MileStone4_Competitor/dist/test_milestone_after.py
 ```
 
 完整数据集配置、RTX 4090 GPU 实验脚本与中英文论文 LaTeX 编译方法请参阅 [docs/07_REPRODUCIBILITY.md](docs/07_REPRODUCIBILITY.md)。
+
+---
+
+## 5. 开源许可证与协议说明 (License)
+
+本项目全部核心算法源码、模型适配算子、自动化实验脚本、测试套件及学术论文交付物均基于 **[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)** 许可证授权发布。
+
+- **许可证文件**：详见仓库根目录 [LICENSE](LICENSE)
+- **授权权限**：在保留原作者学术署名与归属声明的前提下，允许自由共享（复制、发行、传播）与演绎创作（包括商业与非商业改编、转换及构建衍生作品）。
+- **第三方基准数据集声明**：评测所使用的公开学术基准数据集（HotpotQA、PopQA、2WikiMultiHopQA、MuSiQue、RAMDocs、NQ-Swap）保留其各自上游许可证，具体切分协议与来源说明参见 [docs/03_DATA_PROVENANCE.md](docs/03_DATA_PROVENANCE.md)。
+
+---
+
+## 6. 引用与永久对象标识符 (Citation & Zenodo DOI)
+
+如果您在学术研究、竞赛项目或工程实践中参考或使用了 **U-GraphRAG** 的方法论、代码或实验数据，请引用本项目的 Zenodo 官方归档记录：
+
+- **Zenodo Record**：[https://zenodo.org/records/24431262](https://zenodo.org/records/24431262)
+- **Digital Object Identifier (DOI)**：[https://doi.org/10.5281/zenodo.24431262](https://doi.org/10.5281/zenodo.24431262)
+
+```bibtex
+@misc{zhou2026ugraphrag,
+  author       = {Zhou, Escoffier and Song, Linda and GeminiOutOfToken_Team},
+  title        = {U-GraphRAG: Reliable Retrieval-Augmented Generation via Uncertainty-Routed Graph Selection and Calibrated Decoding},
+  month        = nov,
+  year         = 2026,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.24431262},
+  url          = {https://doi.org/10.5281/zenodo.24431262}
+}
+```
